@@ -1,0 +1,31 @@
+﻿<div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/1999/xhtml ../../schema/fhir-xhtml.xsd" xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- insert xhtml content here -->
+<h2>Deviations from IETF RFC 2324 and RFC 7168</h2>
+<p>IETF RFC 7168 adds the addition-type of "sugar-type" without a significant differentiation from the RFC 2324 addition-type of sweetener-type with the note:</p>
+<p><blockquote cite="https://tools.ietf.org/html/rfc7168#section-2.2.1">It has been observed that some users of blended teas have an occasional preference for teas brewed as an emulsion of cane sugar with hints of water.  
+To allow for this circumstance, the Accept-Additions header field defined in the base HTCPCP specification is updated</blockquote></p>
+<p>This information is duplicative for the purposes of FHIR and a sugar-type additive type is coded within BrewedBeverage.additions.sweetenerType</p>
+<p>In addition, IETF RFC 2324 does not make allowances for decaffeinated beverages to be requested due to a lack of point.  To support this, the BrewedBevarages resource
+added a boolean element BrewedBeverage.decaffeinated with the invariant that the boolean is forced FALSE. Any attempt to add decaffeinated versions of coffee and/or tea
+to the BrewedBeverage.beverageSubType CodeableConcept list is a violation of the RFC and subject to invalidation by the Device receiving the BrewedBeverage resource.
+</p>
+<h2>Additions Processing</h2>
+<p>As per RFC 7168:</p>
+<blockquote cite="https://tools.ietf.org/html/rfc7168#section-2.3.2"> Services that implement the Accept-Additions header field MAY return a 403 status code for a BREW request of a given variety of tea, 
+if the service deems the combination of additions requested to be contrary to the sensibilities of a consensus of drinkers regarding the variety in question.</blockquote>
+<p>This processing requirement is expressed within the FHIR context via the BrewedBeverage.additions[x] elements. Sufficient processing to enforce this requirement
+shall be dedicated and policy would dictate the conditions that would require the return of the 403 status error.  As with RFC 7168, determination of  the most
+   viable combinations of additions for each variety to be served is outside the scope of the BrewedBeverage specification.</p>
+   
+   <h2>Error Codes Specific to BrewedBeverage</h2>
+   <p>RFC 2324 declares two specific Error states defined due to device capabilites:</p>
+   <table>
+   <tr><td>406 Not Acceptable</td><td>This return code is interpreted as "The Device identified
+   by the request is only capable of generating response entities which
+   have content characteristics not acceptable according to the elements sent in the request."</td></tr>
+   <tr><td>418 I'm a Teapot</td><td>Any attempt to brew coffee with a teapot should result in the error
+   code "418 I'm a teapot". The resulting response definition MAY be short and
+   stout.</td></tr>
+   </table>
+</div>
