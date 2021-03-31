@@ -1,0 +1,18 @@
+###Scope and Usage
+Based on <a href="https://tools.ietf.org/html/rfc2324">IETF RFC 2324</a> and its update, <a href="https://tools.ietf.org/html/rfc7168">IETF RFC 7168</a>, this resource allows for the fullfillment of a device request for an artfully brewed caffeinated beverage,
+but coffee shares this quality with many other varied preparations based on the filtration of plant material.  Foremost, among these are the category of brews
+based on the straining of water through prepared leaves from a tea tree.
+
+
+### Boundaries and Relationships
+
+This resource may relate to NutritionOrder with the variance that the subject may be Patient, Practitioner or, possibly, RelatedPerson if that individual is not responding to conventional awakening therapy.
+
+This also has a need for a sub-class of Device to allow for coffeepot, teapot and, potentially additional classes of espresso machine and cappacino machine with associated responses.
+
+### Background and Context
+
+IETF RFC 2324 and 7168 outline the creation of the HTCPCP which uses a modified header for the BREW/POST and message/[coffee/tea]pot mimetypes.
+
+FHIR uses only the standard http protocols which will limit the ability for appropriate caffeination of Person(s) as needed.  As such, it was felt that taking thise Pre-FHIR RFCs and
+create a resource that can take the header information from a HTCPCP request and transform it into a FHIR appropriate request to a Device with full use of the http status codes needed for processing
