@@ -2,9 +2,10 @@
 # │  The properties below are used to create the ImplementationGuide resource. For a list of       │
 # │  supported properties, see: https://fshschool.org/docs/sushi/configuration/                    │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: fhir.example
+id: fhir.uv.HotBeverage
 canonical: http://example.org
 name: HotBeverage
+title: "HotBeverage FHIR Implementation Guide"
 status: draft
 version: 0.1.0
 fhirVersion: 4.0.1
