@@ -71,8 +71,8 @@ Description:    "The parameters to be given to the device to make the requested 
 * parameter[spiceType].value[x] from HBSpiceVS (example)
 
 * parameter[drinkSize].name = "drinkSize" (exactly)
-* parameter[drinkSize].name ^short = "Spice to be included"
-* parameter[drinkSize].value[x] 0..1 MS
+* parameter[drinkSize].name ^short = "Size of Drink requested"
+* parameter[drinkSize].value[x] 1..1 MS
 * parameter[drinkSize].value[x] only code
 * parameter[drinkSize].value[x] from HBDrinkSizeVS (example)
 
