@@ -7,10 +7,10 @@ canonical: http://example.org
 name: HotBeverage
 title: "HotBeverage FHIR Implementation Guide"
 status: draft
-version: 0.1.0
+version: 2021-April-1st
 fhirVersion: 4.0.1
 copyrightYear: 2021+
-releaseLabel: ci-build
+releaseLabel: Joke
 
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
 # │  To use a provided input/includes/menu.xml file, delete the "menu" property below.             │
