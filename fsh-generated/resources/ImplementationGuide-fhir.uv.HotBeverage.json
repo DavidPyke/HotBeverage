@@ -46,6 +46,14 @@
       },
       {
         "reference": {
+          "reference": "ValueSet/HBDrinkSizeVS"
+        },
+        "name": "Size of Beverage to be Consumed",
+        "description": "You want how much?",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "ValueSet/HBMilkVS"
         },
         "name": "Milk Additive Value Set",
@@ -98,6 +106,14 @@
         },
         "name": "Hot Beverage List",
         "description": "Legal Beverages to be made in coffee pot",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/HBDrinkSize"
+        },
+        "name": "Drink Size",
+        "description": "How much did you want?",
         "exampleBoolean": false
       },
       {
@@ -174,7 +190,7 @@
           "reference": "AuditEvent/ex-auditBasicBrew"
         },
         "name": "Audit Example of a basic brew",
-        "description": "Audit Example for a brewed coffee\r\n\r\n* Using the Nespresso VertuoNext device\r\n* Requesting Espresso \r\n",
+        "description": "Audit Example for a brewed coffee\r\n\r\n* Using the Nespresso VertuoNext device\r\n* Requesting Espresso\r\n",
         "exampleCanonical": "http://example.org/StructureDefinition/HotBeverage.Brewed"
       }
     ],

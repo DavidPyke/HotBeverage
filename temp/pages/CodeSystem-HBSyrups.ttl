@@ -10,17 +10,17 @@
   fhir:Resource.id [ fhir:value "HBSyrups"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://example.org/CodeSystem/HBSyrups defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">VANILLA<a name=\"HBSyrups-VANILLA\"> </a></td><td>Vanilla</td></tr><tr><td style=\"white-space:nowrap\">CARAMEL<a name=\"HBSyrups-CARAMEL\"> </a></td><td>Caramel</td></tr><tr><td style=\"white-space:nowrap\">HAZELNUT<a name=\"HBSyrups-HAZELNUT\"> </a></td><td>Hazelnut</td></tr><tr><td style=\"white-space:nowrap\">CHOCOLATE<a name=\"HBSyrups-CHOCOLATE\"> </a></td><td>Chocolate</td></tr><tr><td style=\"white-space:nowrap\">LAVENDER<a name=\"HBSyrups-LAVENDER\"> </a></td><td>Lavender</td></tr><tr><td style=\"white-space:nowrap\">BUTTERSCOTCH<a name=\"HBSyrups-BUTTERSCOTCH\"> </a></td><td>Butterscotch</td></tr><tr><td style=\"white-space:nowrap\">IRISH<a name=\"HBSyrups-IRISH\"> </a></td><td>Irish Cream</td></tr><tr><td style=\"white-space:nowrap\">ORANGE<a name=\"HBSyrups-ORANGE\"> </a></td><td>Orange Blossom</td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://example.org/CodeSystem/HBSyrups defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">VANILLA<a name=\"HBSyrups-VANILLA\"> </a></td><td>Vanilla</td></tr><tr><td style=\"white-space:nowrap\">CARAMEL<a name=\"HBSyrups-CARAMEL\"> </a></td><td>Caramel</td></tr><tr><td style=\"white-space:nowrap\">HAZELNUT<a name=\"HBSyrups-HAZELNUT\"> </a></td><td>Hazelnut</td></tr><tr><td style=\"white-space:nowrap\">CHOCOLATE<a name=\"HBSyrups-CHOCOLATE\"> </a></td><td>Chocolate</td></tr><tr><td style=\"white-space:nowrap\">LAVENDER<a name=\"HBSyrups-LAVENDER\"> </a></td><td>Lavender</td></tr><tr><td style=\"white-space:nowrap\">BUTTERSCOTCH<a name=\"HBSyrups-BUTTERSCOTCH\"> </a></td><td>Butterscotch</td></tr><tr><td style=\"white-space:nowrap\">IRISH<a name=\"HBSyrups-IRISH\"> </a></td><td>Irish Cream</td></tr><tr><td style=\"white-space:nowrap\">ORANGE<a name=\"HBSyrups-ORANGE\"> </a></td><td>Orange Blossom</td></tr><tr><td style=\"white-space:nowrap\">RASPBERRY<a name=\"HBSyrups-RASPBERRY\"> </a></td><td>Raspberry</td></tr><tr><td style=\"white-space:nowrap\">ALMOND<a name=\"HBSyrups-ALMOND\"> </a></td><td>Almond</td></tr></table></div>"
   ];
   fhir:CodeSystem.url [ fhir:value "http://example.org/CodeSystem/HBSyrups"];
   fhir:CodeSystem.version [ fhir:value "2021-April-1st"];
   fhir:CodeSystem.name [ fhir:value "HBSyrups"];
   fhir:CodeSystem.title [ fhir:value "Syrups List"];
   fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2021-04-01T07:51:30-05:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2021-04-01T16:12:56-04:00"^^xsd:dateTime];
   fhir:CodeSystem.description [ fhir:value "Syrups to be added, if desired"];
   fhir:CodeSystem.content [ fhir:value "complete"];
-  fhir:CodeSystem.count [ fhir:value "8"^^xsd:nonNegativeInteger];
+  fhir:CodeSystem.count [ fhir:value "10"^^xsd:nonNegativeInteger];
   fhir:CodeSystem.concept [
      fhir:index 0;
      fhir:CodeSystem.concept.code [ fhir:value "VANILLA" ];
@@ -53,6 +53,14 @@
      fhir:index 7;
      fhir:CodeSystem.concept.code [ fhir:value "ORANGE" ];
      fhir:CodeSystem.concept.display [ fhir:value "Orange Blossom" ]
+  ], [
+     fhir:index 8;
+     fhir:CodeSystem.concept.code [ fhir:value "RASPBERRY" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Raspberry" ]
+  ], [
+     fhir:index 9;
+     fhir:CodeSystem.concept.code [ fhir:value "ALMOND" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Almond" ]
   ] .
 
 # - ontology header ------------------------------------------------------------

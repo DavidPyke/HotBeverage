@@ -2,12 +2,12 @@
   "ImplementationGuide/fhir.uv.HotBeverage": {
     "history": false,
     "index": 0,
-    "source": "C:\\Users\\john.moehrke\\Git\\HotBeverage\\fsh-generated\\resources\\ImplementationGuide-fhir.uv.HotBeverage.json",
+    "source": "C:\\FHIR\\HotBeverage\\fsh-generated\\resources\\ImplementationGuide-fhir.uv.HotBeverage.json",
     "url": "http://example.org/ImplementationGuide/fhir.uv.HotBeverage",
     "name": "HotBeverage",
     "title": "HotBeverage FHIR Implementation Guide",
     "version": "2021-April-1st",
-    "date": "2021-04-01T07:51:30-05:00",
+    "date": "2021-04-01T16:12:56-04:00",
     "status": {
       "class": "colsd",
       "status": "Draft"
@@ -16,12 +16,12 @@
   "StructureDefinition/BrewedBeverage": {
     "history": false,
     "index": 1,
-    "source": "C:\\Users\\john.moehrke\\Git\\HotBeverage\\fsh-generated\\resources\\structuredefinition-BrewedBeverage.json",
+    "source": "C:\\FHIR\\HotBeverage\\fsh-generated\\resources\\structuredefinition-BrewedBeverage.json",
     "url": "http://example.org/StructureDefinition/BrewedBeverage",
     "name": "BrewedBeverage",
     "title": "The Hot Beverage to Brew",
     "version": "2021-April-1st",
-    "date": "2021-04-01T07:51:30-05:00",
+    "date": "2021-04-01T16:12:56-04:00",
     "status": {
       "class": "colstu",
       "status": "Active"
@@ -30,12 +30,12 @@
   "StructureDefinition/HotBeverage.Brewed": {
     "history": false,
     "index": 2,
-    "source": "C:\\Users\\john.moehrke\\Git\\HotBeverage\\fsh-generated\\resources\\structuredefinition-HotBeverage.Brewed.json",
+    "source": "C:\\FHIR\\HotBeverage\\fsh-generated\\resources\\structuredefinition-HotBeverage.Brewed.json",
     "url": "http://example.org/StructureDefinition/HotBeverage.Brewed",
     "name": "BrewedLog",
     "title": "The AuditEvent for a successful Brewed Hot Beverage",
     "version": "2021-April-1st",
-    "date": "2021-04-01T07:51:30-05:00",
+    "date": "2021-04-01T16:12:56-04:00",
     "status": {
       "class": "colstu",
       "status": "Active"
@@ -44,12 +44,12 @@
   "ValueSet/HBAlcoholVS": {
     "history": false,
     "index": 3,
-    "source": "C:\\Users\\john.moehrke\\Git\\HotBeverage\\fsh-generated\\resources\\valueset-HBAlcoholVS.json",
+    "source": "C:\\FHIR\\HotBeverage\\fsh-generated\\resources\\valueset-HBAlcoholVS.json",
     "url": "http://example.org/ValueSet/HBAlcoholVS",
     "name": "HBAlcoholVS",
     "title": "Alcohol Additive Value Set",
     "version": "2021-April-1st",
-    "date": "2021-04-01T07:51:30-05:00",
+    "date": "2021-04-01T16:12:56-04:00",
     "status": {
       "class": "colstu",
       "status": "Active"
@@ -58,12 +58,26 @@
   "ValueSet/HBBeverageVS": {
     "history": false,
     "index": 4,
-    "source": "C:\\Users\\john.moehrke\\Git\\HotBeverage\\fsh-generated\\resources\\valueset-HBBeverageVS.json",
+    "source": "C:\\FHIR\\HotBeverage\\fsh-generated\\resources\\valueset-HBBeverageVS.json",
     "url": "http://example.org/ValueSet/HBBeverageVS",
     "name": "HBBeverageVS",
     "title": "Hot Beverages Value Set",
     "version": "2021-April-1st",
-    "date": "2021-04-01T07:51:30-05:00",
+    "date": "2021-04-01T16:12:56-04:00",
+    "status": {
+      "class": "colstu",
+      "status": "Active"
+    }
+  },
+  "ValueSet/HBDrinkSizeVS": {
+    "history": false,
+    "index": 5,
+    "source": "C:\\FHIR\\HotBeverage\\fsh-generated\\resources\\valueset-HBDrinkSizeVS.json",
+    "url": "http://example.org/ValueSet/HBDrinkSizeVS",
+    "name": "HBDrinkSizeVS",
+    "title": "Size of Beverage to be Consumed",
+    "version": "2021-April-1st",
+    "date": "2021-04-01T16:12:56-04:00",
     "status": {
       "class": "colstu",
       "status": "Active"
@@ -71,13 +85,13 @@
   },
   "ValueSet/HBMilkVS": {
     "history": false,
-    "index": 5,
-    "source": "C:\\Users\\john.moehrke\\Git\\HotBeverage\\fsh-generated\\resources\\valueset-HBMilkVS.json",
+    "index": 6,
+    "source": "C:\\FHIR\\HotBeverage\\fsh-generated\\resources\\valueset-HBMilkVS.json",
     "url": "http://example.org/ValueSet/HBMilkVS",
     "name": "HBMilkVS",
     "title": "Milk Additive Value Set",
     "version": "2021-April-1st",
-    "date": "2021-04-01T07:51:30-05:00",
+    "date": "2021-04-01T16:12:56-04:00",
     "status": {
       "class": "colstu",
       "status": "Active"
@@ -85,13 +99,13 @@
   },
   "ValueSet/HBSpiceVS": {
     "history": false,
-    "index": 6,
-    "source": "C:\\Users\\john.moehrke\\Git\\HotBeverage\\fsh-generated\\resources\\valueset-HBSpiceVS.json",
+    "index": 7,
+    "source": "C:\\FHIR\\HotBeverage\\fsh-generated\\resources\\valueset-HBSpiceVS.json",
     "url": "http://example.org/ValueSet/HBSpiceVS",
     "name": "HBSpiceVS",
     "title": "Spice Additive Value Set",
     "version": "2021-April-1st",
-    "date": "2021-04-01T07:51:30-05:00",
+    "date": "2021-04-01T16:12:56-04:00",
     "status": {
       "class": "colstu",
       "status": "Active"
@@ -99,13 +113,13 @@
   },
   "ValueSet/HBSweetenersVS": {
     "history": false,
-    "index": 7,
-    "source": "C:\\Users\\john.moehrke\\Git\\HotBeverage\\fsh-generated\\resources\\valueset-HBSweetenersVS.json",
+    "index": 8,
+    "source": "C:\\FHIR\\HotBeverage\\fsh-generated\\resources\\valueset-HBSweetenersVS.json",
     "url": "http://example.org/ValueSet/HBSweetenersVS",
     "name": "HBSweetenersVS",
     "title": "Sweeteners Additive Value Set",
     "version": "2021-April-1st",
-    "date": "2021-04-01T07:51:30-05:00",
+    "date": "2021-04-01T16:12:56-04:00",
     "status": {
       "class": "colstu",
       "status": "Active"
@@ -113,13 +127,13 @@
   },
   "ValueSet/HBSyrupVS": {
     "history": false,
-    "index": 8,
-    "source": "C:\\Users\\john.moehrke\\Git\\HotBeverage\\fsh-generated\\resources\\valueset-HBSyrupVS.json",
+    "index": 9,
+    "source": "C:\\FHIR\\HotBeverage\\fsh-generated\\resources\\valueset-HBSyrupVS.json",
     "url": "http://example.org/ValueSet/HBSyrupVS",
     "name": "HBSyrupVS",
     "title": "Syrup Additive Value Set",
     "version": "2021-April-1st",
-    "date": "2021-04-01T07:51:30-05:00",
+    "date": "2021-04-01T16:12:56-04:00",
     "status": {
       "class": "colstu",
       "status": "Active"
@@ -127,13 +141,13 @@
   },
   "ValueSet/NoDecaf": {
     "history": false,
-    "index": 9,
-    "source": "C:\\Users\\john.moehrke\\Git\\HotBeverage\\fsh-generated\\resources\\valueset-NoDecaf.json",
+    "index": 10,
+    "source": "C:\\FHIR\\HotBeverage\\fsh-generated\\resources\\valueset-NoDecaf.json",
     "url": "http://example.org/ValueSet/NoDecaf",
     "name": "NoDecaf",
     "title": "Decaf is for the weak",
     "version": "2021-April-1st",
-    "date": "2021-04-01T07:51:30-05:00",
+    "date": "2021-04-01T16:12:56-04:00",
     "status": {
       "class": "colstu",
       "status": "Active"
@@ -141,13 +155,13 @@
   },
   "CodeSystem/HBAlcohol": {
     "history": false,
-    "index": 10,
-    "source": "C:\\Users\\john.moehrke\\Git\\HotBeverage\\fsh-generated\\resources\\codesystem-HBAlcohol.json",
+    "index": 11,
+    "source": "C:\\FHIR\\HotBeverage\\fsh-generated\\resources\\codesystem-HBAlcohol.json",
     "url": "http://example.org/CodeSystem/HBAlcohol",
     "name": "HBAlcohol",
     "title": "Alcohol List",
     "version": "2021-April-1st",
-    "date": "2021-04-01T07:51:30-05:00",
+    "date": "2021-04-01T16:12:56-04:00",
     "status": {
       "class": "colstu",
       "status": "Active"
@@ -155,13 +169,27 @@
   },
   "CodeSystem/HBBeverages": {
     "history": false,
-    "index": 11,
-    "source": "C:\\Users\\john.moehrke\\Git\\HotBeverage\\fsh-generated\\resources\\codesystem-HBBeverages.json",
+    "index": 12,
+    "source": "C:\\FHIR\\HotBeverage\\fsh-generated\\resources\\codesystem-HBBeverages.json",
     "url": "http://example.org/CodeSystem/HBBeverages",
     "name": "HBBeverages",
     "title": "Hot Beverage List",
     "version": "2021-April-1st",
-    "date": "2021-04-01T07:51:30-05:00",
+    "date": "2021-04-01T16:12:56-04:00",
+    "status": {
+      "class": "colstu",
+      "status": "Active"
+    }
+  },
+  "CodeSystem/HBDrinkSize": {
+    "history": false,
+    "index": 13,
+    "source": "C:\\FHIR\\HotBeverage\\fsh-generated\\resources\\codesystem-HBDrinkSize.json",
+    "url": "http://example.org/CodeSystem/HBDrinkSize",
+    "name": "HBDrinkSize",
+    "title": "Drink Size",
+    "version": "2021-April-1st",
+    "date": "2021-04-01T16:12:56-04:00",
     "status": {
       "class": "colstu",
       "status": "Active"
@@ -169,13 +197,13 @@
   },
   "CodeSystem/HBMilks": {
     "history": false,
-    "index": 12,
-    "source": "C:\\Users\\john.moehrke\\Git\\HotBeverage\\fsh-generated\\resources\\codesystem-HBMilks.json",
+    "index": 14,
+    "source": "C:\\FHIR\\HotBeverage\\fsh-generated\\resources\\codesystem-HBMilks.json",
     "url": "http://example.org/CodeSystem/HBMilks",
     "name": "HBMilks",
     "title": "Milks List",
     "version": "2021-April-1st",
-    "date": "2021-04-01T07:51:30-05:00",
+    "date": "2021-04-01T16:12:56-04:00",
     "status": {
       "class": "colstu",
       "status": "Active"
@@ -183,13 +211,13 @@
   },
   "CodeSystem/HBSpice": {
     "history": false,
-    "index": 13,
-    "source": "C:\\Users\\john.moehrke\\Git\\HotBeverage\\fsh-generated\\resources\\codesystem-HBSpice.json",
+    "index": 15,
+    "source": "C:\\FHIR\\HotBeverage\\fsh-generated\\resources\\codesystem-HBSpice.json",
     "url": "http://example.org/CodeSystem/HBSpice",
     "name": "HBSpice",
     "title": "Spice List",
     "version": "2021-April-1st",
-    "date": "2021-04-01T07:51:30-05:00",
+    "date": "2021-04-01T16:12:56-04:00",
     "status": {
       "class": "colstu",
       "status": "Active"
@@ -197,13 +225,13 @@
   },
   "CodeSystem/HBSweeteners": {
     "history": false,
-    "index": 14,
-    "source": "C:\\Users\\john.moehrke\\Git\\HotBeverage\\fsh-generated\\resources\\codesystem-HBSweeteners.json",
+    "index": 16,
+    "source": "C:\\FHIR\\HotBeverage\\fsh-generated\\resources\\codesystem-HBSweeteners.json",
     "url": "http://example.org/CodeSystem/HBSweeteners",
     "name": "HBSweeteners",
     "title": "Sweeteners List",
     "version": "2021-April-1st",
-    "date": "2021-04-01T07:51:30-05:00",
+    "date": "2021-04-01T16:12:56-04:00",
     "status": {
       "class": "colstu",
       "status": "Active"
@@ -211,13 +239,13 @@
   },
   "CodeSystem/HBSyrups": {
     "history": false,
-    "index": 15,
-    "source": "C:\\Users\\john.moehrke\\Git\\HotBeverage\\fsh-generated\\resources\\codesystem-HBSyrups.json",
+    "index": 17,
+    "source": "C:\\FHIR\\HotBeverage\\fsh-generated\\resources\\codesystem-HBSyrups.json",
     "url": "http://example.org/CodeSystem/HBSyrups",
     "name": "HBSyrups",
     "title": "Syrups List",
     "version": "2021-April-1st",
-    "date": "2021-04-01T07:51:30-05:00",
+    "date": "2021-04-01T16:12:56-04:00",
     "status": {
       "class": "colstu",
       "status": "Active"
@@ -225,8 +253,8 @@
   },
   "OperationDefinition/BB-Stop": {
     "history": false,
-    "index": 16,
-    "source": "C:\\Users\\john.moehrke\\Git\\HotBeverage\\fsh-generated\\resources\\operationdefinition-BB-Stop.json",
+    "index": 18,
+    "source": "C:\\FHIR\\HotBeverage\\fsh-generated\\resources\\operationdefinition-BB-Stop.json",
     "url": "http://hl7.org/fhir/OperationDefinition/BB-Stop",
     "name": "Data Requirements",
     "version": "2021-April-1st",
@@ -240,8 +268,8 @@
   },
   "OperationDefinition/BB-When": {
     "history": false,
-    "index": 17,
-    "source": "C:\\Users\\john.moehrke\\Git\\HotBeverage\\fsh-generated\\resources\\operationdefinition-BB-When.json",
+    "index": 19,
+    "source": "C:\\FHIR\\HotBeverage\\fsh-generated\\resources\\operationdefinition-BB-When.json",
     "url": "http://hl7.org/fhir/OperationDefinition/BB-When",
     "name": "Data Requirements",
     "version": "2021-April-1st",
@@ -255,8 +283,8 @@
   },
   "OperationDefinition/Brew": {
     "history": false,
-    "index": 18,
-    "source": "C:\\Users\\john.moehrke\\Git\\HotBeverage\\fsh-generated\\resources\\operationdefinition-Brew.json",
+    "index": 20,
+    "source": "C:\\FHIR\\HotBeverage\\fsh-generated\\resources\\operationdefinition-Brew.json",
     "url": "http://hl7.org/fhir/OperationDefinition/Brew",
     "name": "Data Requirements",
     "version": "2021-April-1st",
@@ -270,17 +298,17 @@
   },
   "Parameters/MakeCoffee": {
     "history": false,
-    "index": 19,
-    "source": "C:\\Users\\john.moehrke\\Git\\HotBeverage\\fsh-generated\\resources\\parameters-MakeCoffee.json"
+    "index": 21,
+    "source": "C:\\FHIR\\HotBeverage\\fsh-generated\\resources\\parameters-MakeCoffee.json"
   },
   "Device/VertuoNext": {
     "history": false,
-    "index": 20,
-    "source": "C:\\Users\\john.moehrke\\Git\\HotBeverage\\fsh-generated\\resources\\device-VertuoNext.json"
+    "index": 22,
+    "source": "C:\\FHIR\\HotBeverage\\fsh-generated\\resources\\device-VertuoNext.json"
   },
   "AuditEvent/ex-auditBasicBrew": {
     "history": false,
-    "index": 21,
-    "source": "C:\\Users\\john.moehrke\\Git\\HotBeverage\\fsh-generated\\resources\\auditevent-ex-auditBasicBrew.json"
+    "index": 23,
+    "source": "C:\\FHIR\\HotBeverage\\fsh-generated\\resources\\auditevent-ex-auditBasicBrew.json"
   }
 }

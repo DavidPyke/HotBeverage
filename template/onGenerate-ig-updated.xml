@@ -14,7 +14,7 @@
    <name value="HotBeverage"/>
    <title value="HotBeverage FHIR Implementation Guide"/>
    <status value="draft"/>
-   <date value="2021-04-01T07:51:30-05:00"/>
+   <date value="2021-04-01T16:12:56-04:00"/>
    <packageId value="fhir.uv.HotBeverage"/>
    <license value="CC0-1.0"/>
    <fhirVersion value="4.0.1"/>
@@ -121,6 +121,21 @@
             <valueString value="ValueSet"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="ValueSet-HBDrinkSizeVS.html"/>
+         </extension>
+         <reference>
+            <reference value="ValueSet/HBDrinkSizeVS"/>
+         </reference>
+         <name value="Size of Beverage to be Consumed"/>
+         <description value="You want how much?"/>
+         <exampleBoolean value="false"/>
+         <groupingId value="_term_valueset"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="ValueSet"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
             <valueUri value="ValueSet-HBMilkVS.html"/>
          </extension>
          <reference>
@@ -218,6 +233,21 @@
          </reference>
          <name value="Hot Beverage List"/>
          <description value="Legal Beverages to be made in coffee pot"/>
+         <exampleBoolean value="false"/>
+         <groupingId value="_term_codesystem"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="CodeSystem"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="CodeSystem-HBDrinkSize.html"/>
+         </extension>
+         <reference>
+            <reference value="CodeSystem/HBDrinkSize"/>
+         </reference>
+         <name value="Drink Size"/>
+         <description value="How much did you want?"/>
          <exampleBoolean value="false"/>
          <groupingId value="_term_codesystem"/>
       </resource>
@@ -367,7 +397,7 @@
             <reference value="AuditEvent/ex-auditBasicBrew"/>
          </reference>
          <name value="Audit Example of a basic brew"/>
-         <description value="Audit Example for a brewed coffee&#xD;&#xA;&#xD;&#xA;* Using the Nespresso VertuoNext device&#xD;&#xA;* Requesting Espresso &#xD;&#xA;"/>
+         <description value="Audit Example for a brewed coffee&#xD;&#xA;&#xD;&#xA;* Using the Nespresso VertuoNext device&#xD;&#xA;* Requesting Espresso&#xD;&#xA;"/>
          <exampleCanonical value="http://example.org/StructureDefinition/HotBeverage.Brewed"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -420,6 +450,11 @@
                <generation value="generated"/>
             </page>
             <page>
+               <nameUrl value="ValueSet-HBDrinkSizeVS.html"/>
+               <title value="Size of Beverage to be Consumed"/>
+               <generation value="generated"/>
+            </page>
+            <page>
                <nameUrl value="ValueSet-HBMilkVS.html"/>
                <title value="Milk Additive Value Set"/>
                <generation value="generated"/>
@@ -452,6 +487,11 @@
             <page>
                <nameUrl value="CodeSystem-HBBeverages.html"/>
                <title value="Hot Beverage List"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="CodeSystem-HBDrinkSize.html"/>
+               <title value="Drink Size"/>
                <generation value="generated"/>
             </page>
             <page>

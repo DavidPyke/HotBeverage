@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "HotBeverage"];
   fhir:ImplementationGuide.title [ fhir:value "HotBeverage FHIR Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-04-01T07:51:30-05:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-04-01T16:12:56-04:00"^^xsd:dateTime];
   fhir:ImplementationGuide.packageId [ fhir:value "fhir.uv.HotBeverage"];
   fhir:ImplementationGuide.license [ fhir:value "CC0-1.0"];
   fhir:ImplementationGuide.fhirVersion [
@@ -318,6 +318,20 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://example.org/ValueSet/HBDrinkSizeVS>;
+         fhir:Reference.reference [ fhir:value "ValueSet/HBDrinkSizeVS" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Size of Beverage to be Consumed" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "You want how much?" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 5;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
          fhir:link <http://example.org/ValueSet/HBMilkVS>;
          fhir:Reference.reference [ fhir:value "ValueSet/HBMilkVS" ]
        ];
@@ -325,7 +339,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Milk and milklike liquids for use in coffee" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 5;
+       fhir:index 6;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -339,7 +353,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Spice liquids for use in coffee" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 6;
+       fhir:index 7;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -353,7 +367,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Sweeteners liquids for use in coffee" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 7;
+       fhir:index 8;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -367,7 +381,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Syrups for use in coffee" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 8;
+       fhir:index 9;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -381,7 +395,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "No, Just No" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 9;
+       fhir:index 10;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -395,7 +409,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Alcohols to be added, if desired" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 10;
+       fhir:index 11;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -409,7 +423,21 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Legal Beverages to be made in coffee pot" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 11;
+       fhir:index 12;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://example.org/CodeSystem/HBDrinkSize>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/HBDrinkSize" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Drink Size" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "How much did you want?" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 13;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -423,7 +451,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Milks to be added, if desired" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 12;
+       fhir:index 14;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -437,7 +465,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Spice to be added, if desired" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 13;
+       fhir:index 15;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -451,7 +479,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Sweeteners to be added, if desired" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 14;
+       fhir:index 16;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -465,7 +493,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Syrups to be added, if desired" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 15;
+       fhir:index 17;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -479,7 +507,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "The stop operation sends the Device a direction to stop the brew of the beverage (primarily tea) to check for doneness.  Used in combination with the Start operation to make the tea just right" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 16;
+       fhir:index 18;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -493,7 +521,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "When coffee is poured, and milk is offered, it is necessary for the holder of the recipient of milk to say \"when\" at the time when\r\n   sufficient milk has been introduced into the coffee. For this purpose, the \"WHEN\" operation has been added to FHIR." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 17;
+       fhir:index 19;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -507,7 +535,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "The brew operation sends the BrewedBeverage resource to the Coffee/Tea brewing Device" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 18;
+       fhir:index 20;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -524,7 +552,7 @@
          fhir:link <http://example.org/StructureDefinition/BrewedBeverage>
        ]
      ], [
-       fhir:index 19;
+       fhir:index 21;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -538,7 +566,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Nespresso introduces the VERTUO NEXT CLASSIC, the latest VERTUO Nespresso coffee maker with an all-new design and colors for the ultimate brewing experience. In addition to its original espressos, NESPRESSO VERTUO NEXT produces an extraordinary cup of coffee with a smooth layer of crema, the signature of a truly great cup of coffee. The VERTUO coffee and espresso coffee machine conveniently makes 5, 8, 14, 18 oz Coffee and single and double Espresso. Nespresso brings together the know-how of all its coffee experts, who have carefully chosen the origin and roasting of each coffee blend and created a brewing system using Centrifusion technology, a patented extraction technology developed by Nespresso. Just insert a Vertuo capsule and close the lever — when activated, the capsule spins, blending ground coffee with water and extracting every drop of flavor. Its precision brewing system recognizes each capsule and automatically adjusts its brewing parameters to consistently deliver the best in cup result. Bundled with Nespresso's Aeroccino3, provides smooth hot or cold milk froth for your coffee recipes with one touch. It froths all types of milk in a few seconds, without noise or vibration. Each machine includes a complimentary welcome set with a range of Nespresso Vertuo capsules with unique aroma profiles. Order your Nespresso capsules, receive personalized advice, and obtain technical support or repair for your machine through the Nespresso Club via mobile app, by telephone or in one of our Boutiques. This coffee machine is compatible exclusively with Nespresso Vertuo Line pods. Input power (W): 1260. Intelligent extraction system recognizes each coffee blend." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 20;
+       fhir:index 22;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -549,7 +577,7 @@
          fhir:Reference.reference [ fhir:value "AuditEvent/ex-auditBasicBrew" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Audit Example of a basic brew" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Audit Example for a brewed coffee\r\n\r\n* Using the Nespresso VertuoNext device\r\n* Requesting Espresso \r\n" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Audit Example for a brewed coffee\r\n\r\n* Using the Nespresso VertuoNext device\r\n* Requesting Espresso\r\n" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://example.org/StructureDefinition/HotBeverage.Brewed";
          fhir:link <http://example.org/StructureDefinition/HotBeverage.Brewed>

@@ -30,6 +30,10 @@
      fhir:Parameters.parameter.valueCode [ fhir:value "ESPRESSO" ]
   ], [
      fhir:index 1;
+     fhir:Parameters.parameter.name [ fhir:value "drinkSize" ];
+     fhir:Parameters.parameter.valueCode [ fhir:value "PROG" ]
+  ], [
+     fhir:index 2;
      fhir:Parameters.parameter.name [ fhir:value "device" ];
      fhir:Parameters.parameter.valueReference [
        fhir:link <http://example.org/Device/VertuoNext>;

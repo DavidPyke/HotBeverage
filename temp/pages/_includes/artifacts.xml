@@ -123,6 +123,13 @@
             </tr>
             <tr>
                <td style="column-width:30%">
+                  <a href="ValueSet-HBDrinkSizeVS.html" title="ValueSet/HBDrinkSizeVS">Size of Beverage to be Consumed</a>
+               </td>
+               <td>{% capture desc %}You want how much?{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
                   <a href="ValueSet-HBMilkVS.html" title="ValueSet/HBMilkVS">Milk Additive Value Set</a>
                </td>
                <td>{% capture desc %}Milk and milklike liquids for use in coffee{% endcapture %}
@@ -179,6 +186,13 @@
                   <a href="CodeSystem-HBBeverages.html" title="CodeSystem/HBBeverages">Hot Beverage List</a>
                </td>
                <td>{% capture desc %}Legal Beverages to be made in coffee pot{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-HBDrinkSize.html" title="CodeSystem/HBDrinkSize">Drink Size</a>
+               </td>
+               <td>{% capture desc %}How much did you want?{% endcapture %}
 {{ desc | markdownify}}</td>
             </tr>
             <tr>
@@ -246,7 +260,7 @@
                <td>{% capture desc %}Audit Example for a brewed coffee&#xD;
 &#xD;
 * Using the Nespresso VertuoNext device&#xD;
-* Requesting Espresso &#xD;
+* Requesting Espresso&#xD;
 {% endcapture %}
 {{ desc | markdownify}}</td>
             </tr>

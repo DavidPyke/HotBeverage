@@ -17,7 +17,7 @@
   fhir:ValueSet.name [ fhir:value "HBAlcoholVS"];
   fhir:ValueSet.title [ fhir:value "Alcohol Additive Value Set"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2021-04-01T07:51:30-05:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2021-04-01T16:12:56-04:00"^^xsd:dateTime];
   fhir:ValueSet.description [ fhir:value "Alcohol liquids for use in coffee"];
   fhir:ValueSet.compose [
      fhir:ValueSet.compose.include [

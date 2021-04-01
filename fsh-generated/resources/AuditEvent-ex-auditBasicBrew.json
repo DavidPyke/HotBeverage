@@ -89,6 +89,10 @@
         {
           "type": "beverageType",
           "valueString": "#ESPRESSO"
+        },
+        {
+          "type": "drinkSize",
+          "valueString": "#PROG"
         }
       ]
     }

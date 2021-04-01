@@ -40,7 +40,15 @@
     {
       "code": "ORANGE",
       "display": "Orange Blossom"
+    },
+    {
+      "code": "RASPBERRY",
+      "display": "Raspberry"
+    },
+    {
+      "code": "ALMOND",
+      "display": "Almond"
     }
   ],
-  "count": 8
+  "count": 10
 }

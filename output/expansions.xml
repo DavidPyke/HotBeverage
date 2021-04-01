@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="d2f16118-fe2d-4090-819d-e8fd230ca698"/>
+  <id value="c3377bbe-bcae-42dc-97a0-feba60d414be"/>
   <meta>
-    <lastUpdated value="2021-04-01T07:51:30.100-05:00"/>
+    <lastUpdated value="2021-04-01T16:12:56.601-04:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -115,11 +115,11 @@
         <name value="HBAlcoholVS"/>
         <title value="Alcohol Additive Value Set"/>
         <status value="active"/>
-        <date value="2021-04-01T07:51:30-05:00"/>
+        <date value="2021-04-01T16:12:56-04:00"/>
         <description value="Alcohol liquids for use in coffee"/>
         <expansion>
-          <identifier value="urn:uuid:3cfa3779-249e-43b2-b3be-c2b88e32c21c"/>
-          <timestamp value="2021-04-01T07:52:06-05:00"/>
+          <identifier value="urn:uuid:11ac7e4f-d59f-4dec-b5a0-4d1a31a1e05a"/>
+          <timestamp value="2021-04-01T16:13:11-04:00"/>
           <total value="9"/>
           <parameter>
             <name value="excludeNested"/>
@@ -399,11 +399,11 @@
         <name value="HBBeverageVS"/>
         <title value="Hot Beverages Value Set"/>
         <status value="active"/>
-        <date value="2021-04-01T07:51:30-05:00"/>
+        <date value="2021-04-01T16:12:56-04:00"/>
         <description value="All beverages allowed to be made via Hot Beverage"/>
         <expansion>
-          <identifier value="urn:uuid:e8f7cfb7-8f7b-4ce0-8bc4-fe85bf6e41bd"/>
-          <timestamp value="2021-04-01T07:52:06-05:00"/>
+          <identifier value="urn:uuid:ff931eb2-1a74-4d20-9e7f-9fed464faf6b"/>
+          <timestamp value="2021-04-01T16:13:11-04:00"/>
           <total value="23"/>
           <parameter>
             <name value="excludeNested"/>
@@ -533,6 +533,126 @@
     </resource>
   </entry>
   <entry>
+    <fullUrl value="http://example.org/ValueSet/HBDrinkSizeVS"/>
+    <resource>
+      <ValueSet>
+        <id value="HBDrinkSizeVS"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 5 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-HBDrinkSize.html">Drink Size v2021-April-1st (CodeSystem)</a>
+            </p>
+            <p>All codes from system 
+              <a href="CodeSystem-HBDrinkSize.html">
+                <code>http://example.org/CodeSystem/HBDrinkSize</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---example.org-CodeSystem-HBDrinkSize-SMALL"> </a>
+                  <a href="CodeSystem-HBDrinkSize.html#HBDrinkSize-SMALL">SMALL</a>
+                </td>
+                <td>Small</td>
+                <td>You call that a coffee?</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---example.org-CodeSystem-HBDrinkSize-MED"> </a>
+                  <a href="CodeSystem-HBDrinkSize.html#HBDrinkSize-MED">MED</a>
+                </td>
+                <td>Medium</td>
+                <td>Not enough</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---example.org-CodeSystem-HBDrinkSize-LARGE"> </a>
+                  <a href="CodeSystem-HBDrinkSize.html#HBDrinkSize-LARGE">LARGE</a>
+                </td>
+                <td>Large</td>
+                <td>That will get you started</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---example.org-CodeSystem-HBDrinkSize-XLARGE"> </a>
+                  <a href="CodeSystem-HBDrinkSize.html#HBDrinkSize-XLARGE">XLARGE</a>
+                </td>
+                <td>Extra Large</td>
+                <td>Single meeting size</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---example.org-CodeSystem-HBDrinkSize-PROG"> </a>
+                  <a href="CodeSystem-HBDrinkSize.html#HBDrinkSize-PROG">PROG</a>
+                </td>
+                <td>Programmer size</td>
+                <td>Just over a pot</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://example.org/ValueSet/HBDrinkSizeVS"/>
+        <version value="2021-April-1st"/>
+        <name value="HBDrinkSizeVS"/>
+        <title value="Size of Beverage to be Consumed"/>
+        <status value="active"/>
+        <date value="2021-04-01T16:12:56-04:00"/>
+        <description value="You want how much?"/>
+        <expansion>
+          <identifier value="urn:uuid:71ab75f7-67c6-43f7-a930-b22a24680df8"/>
+          <timestamp value="2021-04-01T16:13:11-04:00"/>
+          <total value="5"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://example.org/CodeSystem/HBDrinkSize|2021-April-1st"/>
+          </parameter>
+          <contains>
+            <system value="http://example.org/CodeSystem/HBDrinkSize"/>
+            <code value="SMALL"/>
+            <display value="Small"/>
+          </contains>
+          <contains>
+            <system value="http://example.org/CodeSystem/HBDrinkSize"/>
+            <code value="MED"/>
+            <display value="Medium"/>
+          </contains>
+          <contains>
+            <system value="http://example.org/CodeSystem/HBDrinkSize"/>
+            <code value="LARGE"/>
+            <display value="Large"/>
+          </contains>
+          <contains>
+            <system value="http://example.org/CodeSystem/HBDrinkSize"/>
+            <code value="XLARGE"/>
+            <display value="Extra Large"/>
+          </contains>
+          <contains>
+            <system value="http://example.org/CodeSystem/HBDrinkSize"/>
+            <code value="PROG"/>
+            <display value="Programmer size"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
     <fullUrl value="http://example.org/ValueSet/HBMilkVS"/>
     <resource>
       <ValueSet>
@@ -633,11 +753,11 @@
         <name value="HBMilkVS"/>
         <title value="Milk Additive Value Set"/>
         <status value="active"/>
-        <date value="2021-04-01T07:51:30-05:00"/>
+        <date value="2021-04-01T16:12:56-04:00"/>
         <description value="Milk and milklike liquids for use in coffee"/>
         <expansion>
-          <identifier value="urn:uuid:dd0328b1-7263-4a1e-8eae-eba10886e92f"/>
-          <timestamp value="2021-04-01T07:52:07-05:00"/>
+          <identifier value="urn:uuid:a5665577-382e-4292-ae3f-0930e03ac452"/>
+          <timestamp value="2021-04-01T16:13:11-04:00"/>
           <total value="8"/>
           <parameter>
             <name value="excludeNested"/>
@@ -768,11 +888,11 @@
         <name value="HBSpiceVS"/>
         <title value="Spice Additive Value Set"/>
         <status value="active"/>
-        <date value="2021-04-01T07:51:30-05:00"/>
+        <date value="2021-04-01T16:12:56-04:00"/>
         <description value="Spice liquids for use in coffee"/>
         <expansion>
-          <identifier value="urn:uuid:a2ea89a1-3386-4d81-9ffe-1dcbd02d3616"/>
-          <timestamp value="2021-04-01T07:52:07-05:00"/>
+          <identifier value="urn:uuid:f8f5b730-72a0-48a9-94e7-3b28040ffc94"/>
+          <timestamp value="2021-04-01T16:13:11-04:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -904,11 +1024,11 @@
         <name value="HBSweetenersVS"/>
         <title value="Sweeteners Additive Value Set"/>
         <status value="active"/>
-        <date value="2021-04-01T07:51:30-05:00"/>
+        <date value="2021-04-01T16:12:56-04:00"/>
         <description value="Sweeteners liquids for use in coffee"/>
         <expansion>
-          <identifier value="urn:uuid:0ba6d987-f72d-4ecd-a5a5-79b523eeb4dc"/>
-          <timestamp value="2021-04-01T07:52:07-05:00"/>
+          <identifier value="urn:uuid:7f1450a5-72f2-4b61-ac03-cb0985aba391"/>
+          <timestamp value="2021-04-01T16:13:11-04:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -965,7 +1085,7 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 8 concepts</p>
+            <p>This value set contains 10 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-HBSyrups.html">Syrups List v2021-April-1st (CodeSystem)</a>
             </p>
@@ -1050,6 +1170,22 @@
                 <td>Orange Blossom</td>
                 <td/>
               </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---example.org-CodeSystem-HBSyrups-RASPBERRY"> </a>
+                  <a href="CodeSystem-HBSyrups.html#HBSyrups-RASPBERRY">RASPBERRY</a>
+                </td>
+                <td>Raspberry</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---example.org-CodeSystem-HBSyrups-ALMOND"> </a>
+                  <a href="CodeSystem-HBSyrups.html#HBSyrups-ALMOND">ALMOND</a>
+                </td>
+                <td>Almond</td>
+                <td/>
+              </tr>
             </table>
           </div>
         </text>
@@ -1058,12 +1194,12 @@
         <name value="HBSyrupVS"/>
         <title value="Syrup Additive Value Set"/>
         <status value="active"/>
-        <date value="2021-04-01T07:51:30-05:00"/>
+        <date value="2021-04-01T16:12:56-04:00"/>
         <description value="Syrups for use in coffee"/>
         <expansion>
-          <identifier value="urn:uuid:3aad116d-18f7-4269-a7c1-fbbf8ed264dc"/>
-          <timestamp value="2021-04-01T07:52:07-05:00"/>
-          <total value="8"/>
+          <identifier value="urn:uuid:26fe2916-65a8-4e6c-bfcd-d8c12090510d"/>
+          <timestamp value="2021-04-01T16:13:11-04:00"/>
+          <total value="10"/>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
@@ -1112,6 +1248,16 @@
             <code value="ORANGE"/>
             <display value="Orange Blossom"/>
           </contains>
+          <contains>
+            <system value="http://example.org/CodeSystem/HBSyrups"/>
+            <code value="RASPBERRY"/>
+            <display value="Raspberry"/>
+          </contains>
+          <contains>
+            <system value="http://example.org/CodeSystem/HBSyrups"/>
+            <code value="ALMOND"/>
+            <display value="Almond"/>
+          </contains>
         </expansion>
       </ValueSet>
     </resource>
@@ -1125,7 +1271,7 @@
             <p>This value set contains 1 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Jan 2021</p>
             <p>All codes from system 
-              <a href="http://hl7.org/fhir/R4/codesystem-snomedct.html">
+              <a href="http://terminology.hl7.org/2.1.0/CodeSystem-v3-snomed-CT.html">
                 <code>http://snomed.info/sct</code>
               </a>
             </p>

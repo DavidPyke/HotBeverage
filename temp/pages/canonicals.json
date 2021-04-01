@@ -14,6 +14,13 @@
     "name": "HBBeverages"
   },
   {
+    "id": "HBDrinkSize",
+    "type": "CodeSystem",
+    "url": "http://example.org/CodeSystem/HBDrinkSize",
+    "version": "2021-April-1st",
+    "name": "HBDrinkSize"
+  },
+  {
     "id": "HBMilks",
     "type": "CodeSystem",
     "url": "http://example.org/CodeSystem/HBMilks",
@@ -75,6 +82,13 @@
     "url": "http://example.org/ValueSet/HBBeverageVS",
     "version": "2021-April-1st",
     "name": "HBBeverageVS"
+  },
+  {
+    "id": "HBDrinkSizeVS",
+    "type": "ValueSet",
+    "url": "http://example.org/ValueSet/HBDrinkSizeVS",
+    "version": "2021-April-1st",
+    "name": "HBDrinkSizeVS"
   },
   {
     "id": "HBMilkVS",

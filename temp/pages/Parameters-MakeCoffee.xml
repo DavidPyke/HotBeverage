@@ -18,6 +18,10 @@
     <valueCode value="ESPRESSO"/>
   </parameter>
   <parameter>
+    <name value="drinkSize"/>
+    <valueCode value="PROG"/>
+  </parameter>
+  <parameter>
     <name value="device"/>
     <valueReference>
       <reference value="Device/VertuoNext"/>

@@ -22,6 +22,10 @@
       "valueCode": "ESPRESSO"
     },
     {
+      "name": "drinkSize",
+      "valueCode": "PROG"
+    },
+    {
       "name": "device",
       "valueReference": {
         "reference": "Device/VertuoNext"
