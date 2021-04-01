@@ -1,0 +1,9 @@
+@startuml
+Alice -> BrewDevice: Make me Tea
+BrewDevice -> BrewDevice: making the teapot
+BrewDevice -> AuditRepository: Record successful brew audit log entry
+BrewDevice --> Alice: Success - Tea is made
+
+Alice -> BrewDevice: Make me Coffee
+Alice <-- BrewDevice: Failure - "418 I'm a teapot"
+@enduml

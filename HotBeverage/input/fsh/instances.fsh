@@ -51,7 +51,7 @@ Usage: #definition
 * parameter[0].min = 1
 * parameter[0].max = "1"
 * parameter[0].documentation = "The ID of the BrewedBeverage Resource"
-* parameter[0].type = #Reference(BrewedBeverage)
+* parameter[0].type = #Reference
 
 Instance: BB-When
 InstanceOf: OperationDefinition
@@ -78,4 +78,4 @@ Usage: #definition
 * parameter[0].min = 1
 * parameter[0].max = "1"
 * parameter[0].documentation = "The ID of the BrewedBeverage Resource that dictates the beverage to be brewed and the requested additions (if any)"
-* parameter[0].type = #Reference(BrewedBeverage)
+* parameter[0].type = #Reference
