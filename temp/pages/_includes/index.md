@@ -20,15 +20,16 @@ This also has a need for a sub-class of Device to allow for coffeepot, teapot an
 IETF RFC 2324 and 7168 outline the creation of the HTCPCP which uses a modified header for the BREW/POST and message/[coffee/tea]pot mimetypes.
 
 FHIR uses only the standard http protocols which will limit the ability for appropriate caffeination of Person(s) as needed.  As such, it was felt that taking these Pre-FHIR RFCs and
-create a resource that can take the header information from a HTCPCP request and transform it into a FHIR appropriate request to a Device with full use of the http status codes needed for processing
+create [an operation](OperationDefinition-Brew.html) that can take the header information from a HTCPCP request and transform it into a [FHIR appropriate request to a Device]([BrewedBevarage Profile](StructureDefinition-BrewedBeverage.html)) with full use of the http status codes needed for processing.
 
 ### Deviations from IETF RFC 2324 and RFC 7168
 IETF RFC 7168 adds the addition-type of "sugar-type" without a significant differentiation from the RFC 2324 addition-type of sweetener-type with the note:
 > It has been observed that some users of blended teas have an occasional preference for teas brewed as an emulsion of cane sugar with hints of water.  
 > To allow for this circumstance, the Accept-Additions header field defined in the base HTCPCP specification is updated
 
-This information is duplicative for the purposes of FHIR and a sugar-type additive type is coded within BrewedBeverage.additions.sweetenerType
-In addition, IETF RFC 2324 does not make allowances for decaffeinated beverages to be requested due to a lack of point.  To support this, the BrewedBevarages resource added a boolean element BrewedBeverage.decaffeinated with the invariant that the boolean is forced FALSE. Any attempt to add decaffeinated versions of coffee and/or tea to the BrewedBeverage.beverageSubType CodeableConcept list is a violation of the RFC and subject to invalidation by the Device receiving the BrewedBeverage resource.
+This information is duplicative for the purposes of FHIR and a sugar-type additive type is coded within [BrewedBeverage Profile](StructureDefinition-BrewedBeverage.html).
+
+In addition, IETF RFC 2324 does not make allowances for decaffeinated beverages to be requested due to a lack of point.  To support this, the [BrewedBevarage Profile](StructureDefinition-BrewedBeverage.html) added a parameter element decaffeinated with [the with the only acceptable term](ValueSet-NoDecaf.html) of "No". Any attempt to add decaffeinated versions of coffee and/or tea to the BrewedBeverage.beverageSubType CodeableConcept list is a violation of the RFC and subject to invalidation by the Device receiving the BrewedBeverage resource.
 
 ### Additions Processing
 As per RFC 7168:

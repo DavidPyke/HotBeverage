@@ -20,8 +20,8 @@
   "name": "BrewedLog",
   "title": "The AuditEvent for a successful Brewed Hot Beverage",
   "status": "active",
-  "date": "2021-04-01T07:58:10-04:00",
-  "description": "An AuditEvent profile for when request to brew a Hot Beverage action happens successfully.\n\n",
+  "date": "2021-04-01T07:51:30-05:00",
+  "description": "An AuditEvent profile for when request to brew a Hot Beverage action happens successfully.\r\n\r\n",
   "fhirVersion": "4.0.1",
   "mapping": [
     {

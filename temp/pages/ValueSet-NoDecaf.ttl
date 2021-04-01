@@ -17,7 +17,7 @@
   fhir:ValueSet.name [ fhir:value "NoDecaf"];
   fhir:ValueSet.title [ fhir:value "Decaf is for the weak"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2021-04-01T07:58:10-04:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2021-04-01T07:51:30-05:00"^^xsd:dateTime];
   fhir:ValueSet.description [ fhir:value "No, Just No"];
   fhir:ValueSet.compose [
      fhir:ValueSet.compose.include [

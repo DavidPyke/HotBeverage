@@ -17,7 +17,7 @@
   fhir:CodeSystem.name [ fhir:value "HBSpice"];
   fhir:CodeSystem.title [ fhir:value "Spice List"];
   fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2021-04-01T07:58:10-04:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2021-04-01T07:51:30-05:00"^^xsd:dateTime];
   fhir:CodeSystem.description [ fhir:value "Spice to be added, if desired"];
   fhir:CodeSystem.content [ fhir:value "complete"];
   fhir:CodeSystem.count [ fhir:value "5"^^xsd:nonNegativeInteger];

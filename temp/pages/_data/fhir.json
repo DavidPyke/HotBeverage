@@ -14,7 +14,7 @@
   "toolingVersionFull": "4.5.0 (3)",
   "totalFiles": 22,
   "processedFiles": 29,
-  "genDate": "Thu, Apr 1, 2021 07:58-0400",
+  "genDate": "Thu, Apr 1, 2021 07:51-0500",
   "genDay": "01/04/2021",
   "ig": {
     "id": "fhir.uv.HotBeverage",
@@ -24,8 +24,8 @@
     "version": "2021-April-1st",
     "status": "draft",
     "experimental": false,
-    "gitstatus": "",
-    "date": "2021-04-01T07:58:10-04:00",
+    "gitstatus": "master",
+    "date": "2021-04-01T07:51:30-05:00",
     "fhirVersion": "4.0.1"
   }
 }

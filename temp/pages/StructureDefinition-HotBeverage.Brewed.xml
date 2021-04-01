@@ -90,8 +90,8 @@
   <name value="BrewedLog"/>
   <title value="The AuditEvent for a successful Brewed Hot Beverage"/>
   <status value="active"/>
-  <date value="2021-04-01T07:58:10-04:00"/>
-  <description value="An AuditEvent profile for when request to brew a Hot Beverage action happens successfully.&#xA;&#xA;"/>
+  <date value="2021-04-01T07:51:30-05:00"/>
+  <description value="An AuditEvent profile for when request to brew a Hot Beverage action happens successfully.&#xD;&#xA;&#xD;&#xA;"/>
   <fhirVersion value="4.0.1"/>
   <mapping>
     <identity value="workflow"/>

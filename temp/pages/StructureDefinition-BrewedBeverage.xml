@@ -37,8 +37,10 @@
   <url value="http://example.org/StructureDefinition/BrewedBeverage"/>
   <version value="2021-April-1st"/>
   <name value="BrewedBeverage"/>
+  <title value="The Hot Beverage to Brew"/>
   <status value="active"/>
-  <date value="2021-04-01T07:58:10-04:00"/>
+  <date value="2021-04-01T07:51:30-05:00"/>
+  <description value="The parameters to be given to the device to make the requested Hot Beverage.&#xD;&#xA;&#xD;&#xA;* The Machine to make the beverage (optional)&#xD;&#xA;* The Beverage to be made (required)&#xD;&#xA;* The type of Milk to be included (optional)&#xD;&#xA;* The type of Syrup to be included (optional)&#xD;&#xA;* The type of Alcohol to be included (optional)&#xD;&#xA;* The type of Sweetener to be included (optional)&#xD;&#xA;* The type of Spice to be included (optional)&#xD;&#xA;* Is Coffee to be decaffeinated (shall be NoDecaf)&#xD;&#xA;"/>
   <fhirVersion value="4.0.1"/>
   <mapping>
     <identity value="v2"/>

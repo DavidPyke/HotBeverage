@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "HotBeverage"];
   fhir:ImplementationGuide.title [ fhir:value "HotBeverage FHIR Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-04-01T07:58:10-04:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-04-01T07:51:30-05:00"^^xsd:dateTime];
   fhir:ImplementationGuide.packageId [ fhir:value "fhir.uv.HotBeverage"];
   fhir:ImplementationGuide.license [ fhir:value "CC0-1.0"];
   fhir:ImplementationGuide.fhirVersion [
@@ -265,7 +265,8 @@
          fhir:link <http://example.org/StructureDefinition/BrewedBeverage>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/BrewedBeverage" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BrewedBeverage" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "The Hot Beverage to Brew" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "The parameters to be given to the device to make the requested Hot Beverage.\r\n\r\n* The Machine to make the beverage (optional)\r\n* The Beverage to be made (required)\r\n* The type of Milk to be included (optional)\r\n* The type of Syrup to be included (optional)\r\n* The type of Alcohol to be included (optional)\r\n* The type of Sweetener to be included (optional)\r\n* The type of Spice to be included (optional)\r\n* Is Coffee to be decaffeinated (shall be NoDecaf)\r\n" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 1;
@@ -279,7 +280,7 @@
          fhir:Reference.reference [ fhir:value "StructureDefinition/HotBeverage.Brewed" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "The AuditEvent for a successful Brewed Hot Beverage" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An AuditEvent profile for when request to brew a Hot Beverage action happens successfully.\n\n" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An AuditEvent profile for when request to brew a Hot Beverage action happens successfully.\r\n\r\n" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 2;
@@ -517,7 +518,7 @@
          fhir:Reference.reference [ fhir:value "Parameters/MakeCoffee" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Make me Espresso" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Request to make Espresso.\n\n* Using the Nespresso VertuoNext device\n* Requesting Espresso\n" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Request to make Espresso.\r\n\r\n* Using the Nespresso VertuoNext device\r\n* Requesting Espresso\r\n" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://example.org/StructureDefinition/BrewedBeverage";
          fhir:link <http://example.org/StructureDefinition/BrewedBeverage>
@@ -548,7 +549,7 @@
          fhir:Reference.reference [ fhir:value "AuditEvent/ex-auditBasicBrew" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Audit Example of a basic brew" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Audit Example for a brewed coffee\n\n* Using the Nespresso VertuoNext device\n* Requesting Espresso \n" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Audit Example for a brewed coffee\r\n\r\n* Using the Nespresso VertuoNext device\r\n* Requesting Espresso \r\n" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://example.org/StructureDefinition/HotBeverage.Brewed";
          fhir:link <http://example.org/StructureDefinition/HotBeverage.Brewed>

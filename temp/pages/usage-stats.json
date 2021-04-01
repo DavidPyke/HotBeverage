@@ -7,7 +7,7 @@
     "Parameters": [
       {
         "url": "http://example.org/StructureDefinition/BrewedBeverage",
-        "title": "BrewedBeverage"
+        "title": "The Hot Beverage to Brew"
       }
     ],
     "AuditEvent": [

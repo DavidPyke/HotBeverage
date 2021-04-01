@@ -16,7 +16,8 @@
         "reference": {
           "reference": "StructureDefinition/BrewedBeverage"
         },
-        "name": "BrewedBeverage",
+        "name": "The Hot Beverage to Brew",
+        "description": "The parameters to be given to the device to make the requested Hot Beverage.\r\n\r\n* The Machine to make the beverage (optional)\r\n* The Beverage to be made (required)\r\n* The type of Milk to be included (optional)\r\n* The type of Syrup to be included (optional)\r\n* The type of Alcohol to be included (optional)\r\n* The type of Sweetener to be included (optional)\r\n* The type of Spice to be included (optional)\r\n* Is Coffee to be decaffeinated (shall be NoDecaf)\r\n",
         "exampleBoolean": false
       },
       {
@@ -24,7 +25,7 @@
           "reference": "StructureDefinition/HotBeverage.Brewed"
         },
         "name": "The AuditEvent for a successful Brewed Hot Beverage",
-        "description": "An AuditEvent profile for when request to brew a Hot Beverage action happens successfully.\n\n",
+        "description": "An AuditEvent profile for when request to brew a Hot Beverage action happens successfully.\r\n\r\n",
         "exampleBoolean": false
       },
       {
@@ -157,7 +158,7 @@
           "reference": "Parameters/MakeCoffee"
         },
         "name": "Make me Espresso",
-        "description": "Request to make Espresso.\n\n* Using the Nespresso VertuoNext device\n* Requesting Espresso\n",
+        "description": "Request to make Espresso.\r\n\r\n* Using the Nespresso VertuoNext device\r\n* Requesting Espresso\r\n",
         "exampleCanonical": "http://example.org/StructureDefinition/BrewedBeverage"
       },
       {
@@ -173,7 +174,7 @@
           "reference": "AuditEvent/ex-auditBasicBrew"
         },
         "name": "Audit Example of a basic brew",
-        "description": "Audit Example for a brewed coffee\n\n* Using the Nespresso VertuoNext device\n* Requesting Espresso \n",
+        "description": "Audit Example for a brewed coffee\r\n\r\n* Using the Nespresso VertuoNext device\r\n* Requesting Espresso \r\n",
         "exampleCanonical": "http://example.org/StructureDefinition/HotBeverage.Brewed"
       }
     ],

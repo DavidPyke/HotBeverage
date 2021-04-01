@@ -26,8 +26,8 @@
   fhir:StructureDefinition.name [ fhir:value "BrewedLog"];
   fhir:StructureDefinition.title [ fhir:value "The AuditEvent for a successful Brewed Hot Beverage"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2021-04-01T07:58:10-04:00"^^xsd:dateTime];
-  fhir:StructureDefinition.description [ fhir:value "An AuditEvent profile for when request to brew a Hot Beverage action happens successfully.\n\n"];
+  fhir:StructureDefinition.date [ fhir:value "2021-04-01T07:51:30-05:00"^^xsd:dateTime];
+  fhir:StructureDefinition.description [ fhir:value "An AuditEvent profile for when request to brew a Hot Beverage action happens successfully.\r\n\r\n"];
   fhir:StructureDefinition.fhirVersion [ fhir:value "4.0.1"];
   fhir:StructureDefinition.mapping [
      fhir:index 0;

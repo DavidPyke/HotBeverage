@@ -1,5 +1,17 @@
 Profile: BrewedBeverage
 Parent: Parameters
+Title:          "The Hot Beverage to Brew"
+Description:    "The parameters to be given to the device to make the requested Hot Beverage.
+
+* The Machine to make the beverage (optional)
+* The Beverage to be made (required)
+* The type of Milk to be included (optional)
+* The type of Syrup to be included (optional)
+* The type of Alcohol to be included (optional)
+* The type of Sweetener to be included (optional)
+* The type of Spice to be included (optional)
+* Is Coffee to be decaffeinated (shall be NoDecaf)
+"
 * parameter  ^slicing.discriminator.type = #value
 * parameter  ^slicing.discriminator.path = "name"
 * parameter  ^slicing.rules = #open
