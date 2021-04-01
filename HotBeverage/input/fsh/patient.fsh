@@ -62,3 +62,24 @@ Parent: Parameters
 * parameter[decaffeinated].value[x] 1..1 MS
 * parameter[decaffeinated].value[x] only code
 * parameter[decaffeinated].value[x] from NoDecaf (required)
+
+Instance: VertuoNext
+InstanceOf: Device
+* status = #active
+* manufacturer = "nespresso"
+* deviceName.name = "Vertuo Next"
+* deviceName.type = #manufacturer-name
+* modelNumber = "B084GYKJ58"
+* location.display = "coffee room"
+
+Instance: MakeCoffee
+InstanceOf: BrewedBeverage
+Title: "Make me Espresso"
+Description: "Request to make Espresso."
+* meta.security = http://terminology.hl7.org/CodeSystem/v3-ActReason#HTEST
+* meta.security[+] = http://terminology.hl7.org/CodeSystem/v3-Confidentiality#L
+* parameter[device].name = "device"
+* parameter[device].valueReference = Reference(VertuoNext)
+* parameter[beverageType].name = "beverageType"
+* parameter[beverageType].valueCode = #ESPRESSO
+

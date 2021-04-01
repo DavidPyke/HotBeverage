@@ -1,9 +1,9 @@
 @startuml
-Alice -> BrewDevice: Make me Tea
-BrewDevice -> BrewDevice: making the teapot
-BrewDevice -> AuditRepository: Record successful brew audit log entry
-BrewDevice --> Alice: Success - Tea is made
+Alice -> CoffeePot: Make me Espresso
+CoffeePot -> CoffeePot: making the Espresso
+CoffeePot -> AuditRepository: Record successful Espresso brew audit log entry
+CoffeePot --> Alice: Success - Espresso is made
 
-Alice -> BrewDevice: Make me Coffee
-Alice <-- BrewDevice: Failure - "418 I'm a teapot"
+Alice -> TeaKettle: Make me Coffee
+Alice <-- TeaKettle: Failure - "418 I'm a teapot"
 @enduml
