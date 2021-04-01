@@ -108,3 +108,5 @@ Description: "Request to make Espresso.
 * parameter[device].valueReference = Reference(VertuoNext)
 * parameter[beverageType].name = "beverageType"
 * parameter[beverageType].valueCode = #ESPRESSO
+* parameter[drinkSize].name = "drinkSize"
+* parameter[drinkSize].valueCode = #PROG
