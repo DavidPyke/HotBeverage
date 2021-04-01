@@ -25,6 +25,7 @@ Description:    "The parameters to be given to the device to make the requested 
     and alcoholType 0..* MS
     and sweetenerType 0..* MS
     and spiceType 0..* MS
+    and drinkSize 1..1 MS
     and decaffeinated 0..1 MS
 
 * parameter[device].name = "device" (exactly)
@@ -69,6 +70,12 @@ Description:    "The parameters to be given to the device to make the requested 
 * parameter[spiceType].value[x] only code
 * parameter[spiceType].value[x] from HBSpiceVS (example)
 
+* parameter[drinkSize].name = "drinkSize" (exactly)
+* parameter[drinkSize].name ^short = "Spice to be included"
+* parameter[drinkSize].value[x] 0..1 MS
+* parameter[drinkSize].value[x] only code
+* parameter[drinkSize].value[x] from HBDrinkSizeVS (example)
+
 * parameter[decaffeinated].name = "decaffeinated" (exactly)
 * parameter[decaffeinated].name ^short = "Is Coffee to be decaffeinated"
 * parameter[decaffeinated].value[x] 1..1 MS
@@ -101,4 +108,3 @@ Description: "Request to make Espresso.
 * parameter[device].valueReference = Reference(VertuoNext)
 * parameter[beverageType].name = "beverageType"
 * parameter[beverageType].valueCode = #ESPRESSO
-

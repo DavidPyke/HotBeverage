@@ -9,6 +9,8 @@ Description: "Syrups to be added, if desired"
 * #BUTTERSCOTCH "Butterscotch"
 * #IRISH "Irish Cream"
 * #ORANGE "Orange Blossom"
+* #RASPBERRY "Raspberry"
+* #ALMOND "Almond"
 
 
 
