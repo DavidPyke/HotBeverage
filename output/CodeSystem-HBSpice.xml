@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="HBSpice"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://example.org/CodeSystem/HBSpice defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">CINNAMON<a name="HBSpice-CINNAMON"> </a></td><td>cinnamon</td></tr><tr><td style="white-space:nowrap">NUTMEG<a name="HBSpice-NUTMEG"> </a></td><td>nutmeg</td></tr><tr><td style="white-space:nowrap">LAVENDER<a name="HBSpice-LAVENDER"> </a></td><td>lavender</td></tr><tr><td style="white-space:nowrap">CARDAMOM<a name="HBSpice-CARDAMOM"> </a></td><td>cardamom</td></tr><tr><td style="white-space:nowrap">SALT<a name="HBSpice-SALT"> </a></td><td>salt</td></tr></table></div>
+  </text>
+  <url value="http://example.org/CodeSystem/HBSpice"/>
+  <version value="2021-April-1st"/>
+  <name value="HBSpice"/>
+  <title value="Spice List"/>
+  <status value="active"/>
+  <date value="2021-04-01T07:58:10-04:00"/>
+  <description value="Spice to be added, if desired"/>
+  <content value="complete"/>
+  <count value="5"/>
+  <concept>
+    <code value="CINNAMON"/>
+    <display value="cinnamon"/>
+  </concept>
+  <concept>
+    <code value="NUTMEG"/>
+    <display value="nutmeg"/>
+  </concept>
+  <concept>
+    <code value="LAVENDER"/>
+    <display value="lavender"/>
+  </concept>
+  <concept>
+    <code value="CARDAMOM"/>
+    <display value="cardamom"/>
+  </concept>
+  <concept>
+    <code value="SALT"/>
+    <display value="salt"/>
+  </concept>
+</CodeSystem>

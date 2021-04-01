@@ -1,0 +1,17 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "HBSweetenersVS",
+  "id": "HBSweetenersVS",
+  "title": "Sweeteners Additive Value Set",
+  "description": "Sweeteners liquids for use in coffee",
+  "version": "2021-April-1st",
+  "url": "http://example.org/ValueSet/HBSweetenersVS",
+  "compose": {
+    "include": [
+      {
+        "system": "http://example.org/CodeSystem/HBSweeteners"
+      }
+    ]
+  }
+}

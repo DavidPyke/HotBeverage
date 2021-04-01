@@ -1,0 +1,39 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "HBSpice",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://example.org/CodeSystem/HBSpice defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">CINNAMON<a name=\"HBSpice-CINNAMON\"> </a></td><td>cinnamon</td></tr><tr><td style=\"white-space:nowrap\">NUTMEG<a name=\"HBSpice-NUTMEG\"> </a></td><td>nutmeg</td></tr><tr><td style=\"white-space:nowrap\">LAVENDER<a name=\"HBSpice-LAVENDER\"> </a></td><td>lavender</td></tr><tr><td style=\"white-space:nowrap\">CARDAMOM<a name=\"HBSpice-CARDAMOM\"> </a></td><td>cardamom</td></tr><tr><td style=\"white-space:nowrap\">SALT<a name=\"HBSpice-SALT\"> </a></td><td>salt</td></tr></table></div>"
+  },
+  "url": "http://example.org/CodeSystem/HBSpice",
+  "version": "2021-April-1st",
+  "name": "HBSpice",
+  "title": "Spice List",
+  "status": "active",
+  "date": "2021-04-01T07:58:10-04:00",
+  "description": "Spice to be added, if desired",
+  "content": "complete",
+  "count": 5,
+  "concept": [
+    {
+      "code": "CINNAMON",
+      "display": "cinnamon"
+    },
+    {
+      "code": "NUTMEG",
+      "display": "nutmeg"
+    },
+    {
+      "code": "LAVENDER",
+      "display": "lavender"
+    },
+    {
+      "code": "CARDAMOM",
+      "display": "cardamom"
+    },
+    {
+      "code": "SALT",
+      "display": "salt"
+    }
+  ]
+}

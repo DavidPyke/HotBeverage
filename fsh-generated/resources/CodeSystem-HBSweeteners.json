@@ -1,0 +1,42 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "HBSweeteners",
+  "id": "HBSweeteners",
+  "title": "Sweeteners List",
+  "description": "Sweeteners to be added, if desired",
+  "version": "2021-April-1st",
+  "url": "http://example.org/CodeSystem/HBSweeteners",
+  "concept": [
+    {
+      "code": "STEVIA",
+      "display": "Stevia"
+    },
+    {
+      "code": "HONEY",
+      "display": "Honey"
+    },
+    {
+      "code": "WSUGAR",
+      "display": "White Sugar"
+    },
+    {
+      "code": "BSUGAR",
+      "display": "Brown Sugar"
+    },
+    {
+      "code": "AGAVE",
+      "display": "Agave Nectar"
+    },
+    {
+      "code": "MAPLE",
+      "display": "Maple Syrup"
+    },
+    {
+      "code": "MOLASSES",
+      "display": "Molasses"
+    }
+  ],
+  "count": 7
+}

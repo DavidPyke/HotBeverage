@@ -1,0 +1,17 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "HBMilkVS",
+  "id": "HBMilkVS",
+  "title": "Milk Additive Value Set",
+  "description": "Milk and milklike liquids for use in coffee",
+  "version": "2021-April-1st",
+  "url": "http://example.org/ValueSet/HBMilkVS",
+  "compose": {
+    "include": [
+      {
+        "system": "http://example.org/CodeSystem/HBMilks"
+      }
+    ]
+  }
+}

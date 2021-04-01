@@ -1,0 +1,34 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "HBSpice",
+  "id": "HBSpice",
+  "title": "Spice List",
+  "description": "Spice to be added, if desired",
+  "version": "2021-April-1st",
+  "url": "http://example.org/CodeSystem/HBSpice",
+  "concept": [
+    {
+      "code": "CINNAMON",
+      "display": "cinnamon"
+    },
+    {
+      "code": "NUTMEG",
+      "display": "nutmeg"
+    },
+    {
+      "code": "LAVENDER",
+      "display": "lavender"
+    },
+    {
+      "code": "CARDAMOM",
+      "display": "cardamom"
+    },
+    {
+      "code": "SALT",
+      "display": "salt"
+    }
+  ],
+  "count": 5
+}

@@ -1,0 +1,12 @@
+﻿<html>
+<head>
+  <title>OperationDefinition-BB-Start-html</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<div xmlns="http://www.w3.org/1999/xhtml"><h2>Data Requirements</h2><p>OPERATION: Data Requirements</p><p>The official URL for this operation definition is: </p><pre>http://hl7.org/fhir/OperationDefinition/BB-Start</pre><div><p>The stop operation sends the Device a direction to stop the brew of the beverage (primarily tea) to check for doneness.  Used in combination with the Start operation to make the tea just right</p>
+</div><p>URL: [base]/BrewedBeverage/$data-requirements</p><p>URL: [base]/BrewedBeverage/[id]/$data-requirements</p><p>Parameters</p><table class="grid"><tr><td><b>Use</b></td><td><b>Name</b></td><td><b>Cardinality</b></td><td><b>Type</b></td><td><b>Binding</b></td><td><b>Documentation</b></td></tr><tr><td>OUT</td><td>BBIdent</td><td>1..1</td><td><a href="http://hl7.org/fhir/R4/datatypes.html#Identifier">Identifier</a></td><td/><td><div><p>The ID of the BrewedBeverage Resource</p>
+</div></td></tr></table><div><p>The effect of invoking this operation is to initiate the Brew operation on the appropriate device with the inclusion of the
+requested additions</p>
+</div></div></body>
+</html>

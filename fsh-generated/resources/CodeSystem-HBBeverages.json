@@ -1,0 +1,106 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "HBBeverages",
+  "id": "HBBeverages",
+  "title": "Hot Beverage List",
+  "description": "Legal Beverages to be made in coffee pot",
+  "version": "2021-April-1st",
+  "url": "http://example.org/CodeSystem/HBBeverages",
+  "concept": [
+    {
+      "code": "DRIP",
+      "display": "Drip or filtered"
+    },
+    {
+      "code": "FRENCHPRESS",
+      "display": "French press or cafetière"
+    },
+    {
+      "code": "COLDBREW",
+      "display": "Cold brew"
+    },
+    {
+      "code": "PERC",
+      "display": "Percolated"
+    },
+    {
+      "code": "TURKISH",
+      "display": "Turkish coffee"
+    },
+    {
+      "code": "MOKA",
+      "display": "Moka"
+    },
+    {
+      "code": "VACUUM",
+      "display": "Vacuum coffee"
+    },
+    {
+      "code": "ESPRESSO",
+      "display": "Espresso"
+    },
+    {
+      "code": "COFWESP",
+      "display": "Coffee with espresso"
+    },
+    {
+      "code": "COFWTEA",
+      "display": "Coffee with tea"
+    },
+    {
+      "code": "ICED",
+      "display": "Iced Coffee"
+    },
+    {
+      "code": "FRAPPE",
+      "display": "Frappé"
+    },
+    {
+      "code": "FREDDOESP",
+      "display": "Freddo Espresso"
+    },
+    {
+      "code": "FREDDOCAP",
+      "display": "Freddo Cappuccino"
+    },
+    {
+      "code": "AFFOFATO",
+      "display": "Affogato"
+    },
+    {
+      "code": "BABYCCINO",
+      "display": "Babyccino"
+    },
+    {
+      "code": "MEDICI",
+      "display": "Caffè Medici"
+    },
+    {
+      "code": "TOUBA",
+      "display": "Café Touba"
+    },
+    {
+      "code": "COFMILK",
+      "display": "Coffee milk"
+    },
+    {
+      "code": "DOUBLE",
+      "display": "Double Double"
+    },
+    {
+      "code": "EGGCOF",
+      "display": "Egg coffee"
+    },
+    {
+      "code": "INDIAN",
+      "display": "Indian filter coffee"
+    },
+    {
+      "code": "POCILLO",
+      "display": "Pocillo"
+    }
+  ],
+  "count": 23
+}

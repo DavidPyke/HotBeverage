@@ -1,0 +1,23 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "NoDecaf",
+  "id": "NoDecaf",
+  "title": "Decaf is for the weak",
+  "description": "No, Just No",
+  "version": "2021-April-1st",
+  "url": "http://example.org/ValueSet/NoDecaf",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "64100000",
+            "display": "No"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,521 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "e0431700-97f3-492d-833c-371e5bb6fe0f",
+  "meta" : {
+    "lastUpdated" : "2021-04-01T07:58:10.869-04:00"
+  },
+  "type" : "collection",
+  "entry" : [{
+    "fullUrl" : "http://example.org/ValueSet/HBAlcoholVS",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "HBAlcoholVS",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 9 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-HBAlcohol.html\">Alcohol List v2021-April-1st (CodeSystem)</a></p><p>All codes from system <a href=\"CodeSystem-HBAlcohol.html\"><code>http://example.org/CodeSystem/HBAlcohol</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-CodeSystem-HBAlcohol-BOURBON\"> </a><a href=\"CodeSystem-HBAlcohol.html#HBAlcohol-BOURBON\">BOURBON</a></td><td>bourbon</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-CodeSystem-HBAlcohol-RUM\"> </a><a href=\"CodeSystem-HBAlcohol.html#HBAlcohol-RUM\">RUM</a></td><td>rum</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-CodeSystem-HBAlcohol-BAILEYS\"> </a><a href=\"CodeSystem-HBAlcohol.html#HBAlcohol-BAILEYS\">BAILEYS</a></td><td>Baileys</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-CodeSystem-HBAlcohol-GIN\"> </a><a href=\"CodeSystem-HBAlcohol.html#HBAlcohol-GIN\">GIN</a></td><td>gin</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-CodeSystem-HBAlcohol-RYE\"> </a><a href=\"CodeSystem-HBAlcohol.html#HBAlcohol-RYE\">RYE</a></td><td>rye</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-CodeSystem-HBAlcohol-VODKA\"> </a><a href=\"CodeSystem-HBAlcohol.html#HBAlcohol-VODKA\">VODKA</a></td><td>vodka</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-CodeSystem-HBAlcohol-CINNAMON\"> </a><a href=\"CodeSystem-HBAlcohol.html#HBAlcohol-CINNAMON\">CINNAMON</a></td><td>cinnamon schnapps</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-CodeSystem-HBAlcohol-HAZELNUT\"> </a><a href=\"CodeSystem-HBAlcohol.html#HBAlcohol-HAZELNUT\">HAZELNUT</a></td><td>hazelnut  liqueur</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-CodeSystem-HBAlcohol-CHOCOLATE\"> </a><a href=\"CodeSystem-HBAlcohol.html#HBAlcohol-CHOCOLATE\">CHOCOLATE</a></td><td>chocolate Liqueur</td><td/></tr></table></div>"
+      },
+      "url" : "http://example.org/ValueSet/HBAlcoholVS",
+      "version" : "2021-April-1st",
+      "name" : "HBAlcoholVS",
+      "title" : "Alcohol Additive Value Set",
+      "status" : "active",
+      "date" : "2021-04-01T07:58:10-04:00",
+      "description" : "Alcohol liquids for use in coffee",
+      "expansion" : {
+        "identifier" : "urn:uuid:7c520d8d-699d-4dc5-9f9e-9a0197a73ef1",
+        "timestamp" : "2021-04-01T07:58:21-04:00",
+        "total" : 9,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://example.org/CodeSystem/HBAlcohol|2021-April-1st"
+        }],
+        "contains" : [{
+          "system" : "http://example.org/CodeSystem/HBAlcohol",
+          "code" : "BOURBON",
+          "display" : "bourbon"
+        },
+        {
+          "system" : "http://example.org/CodeSystem/HBAlcohol",
+          "code" : "RUM",
+          "display" : "rum"
+        },
+        {
+          "system" : "http://example.org/CodeSystem/HBAlcohol",
+          "code" : "BAILEYS",
+          "display" : "Baileys"
+        },
+        {
+          "system" : "http://example.org/CodeSystem/HBAlcohol",
+          "code" : "GIN",
+          "display" : "gin"
+        },
+        {
+          "system" : "http://example.org/CodeSystem/HBAlcohol",
+          "code" : "RYE",
+          "display" : "rye"
+        },
+        {
+          "system" : "http://example.org/CodeSystem/HBAlcohol",
+          "code" : "VODKA",
+          "display" : "vodka"
+        },
+        {
+          "system" : "http://example.org/CodeSystem/HBAlcohol",
+          "code" : "CINNAMON",
+          "display" : "cinnamon schnapps"
+        },
+        {
+          "system" : "http://example.org/CodeSystem/HBAlcohol",
+          "code" : "HAZELNUT",
+          "display" : "hazelnut  liqueur"
+        },
+        {
+          "system" : "http://example.org/CodeSystem/HBAlcohol",
+          "code" : "CHOCOLATE",
+          "display" : "chocolate Liqueur"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/ValueSet/HBBeverageVS",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "HBBeverageVS",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 23 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-HBBeverages.html\">Hot Beverage List v2021-April-1st (CodeSystem)</a></p><p>All codes from system <a href=\"CodeSystem-HBBeverages.html\"><code>http://example.org/CodeSystem/HBBeverages</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-CodeSystem-HBBeverages-DRIP\"> </a><a href=\"CodeSystem-HBBeverages.html#HBBeverages-DRIP\">DRIP</a></td><td>Drip or filtered</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-CodeSystem-HBBeverages-FRENCHPRESS\"> </a><a href=\"CodeSystem-HBBeverages.html#HBBeverages-FRENCHPRESS\">FRENCHPRESS</a></td><td>French press or cafetière</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-CodeSystem-HBBeverages-COLDBREW\"> </a><a href=\"CodeSystem-HBBeverages.html#HBBeverages-COLDBREW\">COLDBREW</a></td><td>Cold brew</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-CodeSystem-HBBeverages-PERC\"> </a><a href=\"CodeSystem-HBBeverages.html#HBBeverages-PERC\">PERC</a></td><td>Percolated</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-CodeSystem-HBBeverages-TURKISH\"> </a><a href=\"CodeSystem-HBBeverages.html#HBBeverages-TURKISH\">TURKISH</a></td><td>Turkish coffee</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-CodeSystem-HBBeverages-MOKA\"> </a><a href=\"CodeSystem-HBBeverages.html#HBBeverages-MOKA\">MOKA</a></td><td>Moka</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-CodeSystem-HBBeverages-VACUUM\"> </a><a href=\"CodeSystem-HBBeverages.html#HBBeverages-VACUUM\">VACUUM</a></td><td>Vacuum coffee</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-CodeSystem-HBBeverages-ESPRESSO\"> </a><a href=\"CodeSystem-HBBeverages.html#HBBeverages-ESPRESSO\">ESPRESSO</a></td><td>Espresso</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-CodeSystem-HBBeverages-COFWESP\"> </a><a href=\"CodeSystem-HBBeverages.html#HBBeverages-COFWESP\">COFWESP</a></td><td>Coffee with espresso</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-CodeSystem-HBBeverages-COFWTEA\"> </a><a href=\"CodeSystem-HBBeverages.html#HBBeverages-COFWTEA\">COFWTEA</a></td><td>Coffee with tea</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-CodeSystem-HBBeverages-ICED\"> </a><a href=\"CodeSystem-HBBeverages.html#HBBeverages-ICED\">ICED</a></td><td>Iced Coffee</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-CodeSystem-HBBeverages-FRAPPE\"> </a><a href=\"CodeSystem-HBBeverages.html#HBBeverages-FRAPPE\">FRAPPE</a></td><td>Frappé</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-CodeSystem-HBBeverages-FREDDOESP\"> </a><a href=\"CodeSystem-HBBeverages.html#HBBeverages-FREDDOESP\">FREDDOESP</a></td><td>Freddo Espresso</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-CodeSystem-HBBeverages-FREDDOCAP\"> </a><a href=\"CodeSystem-HBBeverages.html#HBBeverages-FREDDOCAP\">FREDDOCAP</a></td><td>Freddo Cappuccino</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-CodeSystem-HBBeverages-AFFOFATO\"> </a><a href=\"CodeSystem-HBBeverages.html#HBBeverages-AFFOFATO\">AFFOFATO</a></td><td>Affogato</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-CodeSystem-HBBeverages-BABYCCINO\"> </a><a href=\"CodeSystem-HBBeverages.html#HBBeverages-BABYCCINO\">BABYCCINO</a></td><td>Babyccino</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-CodeSystem-HBBeverages-MEDICI\"> </a><a href=\"CodeSystem-HBBeverages.html#HBBeverages-MEDICI\">MEDICI</a></td><td>Caffè Medici</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-CodeSystem-HBBeverages-TOUBA\"> </a><a href=\"CodeSystem-HBBeverages.html#HBBeverages-TOUBA\">TOUBA</a></td><td>Café Touba</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-CodeSystem-HBBeverages-COFMILK\"> </a><a href=\"CodeSystem-HBBeverages.html#HBBeverages-COFMILK\">COFMILK</a></td><td>Coffee milk</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-CodeSystem-HBBeverages-DOUBLE\"> </a><a href=\"CodeSystem-HBBeverages.html#HBBeverages-DOUBLE\">DOUBLE</a></td><td>Double Double</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-CodeSystem-HBBeverages-EGGCOF\"> </a><a href=\"CodeSystem-HBBeverages.html#HBBeverages-EGGCOF\">EGGCOF</a></td><td>Egg coffee</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-CodeSystem-HBBeverages-INDIAN\"> </a><a href=\"CodeSystem-HBBeverages.html#HBBeverages-INDIAN\">INDIAN</a></td><td>Indian filter coffee</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-CodeSystem-HBBeverages-POCILLO\"> </a><a href=\"CodeSystem-HBBeverages.html#HBBeverages-POCILLO\">POCILLO</a></td><td>Pocillo</td><td/></tr></table></div>"
+      },
+      "url" : "http://example.org/ValueSet/HBBeverageVS",
+      "version" : "2021-April-1st",
+      "name" : "HBBeverageVS",
+      "title" : "Hot Beverages Value Set",
+      "status" : "active",
+      "date" : "2021-04-01T07:58:10-04:00",
+      "description" : "All beverages allowed to be made via Hot Beverage",
+      "expansion" : {
+        "identifier" : "urn:uuid:0f6c8cb2-1ee3-43f9-b2d8-f3934b5de025",
+        "timestamp" : "2021-04-01T07:58:21-04:00",
+        "total" : 23,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://example.org/CodeSystem/HBBeverages|2021-April-1st"
+        }],
+        "contains" : [{
+          "system" : "http://example.org/CodeSystem/HBBeverages",
+          "code" : "DRIP",
+          "display" : "Drip or filtered"
+        },
+        {
+          "system" : "http://example.org/CodeSystem/HBBeverages",
+          "code" : "FRENCHPRESS",
+          "display" : "French press or cafetière"
+        },
+        {
+          "system" : "http://example.org/CodeSystem/HBBeverages",
+          "code" : "COLDBREW",
+          "display" : "Cold brew"
+        },
+        {
+          "system" : "http://example.org/CodeSystem/HBBeverages",
+          "code" : "PERC",
+          "display" : "Percolated"
+        },
+        {
+          "system" : "http://example.org/CodeSystem/HBBeverages",
+          "code" : "TURKISH",
+          "display" : "Turkish coffee"
+        },
+        {
+          "system" : "http://example.org/CodeSystem/HBBeverages",
+          "code" : "MOKA",
+          "display" : "Moka"
+        },
+        {
+          "system" : "http://example.org/CodeSystem/HBBeverages",
+          "code" : "VACUUM",
+          "display" : "Vacuum coffee"
+        },
+        {
+          "system" : "http://example.org/CodeSystem/HBBeverages",
+          "code" : "ESPRESSO",
+          "display" : "Espresso"
+        },
+        {
+          "system" : "http://example.org/CodeSystem/HBBeverages",
+          "code" : "COFWESP",
+          "display" : "Coffee with espresso"
+        },
+        {
+          "system" : "http://example.org/CodeSystem/HBBeverages",
+          "code" : "COFWTEA",
+          "display" : "Coffee with tea"
+        },
+        {
+          "system" : "http://example.org/CodeSystem/HBBeverages",
+          "code" : "ICED",
+          "display" : "Iced Coffee"
+        },
+        {
+          "system" : "http://example.org/CodeSystem/HBBeverages",
+          "code" : "FRAPPE",
+          "display" : "Frappé"
+        },
+        {
+          "system" : "http://example.org/CodeSystem/HBBeverages",
+          "code" : "FREDDOESP",
+          "display" : "Freddo Espresso"
+        },
+        {
+          "system" : "http://example.org/CodeSystem/HBBeverages",
+          "code" : "FREDDOCAP",
+          "display" : "Freddo Cappuccino"
+        },
+        {
+          "system" : "http://example.org/CodeSystem/HBBeverages",
+          "code" : "AFFOFATO",
+          "display" : "Affogato"
+        },
+        {
+          "system" : "http://example.org/CodeSystem/HBBeverages",
+          "code" : "BABYCCINO",
+          "display" : "Babyccino"
+        },
+        {
+          "system" : "http://example.org/CodeSystem/HBBeverages",
+          "code" : "MEDICI",
+          "display" : "Caffè Medici"
+        },
+        {
+          "system" : "http://example.org/CodeSystem/HBBeverages",
+          "code" : "TOUBA",
+          "display" : "Café Touba"
+        },
+        {
+          "system" : "http://example.org/CodeSystem/HBBeverages",
+          "code" : "COFMILK",
+          "display" : "Coffee milk"
+        },
+        {
+          "system" : "http://example.org/CodeSystem/HBBeverages",
+          "code" : "DOUBLE",
+          "display" : "Double Double"
+        },
+        {
+          "system" : "http://example.org/CodeSystem/HBBeverages",
+          "code" : "EGGCOF",
+          "display" : "Egg coffee"
+        },
+        {
+          "system" : "http://example.org/CodeSystem/HBBeverages",
+          "code" : "INDIAN",
+          "display" : "Indian filter coffee"
+        },
+        {
+          "system" : "http://example.org/CodeSystem/HBBeverages",
+          "code" : "POCILLO",
+          "display" : "Pocillo"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/ValueSet/HBMilkVS",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "HBMilkVS",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 8 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-HBMilks.html\">Milks List v2021-April-1st (CodeSystem)</a></p><p>All codes from system <a href=\"CodeSystem-HBMilks.html\"><code>http://example.org/CodeSystem/HBMilks</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-CodeSystem-HBMilks-RICEMILK\"> </a><a href=\"CodeSystem-HBMilks.html#HBMilks-RICEMILK\">RICEMILK</a></td><td>Rice Milk</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-CodeSystem-HBMilks-ALMOND\"> </a><a href=\"CodeSystem-HBMilks.html#HBMilks-ALMOND\">ALMOND</a></td><td>Almond Milk</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-CodeSystem-HBMilks-SKIM\"> </a><a href=\"CodeSystem-HBMilks.html#HBMilks-SKIM\">SKIM</a></td><td>Skim Milk</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-CodeSystem-HBMilks-SOY\"> </a><a href=\"CodeSystem-HBMilks.html#HBMilks-SOY\">SOY</a></td><td>Soy Milk</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-CodeSystem-HBMilks-FULLCREAM\"> </a><a href=\"CodeSystem-HBMilks.html#HBMilks-FULLCREAM\">FULLCREAM</a></td><td>Full Cream Milk</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-CodeSystem-HBMilks-COCONUT\"> </a><a href=\"CodeSystem-HBMilks.html#HBMilks-COCONUT\">COCONUT</a></td><td>Coconut Milk</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-CodeSystem-HBMilks-HALF\"> </a><a href=\"CodeSystem-HBMilks.html#HBMilks-HALF\">HALF</a></td><td>Half and Half</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-CodeSystem-HBMilks-TABLE\"> </a><a href=\"CodeSystem-HBMilks.html#HBMilks-TABLE\">TABLE</a></td><td>Table Cream</td><td/></tr></table></div>"
+      },
+      "url" : "http://example.org/ValueSet/HBMilkVS",
+      "version" : "2021-April-1st",
+      "name" : "HBMilkVS",
+      "title" : "Milk Additive Value Set",
+      "status" : "active",
+      "date" : "2021-04-01T07:58:10-04:00",
+      "description" : "Milk and milklike liquids for use in coffee",
+      "expansion" : {
+        "identifier" : "urn:uuid:0aa9f886-ee78-4128-b8ba-f9e9e2d9afa3",
+        "timestamp" : "2021-04-01T07:58:21-04:00",
+        "total" : 8,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://example.org/CodeSystem/HBMilks|2021-April-1st"
+        }],
+        "contains" : [{
+          "system" : "http://example.org/CodeSystem/HBMilks",
+          "code" : "RICEMILK",
+          "display" : "Rice Milk"
+        },
+        {
+          "system" : "http://example.org/CodeSystem/HBMilks",
+          "code" : "ALMOND",
+          "display" : "Almond Milk"
+        },
+        {
+          "system" : "http://example.org/CodeSystem/HBMilks",
+          "code" : "SKIM",
+          "display" : "Skim Milk"
+        },
+        {
+          "system" : "http://example.org/CodeSystem/HBMilks",
+          "code" : "SOY",
+          "display" : "Soy Milk"
+        },
+        {
+          "system" : "http://example.org/CodeSystem/HBMilks",
+          "code" : "FULLCREAM",
+          "display" : "Full Cream Milk"
+        },
+        {
+          "system" : "http://example.org/CodeSystem/HBMilks",
+          "code" : "COCONUT",
+          "display" : "Coconut Milk"
+        },
+        {
+          "system" : "http://example.org/CodeSystem/HBMilks",
+          "code" : "HALF",
+          "display" : "Half and Half"
+        },
+        {
+          "system" : "http://example.org/CodeSystem/HBMilks",
+          "code" : "TABLE",
+          "display" : "Table Cream"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/ValueSet/HBSpiceVS",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "HBSpiceVS",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 5 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-HBSpice.html\">Spice List v2021-April-1st (CodeSystem)</a></p><p>All codes from system <a href=\"CodeSystem-HBSpice.html\"><code>http://example.org/CodeSystem/HBSpice</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-CodeSystem-HBSpice-CINNAMON\"> </a><a href=\"CodeSystem-HBSpice.html#HBSpice-CINNAMON\">CINNAMON</a></td><td>cinnamon</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-CodeSystem-HBSpice-NUTMEG\"> </a><a href=\"CodeSystem-HBSpice.html#HBSpice-NUTMEG\">NUTMEG</a></td><td>nutmeg</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-CodeSystem-HBSpice-LAVENDER\"> </a><a href=\"CodeSystem-HBSpice.html#HBSpice-LAVENDER\">LAVENDER</a></td><td>lavender</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-CodeSystem-HBSpice-CARDAMOM\"> </a><a href=\"CodeSystem-HBSpice.html#HBSpice-CARDAMOM\">CARDAMOM</a></td><td>cardamom</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-CodeSystem-HBSpice-SALT\"> </a><a href=\"CodeSystem-HBSpice.html#HBSpice-SALT\">SALT</a></td><td>salt</td><td/></tr></table></div>"
+      },
+      "url" : "http://example.org/ValueSet/HBSpiceVS",
+      "version" : "2021-April-1st",
+      "name" : "HBSpiceVS",
+      "title" : "Spice Additive Value Set",
+      "status" : "active",
+      "date" : "2021-04-01T07:58:10-04:00",
+      "description" : "Spice liquids for use in coffee",
+      "expansion" : {
+        "identifier" : "urn:uuid:e860d557-3bc6-4086-a45d-f9b52ffb73f7",
+        "timestamp" : "2021-04-01T07:58:21-04:00",
+        "total" : 5,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://example.org/CodeSystem/HBSpice|2021-April-1st"
+        }],
+        "contains" : [{
+          "system" : "http://example.org/CodeSystem/HBSpice",
+          "code" : "CINNAMON",
+          "display" : "cinnamon"
+        },
+        {
+          "system" : "http://example.org/CodeSystem/HBSpice",
+          "code" : "NUTMEG",
+          "display" : "nutmeg"
+        },
+        {
+          "system" : "http://example.org/CodeSystem/HBSpice",
+          "code" : "LAVENDER",
+          "display" : "lavender"
+        },
+        {
+          "system" : "http://example.org/CodeSystem/HBSpice",
+          "code" : "CARDAMOM",
+          "display" : "cardamom"
+        },
+        {
+          "system" : "http://example.org/CodeSystem/HBSpice",
+          "code" : "SALT",
+          "display" : "salt"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/ValueSet/HBSweetenersVS",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "HBSweetenersVS",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 7 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-HBSweeteners.html\">Sweeteners List v2021-April-1st (CodeSystem)</a></p><p>All codes from system <a href=\"CodeSystem-HBSweeteners.html\"><code>http://example.org/CodeSystem/HBSweeteners</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-CodeSystem-HBSweeteners-STEVIA\"> </a><a href=\"CodeSystem-HBSweeteners.html#HBSweeteners-STEVIA\">STEVIA</a></td><td>Stevia</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-CodeSystem-HBSweeteners-HONEY\"> </a><a href=\"CodeSystem-HBSweeteners.html#HBSweeteners-HONEY\">HONEY</a></td><td>Honey</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-CodeSystem-HBSweeteners-WSUGAR\"> </a><a href=\"CodeSystem-HBSweeteners.html#HBSweeteners-WSUGAR\">WSUGAR</a></td><td>White Sugar</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-CodeSystem-HBSweeteners-BSUGAR\"> </a><a href=\"CodeSystem-HBSweeteners.html#HBSweeteners-BSUGAR\">BSUGAR</a></td><td>Brown Sugar</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-CodeSystem-HBSweeteners-AGAVE\"> </a><a href=\"CodeSystem-HBSweeteners.html#HBSweeteners-AGAVE\">AGAVE</a></td><td>Agave Nectar</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-CodeSystem-HBSweeteners-MAPLE\"> </a><a href=\"CodeSystem-HBSweeteners.html#HBSweeteners-MAPLE\">MAPLE</a></td><td>Maple Syrup</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-CodeSystem-HBSweeteners-MOLASSES\"> </a><a href=\"CodeSystem-HBSweeteners.html#HBSweeteners-MOLASSES\">MOLASSES</a></td><td>Molasses</td><td/></tr></table></div>"
+      },
+      "url" : "http://example.org/ValueSet/HBSweetenersVS",
+      "version" : "2021-April-1st",
+      "name" : "HBSweetenersVS",
+      "title" : "Sweeteners Additive Value Set",
+      "status" : "active",
+      "date" : "2021-04-01T07:58:10-04:00",
+      "description" : "Sweeteners liquids for use in coffee",
+      "expansion" : {
+        "identifier" : "urn:uuid:ec0e6024-1e28-43f2-bc8f-d57c277baa50",
+        "timestamp" : "2021-04-01T07:58:21-04:00",
+        "total" : 7,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://example.org/CodeSystem/HBSweeteners|2021-April-1st"
+        }],
+        "contains" : [{
+          "system" : "http://example.org/CodeSystem/HBSweeteners",
+          "code" : "STEVIA",
+          "display" : "Stevia"
+        },
+        {
+          "system" : "http://example.org/CodeSystem/HBSweeteners",
+          "code" : "HONEY",
+          "display" : "Honey"
+        },
+        {
+          "system" : "http://example.org/CodeSystem/HBSweeteners",
+          "code" : "WSUGAR",
+          "display" : "White Sugar"
+        },
+        {
+          "system" : "http://example.org/CodeSystem/HBSweeteners",
+          "code" : "BSUGAR",
+          "display" : "Brown Sugar"
+        },
+        {
+          "system" : "http://example.org/CodeSystem/HBSweeteners",
+          "code" : "AGAVE",
+          "display" : "Agave Nectar"
+        },
+        {
+          "system" : "http://example.org/CodeSystem/HBSweeteners",
+          "code" : "MAPLE",
+          "display" : "Maple Syrup"
+        },
+        {
+          "system" : "http://example.org/CodeSystem/HBSweeteners",
+          "code" : "MOLASSES",
+          "display" : "Molasses"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/ValueSet/HBSyrupVS",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "HBSyrupVS",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 8 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-HBSyrups.html\">Syrups List v2021-April-1st (CodeSystem)</a></p><p>All codes from system <a href=\"CodeSystem-HBSyrups.html\"><code>http://example.org/CodeSystem/HBSyrups</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-CodeSystem-HBSyrups-VANILLA\"> </a><a href=\"CodeSystem-HBSyrups.html#HBSyrups-VANILLA\">VANILLA</a></td><td>Vanilla</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-CodeSystem-HBSyrups-CARAMEL\"> </a><a href=\"CodeSystem-HBSyrups.html#HBSyrups-CARAMEL\">CARAMEL</a></td><td>Caramel</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-CodeSystem-HBSyrups-HAZELNUT\"> </a><a href=\"CodeSystem-HBSyrups.html#HBSyrups-HAZELNUT\">HAZELNUT</a></td><td>Hazelnut</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-CodeSystem-HBSyrups-CHOCOLATE\"> </a><a href=\"CodeSystem-HBSyrups.html#HBSyrups-CHOCOLATE\">CHOCOLATE</a></td><td>Chocolate</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-CodeSystem-HBSyrups-LAVENDER\"> </a><a href=\"CodeSystem-HBSyrups.html#HBSyrups-LAVENDER\">LAVENDER</a></td><td>Lavender</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-CodeSystem-HBSyrups-BUTTERSCOTCH\"> </a><a href=\"CodeSystem-HBSyrups.html#HBSyrups-BUTTERSCOTCH\">BUTTERSCOTCH</a></td><td>Butterscotch</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-CodeSystem-HBSyrups-IRISH\"> </a><a href=\"CodeSystem-HBSyrups.html#HBSyrups-IRISH\">IRISH</a></td><td>Irish Cream</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-CodeSystem-HBSyrups-ORANGE\"> </a><a href=\"CodeSystem-HBSyrups.html#HBSyrups-ORANGE\">ORANGE</a></td><td>Orange Blossom</td><td/></tr></table></div>"
+      },
+      "url" : "http://example.org/ValueSet/HBSyrupVS",
+      "version" : "2021-April-1st",
+      "name" : "HBSyrupVS",
+      "title" : "Syrup Additive Value Set",
+      "status" : "active",
+      "date" : "2021-04-01T07:58:10-04:00",
+      "description" : "Syrups for use in coffee",
+      "expansion" : {
+        "identifier" : "urn:uuid:cfcc4a61-c74b-420e-a428-6bbc43985c9d",
+        "timestamp" : "2021-04-01T07:58:21-04:00",
+        "total" : 8,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://example.org/CodeSystem/HBSyrups|2021-April-1st"
+        }],
+        "contains" : [{
+          "system" : "http://example.org/CodeSystem/HBSyrups",
+          "code" : "VANILLA",
+          "display" : "Vanilla"
+        },
+        {
+          "system" : "http://example.org/CodeSystem/HBSyrups",
+          "code" : "CARAMEL",
+          "display" : "Caramel"
+        },
+        {
+          "system" : "http://example.org/CodeSystem/HBSyrups",
+          "code" : "HAZELNUT",
+          "display" : "Hazelnut"
+        },
+        {
+          "system" : "http://example.org/CodeSystem/HBSyrups",
+          "code" : "CHOCOLATE",
+          "display" : "Chocolate"
+        },
+        {
+          "system" : "http://example.org/CodeSystem/HBSyrups",
+          "code" : "LAVENDER",
+          "display" : "Lavender"
+        },
+        {
+          "system" : "http://example.org/CodeSystem/HBSyrups",
+          "code" : "BUTTERSCOTCH",
+          "display" : "Butterscotch"
+        },
+        {
+          "system" : "http://example.org/CodeSystem/HBSyrups",
+          "code" : "IRISH",
+          "display" : "Irish Cream"
+        },
+        {
+          "system" : "http://example.org/CodeSystem/HBSyrups",
+          "code" : "ORANGE",
+          "display" : "Orange Blossom"
+        }]
+      }
+    }
+  },
+  {
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jan. 2021</p><p>All codes from system <a href=\"http://hl7.org/fhir/R4/codesystem-snomedct.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-64100000\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=64100000\">64100000</a></td><td>No</td><td/></tr></table></div>"
+      },
+      "status" : "active",
+      "expansion" : {
+        "identifier" : "urn:uuid:5c802d4e-86ea-4978-b934-3533e8f1ef9b",
+        "timestamp" : "2021-03-31T18:12:24.108Z",
+        "parameter" : [{
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210131"
+        }],
+        "contains" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "64100000",
+          "display" : "No"
+        }]
+      }
+    }
+  }]
+}

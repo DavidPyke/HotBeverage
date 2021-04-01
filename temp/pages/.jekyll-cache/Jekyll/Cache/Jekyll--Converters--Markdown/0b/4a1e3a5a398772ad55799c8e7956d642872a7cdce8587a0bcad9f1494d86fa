@@ -1,0 +1,67 @@
+I"P*<p><!-- white space is critical inside of capture --></p>
+<div>
+<!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
+</div>
+<h3 id="scope-and-usage">Scope and Usage</h3>
+
+<p>Based on IETF <a href="https://tools.ietf.org/html/rfc2324">RFC 2324 - Hyper Text Coffee Pot Control Protocol (HTCPCP/1.0)</a> and its update, <a href="https://tools.ietf.org/html/rfc7168">RFC 7168 - The Hyper Text Coffee Pot Control Protocol for Tea Efflux Appliances (HTCPCP-TEA)</a>, this resource allows for the fulfillment of a device request for an artfully brewed caffeinated beverage, but coffee shares this quality with many other varied preparations based on the filtration of plant material.  Foremost, among these are the category of brews
+based on the straining of water through prepared leaves from a tea tree.</p>
+
+<div>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="291px" preserveAspectRatio="none" style="width:730px;height:291px;" version="1.1" viewBox="0 0 730 291" width="730px" zoomAndPan="magnify"><defs><filter height="300%" id="fjlml6y3kd9xh" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0" /><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0" /><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3" /><feBlend in="SourceGraphic" in2="blurOut3" mode="normal" /></filter></defs><g><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="30" x2="30" y1="40.2969" y2="248.0938" /><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="233" x2="233" y1="40.2969" y2="248.0938" /><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="562.5" x2="562.5" y1="40.2969" y2="248.0938" /><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="678.5" x2="678.5" y1="40.2969" y2="248.0938" /><rect fill="#FEFECE" filter="url(#fjlml6y3kd9xh)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="46" x="5" y="5" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="32" x="12" y="24.9951">Alice</text><rect fill="#FEFECE" filter="url(#fjlml6y3kd9xh)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="46" x="5" y="247.0938" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="32" x="12" y="267.0889">Alice</text><rect fill="#FEFECE" filter="url(#fjlml6y3kd9xh)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="82" x="190" y="5" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="68" x="197" y="24.9951">CoffeePot</text><rect fill="#FEFECE" filter="url(#fjlml6y3kd9xh)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="82" x="190" y="247.0938" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="68" x="197" y="267.0889">CoffeePot</text><rect fill="#FEFECE" filter="url(#fjlml6y3kd9xh)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="123" x="499.5" y="5" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="506.5" y="24.9951">AuditRepository</text><rect fill="#FEFECE" filter="url(#fjlml6y3kd9xh)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="123" x="499.5" y="247.0938" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="506.5" y="267.0889">AuditRepository</text><rect fill="#FEFECE" filter="url(#fjlml6y3kd9xh)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="80" x="636.5" y="5" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="643.5" y="24.9951">TeaKettle</text><rect fill="#FEFECE" filter="url(#fjlml6y3kd9xh)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="80" x="636.5" y="247.0938" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="643.5" y="267.0889">TeaKettle</text><polygon fill="#A80036" points="221,67.4297,231,71.4297,221,75.4297,225,71.4297" style="stroke:#A80036;stroke-width:1.0;" /><line style="stroke:#A80036;stroke-width:1.0;" x1="30" x2="227" y1="71.4297" y2="71.4297" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="121" x="37" y="66.3638">Make me Espresso</text><line style="stroke:#A80036;stroke-width:1.0;" x1="233" x2="275" y1="100.5625" y2="100.5625" /><line style="stroke:#A80036;stroke-width:1.0;" x1="275" x2="275" y1="100.5625" y2="113.5625" /><line style="stroke:#A80036;stroke-width:1.0;" x1="234" x2="275" y1="113.5625" y2="113.5625" /><polygon fill="#A80036" points="244,109.5625,234,113.5625,244,117.5625,240,113.5625" style="stroke:#A80036;stroke-width:1.0;" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="134" x="240" y="95.4966">making the Espresso</text><polygon fill="#A80036" points="551,138.6953,561,142.6953,551,146.6953,555,142.6953" style="stroke:#A80036;stroke-width:1.0;" /><line style="stroke:#A80036;stroke-width:1.0;" x1="233" x2="557" y1="142.6953" y2="142.6953" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="306" x="240" y="137.6294">Record successful Espresso brew audit log entry</text><polygon fill="#A80036" points="41,167.8281,31,171.8281,41,175.8281,37,171.8281" style="stroke:#A80036;stroke-width:1.0;" /><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="35" x2="232" y1="171.8281" y2="171.8281" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="179" x="47" y="166.7622">Success - Espresso is made</text><polygon fill="#A80036" points="666.5,196.9609,676.5,200.9609,666.5,204.9609,670.5,200.9609" style="stroke:#A80036;stroke-width:1.0;" /><line style="stroke:#A80036;stroke-width:1.0;" x1="30" x2="672.5" y1="200.9609" y2="200.9609" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="104" x="37" y="195.895">Make me Coffee</text><polygon fill="#A80036" points="41,226.0938,31,230.0938,41,234.0938,37,230.0938" style="stroke:#A80036;stroke-width:1.0;" /><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="35" x2="677.5" y1="230.0938" y2="230.0938" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="170" x="47" y="225.0278">Failure - "418 I'm a teapot"</text></g></svg>
+</div>
+
+<h3 id="boundaries-and-relationships">Boundaries and Relationships</h3>
+
+<p>This resource may relate to NutritionOrder with the variance that the subject may be Patient, Practitioner or, possibly, RelatedPerson if that individual is not responding to conventional awakening therapy.</p>
+
+<p>This also has a need for a sub-class of Device to allow for coffeepot, teapot and, potentially additional classes of espresso machine and cappuccino machine with associated responses.</p>
+
+<h3 id="background-and-context">Background and Context</h3>
+
+<p>IETF RFC 2324 and 7168 outline the creation of the HTCPCP which uses a modified header for the BREW/POST and message/[coffee/tea]pot mimetypes.</p>
+
+<p>FHIR uses only the standard http protocols which will limit the ability for appropriate caffeination of Person(s) as needed.  As such, it was felt that taking these Pre-FHIR RFCs and
+create a resource that can take the header information from a HTCPCP request and transform it into a FHIR appropriate request to a Device with full use of the http status codes needed for processing</p>
+
+<h3 id="deviations-from-ietf-rfc-2324-and-rfc-7168">Deviations from IETF RFC 2324 and RFC 7168</h3>
+<p>IETF RFC 7168 adds the addition-type of “sugar-type” without a significant differentiation from the RFC 2324 addition-type of sweetener-type with the note:</p>
+<blockquote>
+  <p>It has been observed that some users of blended teas have an occasional preference for teas brewed as an emulsion of cane sugar with hints of water.<br />
+To allow for this circumstance, the Accept-Additions header field defined in the base HTCPCP specification is updated</p>
+</blockquote>
+
+<p>This information is duplicative for the purposes of FHIR and a sugar-type additive type is coded within BrewedBeverage.additions.sweetenerType
+In addition, IETF RFC 2324 does not make allowances for decaffeinated beverages to be requested due to a lack of point.  To support this, the BrewedBevarages resource added a boolean element BrewedBeverage.decaffeinated with the invariant that the boolean is forced FALSE. Any attempt to add decaffeinated versions of coffee and/or tea to the BrewedBeverage.beverageSubType CodeableConcept list is a violation of the RFC and subject to invalidation by the Device receiving the BrewedBeverage resource.</p>
+
+<h3 id="additions-processing">Additions Processing</h3>
+<p>As per RFC 7168:</p>
+<blockquote>
+  <p>Services that implement the Accept-Additions header field MAY return a 403 status code for a BREW request of a given variety of tea, if the service deems the combination of additions requested to be contrary to the sensibilities of a consensus of drinkers regarding the variety in question.</p>
+</blockquote>
+
+<p>This processing requirement is expressed within the FHIR context via the BrewedBeverage.additions[x] elements. Sufficient processing to enforce this requirement shall be dedicated and policy would dictate the conditions that would require the return of the 403 status error.  As with RFC 7168, determination of  the most viable combinations of additions for each variety to be served is outside the scope of the BrewedBeverage specification.</p>
+
+<h3 id="error-codes-specific-to-brewedbeverage">Error Codes Specific to BrewedBeverage</h3>
+<p>RFC 2324 declares two specific Error states defined due to device capabilities:</p>
+
+<table class="table-striped">
+  <thead>
+    <tr>
+      <th>Error</th>
+      <th>Definition</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>406 Not Acceptable</td>
+      <td>This return code is interpreted as “The Device identified by the request is only capable of generating response entities which have content characteristics not acceptable according to the elements sent in the request.”</td>
+    </tr>
+    <tr>
+      <td>418 I’m a Teapot</td>
+      <td>Any attempt to brew coffee with a teapot should result in the error code “418 I’m a teapot”. The resulting response definition MAY be short and stout.</td>
+    </tr>
+  </tbody>
+</table>
+
+:ET

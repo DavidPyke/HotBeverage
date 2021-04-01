@@ -1,0 +1,745 @@
+﻿<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!-- broken links = 114, errors = 0, warn = 7, info = 0 -->
+<head>
+  <title>HotBeverage : Validation Results</title>
+  <link href="fhir.css" rel="stylesheet"/>
+  <style>
+    span.flip  { background-color: #4CAF50; color: white; border: solid 1px #a6d8a8; padding: 2px }
+  </style>
+  <script>
+    function flip(id) {
+      var span = document.getElementById('s'+id);
+      var div = document.getElementById(id);
+      if (document.getElementById('s'+id).innerHTML == 'Show Reasoning') {
+        div.style.display = 'block';
+        span.innerHTML = 'Hide Reasoning';
+      } else {
+        div.style.display = 'none';
+        span.innerHTML = 'Show Reasoning';
+      }
+    }
+  </script>
+</head>
+<body style="margin: 20px; background-color: #ffffff">
+ <h1>Validation Results for HotBeverage</h1>
+ <p>Generated Thu Apr 01 07:58:27 EDT 2021, FHIR version 4.0.1 for fhir.uv.HotBeverage#2021-April-1st (canonical = <a href="http://example.org">http://example.org</a> (<a href="http://example.org/history.html">history</a>)). See <a href="/home/loftwyr/fhir/hotbeverage/hotbeverage/output/qa.min.html">Errors Only</a></p>
+<table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
+ <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v1.1.65</span></td></tr>
+ <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = fhir.uv.HotBeverage, Canonical = http://example.org</td></tr>
+ <tr><td>Realm Check for n/a:</td><td><span style="color: maroon; font-weight: bold"></span><ul><li>n/a</li></ul></td></tr>
+ <tr><td>Version Check:</td><td>2021-April-1st: <span stlye="color: marron; font-weight: bold">Version does not conform to semver rules</span></td></tr>
+ <tr><td>Supressed Messages:</td><td>No Suppressed Issues
+</td></tr>
+ <tr><td>Dependency Checks:</td><td><div><table border="0" cellpadding="0" cellspacing="0" style="border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;"><tr style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top"><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="The NPM Package Id">Package</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="The version of the package">Version</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="The version of FHIR that the package is based on">FHIR Release</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="Canonical URL">Canonical</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="Web Reference Base">Web Base</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="Comments about this entry">Comment</span></th></tr><tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(/home/loftwyr/FHIR/HotBeverage/HotBeverage/outputdata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAAJUlEQVR4Xu3IIQEAAAgDsHd9/w4EQIOamFnaBgAA4MMKAACAKwNp30CqZFfFmwAAAABJRU5ErkJggg==)" class="hierarchy"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAWCAYAAAABxvaqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIs1vtcMQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAE0lEQVQI12P4//8/AxMDAwNdCABMPwMo2ctnoQAAAABJRU5ErkJggg==" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYZCik0qECmbAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAABtUlEQVQoz2P8//8/Ayb4///v8xfM4iIMzKxoMkwMOMC3DVv/vXmEKY5Dw///Pw8c+Xn2CLEa/r55+/P07t/nrxKl4f/PX6+8g1mlP/44c4eAhn8fP33bsOV1dBoT51V2+z/MohIfeyYy/P2LXcPfFy8/NLb9efTs//utgjUfft35xRUY8Hnm/N/Xb2LT8P//h5ZOnvjoj+11giXcTH//MTLp/v/x9c/z279uXsOi4e/LRwzsbz6vmMyTLM6m9fnXE3Y2l+yv+yez2nL9eX0Wi4afF5eyW4r/+3qYP1Xjz/N3P17ZsRsKMrJd4rL9wcTxDIsGZqEvLEKv2VT/Mgl+/XGbXSB72s/zxXyBYmwqLCxSLFg0sKkHsAg+YJX7xfBTmt204s/NXE4dQTZtT2beH6yqFv9ebkDXwMhnxixrySb68f9fcWYRTSbGA6ya2QwMsixCvxk/djByiWIJVkbBBGaNOoafO5nYWVlkPRjYtP5/388s+JdJkI+R1xquDMl9zOqMQioM7BIMjJ8Z2IUYWOQZeT0Y/u5mEF+G7AdGLMn7712GnycY/v1g+HOZga+WgUkYWRIAe6ip9OnE1GoAAAAASUVORK5CYII=" alt="." style="background-color: white; background-color: inherit" title="NPM Package" class="hierarchy"/> fhir.uv.HotBeverage</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">2021-April-1st</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">4.0.1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://example.org</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td></tr>
+</table><para>Templates: fhir.base.template#current</para></div></td></tr>
+ <tr><td>HL7 Publication Rules:</td><td>Code = n/a. n/a - not an HL7.org or FHIR.org implementation guide
+</td></tr>
+ <tr><td>HTA Analysis:</td><td><i>Non-HL7 Igs are exempt from terminology dependency analysis</i></td></tr>
+ <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at http://example.org (Problem #1 with package-list.json at http://example.org: http://example.org/package-list.json)</td></tr>
+ <tr><td>Summary:</td><td> broken links = 114, errors = 0, warn = 7, info = 0</td></tr>
+</table>
+ <table class="grid">
+   <tr>
+     <td><b>Filename</b></td><td><b>Errors</b></td><td><b>Warnings</b></td><td><b>Hints</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#internal"><b>Build Errors</b></a></td><td><b>114</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_loftwyr_FHIR_HotBeverage_HotBeverage_fsh-generated_resources_AuditEvent-ex-auditBasicBrew"><b>/home/loftwyr/FHIR/HotBeverage/HotBeverage/fsh-generated/resources/AuditEvent-ex-auditBasicBrew</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_loftwyr_FHIR_HotBeverage_HotBeverage_fsh-generated_resources_CodeSystem-HBAlcohol"><b>/home/loftwyr/FHIR/HotBeverage/HotBeverage/fsh-generated/resources/CodeSystem-HBAlcohol</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_loftwyr_FHIR_HotBeverage_HotBeverage_fsh-generated_resources_CodeSystem-HBBeverages"><b>/home/loftwyr/FHIR/HotBeverage/HotBeverage/fsh-generated/resources/CodeSystem-HBBeverages</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_loftwyr_FHIR_HotBeverage_HotBeverage_fsh-generated_resources_CodeSystem-HBMilks"><b>/home/loftwyr/FHIR/HotBeverage/HotBeverage/fsh-generated/resources/CodeSystem-HBMilks</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_loftwyr_FHIR_HotBeverage_HotBeverage_fsh-generated_resources_CodeSystem-HBSpice"><b>/home/loftwyr/FHIR/HotBeverage/HotBeverage/fsh-generated/resources/CodeSystem-HBSpice</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_loftwyr_FHIR_HotBeverage_HotBeverage_fsh-generated_resources_CodeSystem-HBSweeteners"><b>/home/loftwyr/FHIR/HotBeverage/HotBeverage/fsh-generated/resources/CodeSystem-HBSweeteners</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_loftwyr_FHIR_HotBeverage_HotBeverage_fsh-generated_resources_CodeSystem-HBSyrups"><b>/home/loftwyr/FHIR/HotBeverage/HotBeverage/fsh-generated/resources/CodeSystem-HBSyrups</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_loftwyr_FHIR_HotBeverage_HotBeverage_fsh-generated_resources_Device-VertuoNext"><b>/home/loftwyr/FHIR/HotBeverage/HotBeverage/fsh-generated/resources/Device-VertuoNext</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_loftwyr_FHIR_HotBeverage_HotBeverage_fsh-generated_resources_ImplementationGuide-fhir.uv.HotBeverage"><b>/home/loftwyr/FHIR/HotBeverage/HotBeverage/fsh-generated/resources/ImplementationGuide-fhir.uv.HotBeverage</b></a></td><td><b>0</b></td><td><b>3</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_loftwyr_FHIR_HotBeverage_HotBeverage_fsh-generated_resources_OperationDefinition-BB-Stop"><b>/home/loftwyr/FHIR/HotBeverage/HotBeverage/fsh-generated/resources/OperationDefinition-BB-Stop</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_loftwyr_FHIR_HotBeverage_HotBeverage_fsh-generated_resources_OperationDefinition-BB-When"><b>/home/loftwyr/FHIR/HotBeverage/HotBeverage/fsh-generated/resources/OperationDefinition-BB-When</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_loftwyr_FHIR_HotBeverage_HotBeverage_fsh-generated_resources_OperationDefinition-Brew"><b>/home/loftwyr/FHIR/HotBeverage/HotBeverage/fsh-generated/resources/OperationDefinition-Brew</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_loftwyr_FHIR_HotBeverage_HotBeverage_fsh-generated_resources_Parameters-MakeCoffee"><b>/home/loftwyr/FHIR/HotBeverage/HotBeverage/fsh-generated/resources/Parameters-MakeCoffee</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_loftwyr_FHIR_HotBeverage_HotBeverage_fsh-generated_resources_StructureDefinition-BrewedBeverage"><b>/home/loftwyr/FHIR/HotBeverage/HotBeverage/fsh-generated/resources/StructureDefinition-BrewedBeverage</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_loftwyr_FHIR_HotBeverage_HotBeverage_fsh-generated_resources_StructureDefinition-HotBeverage.Brewed"><b>/home/loftwyr/FHIR/HotBeverage/HotBeverage/fsh-generated/resources/StructureDefinition-HotBeverage.Brewed</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_loftwyr_FHIR_HotBeverage_HotBeverage_fsh-generated_resources_ValueSet-HBAlcoholVS"><b>/home/loftwyr/FHIR/HotBeverage/HotBeverage/fsh-generated/resources/ValueSet-HBAlcoholVS</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_loftwyr_FHIR_HotBeverage_HotBeverage_fsh-generated_resources_ValueSet-HBBeverageVS"><b>/home/loftwyr/FHIR/HotBeverage/HotBeverage/fsh-generated/resources/ValueSet-HBBeverageVS</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_loftwyr_FHIR_HotBeverage_HotBeverage_fsh-generated_resources_ValueSet-HBMilkVS"><b>/home/loftwyr/FHIR/HotBeverage/HotBeverage/fsh-generated/resources/ValueSet-HBMilkVS</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_loftwyr_FHIR_HotBeverage_HotBeverage_fsh-generated_resources_ValueSet-HBSpiceVS"><b>/home/loftwyr/FHIR/HotBeverage/HotBeverage/fsh-generated/resources/ValueSet-HBSpiceVS</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_loftwyr_FHIR_HotBeverage_HotBeverage_fsh-generated_resources_ValueSet-HBSweetenersVS"><b>/home/loftwyr/FHIR/HotBeverage/HotBeverage/fsh-generated/resources/ValueSet-HBSweetenersVS</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_loftwyr_FHIR_HotBeverage_HotBeverage_fsh-generated_resources_ValueSet-HBSyrupVS"><b>/home/loftwyr/FHIR/HotBeverage/HotBeverage/fsh-generated/resources/ValueSet-HBSyrupVS</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_loftwyr_FHIR_HotBeverage_HotBeverage_fsh-generated_resources_ValueSet-NoDecaf"><b>/home/loftwyr/FHIR/HotBeverage/HotBeverage/fsh-generated/resources/ValueSet-NoDecaf</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="internal"> </a>
+<h2><a href="">n/a</a></h2>
+ <table class="grid">
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/BrewedBeverage.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="AuditEvent-ex-auditBasicBrew.change.history.html#ed415b4a-8f5a-4306-9fea-10cae554f19e">AuditEvent-ex-auditBasicBrew.change.history.html#/html/body/div/div/div/p/a at Line 197, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="AuditEvent-ex-auditBasicBrew.html#2be4fb01-1148-4fc1-9e5a-229f97a45eb2">AuditEvent-ex-auditBasicBrew.html#/html/body/div/div/div/p/a at Line 182, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="AuditEvent-ex-auditBasicBrew.json.html#0354ab14-0a00-4ea5-8169-e31b1d66071d">AuditEvent-ex-auditBasicBrew.json.html#/html/body/div/div/div/p/a at Line 300, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="AuditEvent-ex-auditBasicBrew.ttl.html#519e2f76-7b16-43d0-8a2d-2ddf98b8512e">AuditEvent-ex-auditBasicBrew.ttl.html#/html/body/div/div/div/p/a at Line 291, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="AuditEvent-ex-auditBasicBrew.xml.html#7f47a6d3-ac9b-4cae-9fca-118ebc2d0a5f">AuditEvent-ex-auditBasicBrew.xml.html#/html/body/div/div/div/p/a at Line 283, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-HBAlcohol.change.history.html#d9c7b917-5bf7-4aaa-9c01-abc893ace191">CodeSystem-HBAlcohol.change.history.html#/html/body/div/div/div/p/a at Line 197, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-HBAlcohol.html#316fec5f-73cf-4205-b3db-dd039164ef3a">CodeSystem-HBAlcohol.html#/html/body/div/div/div/p/a at Line 206, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-HBAlcohol.json.html#3e7fbc88-c3e1-487e-9987-eed236488e9d">CodeSystem-HBAlcohol.json.html#/html/body/div/div/div/p/a at Line 239, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-HBAlcohol.ttl.html#df60eab3-7aa6-4969-9a4b-cdf4ec734671">CodeSystem-HBAlcohol.ttl.html#/html/body/div/div/div/p/a at Line 252, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-HBAlcohol.xml.html#f6e9120e-352d-4370-a8a7-349c55dfd72c">CodeSystem-HBAlcohol.xml.html#/html/body/div/div/div/p/a at Line 237, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-HBBeverages.change.history.html#506834cb-5e82-4bd9-b1c0-8823e82dca79">CodeSystem-HBBeverages.change.history.html#/html/body/div/div/div/p/a at Line 197, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-HBBeverages.html#8add0dfa-aee2-4577-95c1-98b7878ed377">CodeSystem-HBBeverages.html#/html/body/div/div/div/p/a at Line 206, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-HBBeverages.json.html#a4c73d59-96bb-4de9-a720-84633c5593d6">CodeSystem-HBBeverages.json.html#/html/body/div/div/div/p/a at Line 295, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-HBBeverages.ttl.html#8ec18f94-53e8-472e-8cf2-b2dbbb4d044c">CodeSystem-HBBeverages.ttl.html#/html/body/div/div/div/p/a at Line 308, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-HBBeverages.xml.html#edb746f6-4085-4678-83e9-016cfe420609">CodeSystem-HBBeverages.xml.html#/html/body/div/div/div/p/a at Line 293, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-HBMilks.change.history.html#5a906520-a83c-4e01-a507-a5d177f9a8a0">CodeSystem-HBMilks.change.history.html#/html/body/div/div/div/p/a at Line 197, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-HBMilks.html#b28b590a-0232-4377-a1a4-77bf15d7298b">CodeSystem-HBMilks.html#/html/body/div/div/div/p/a at Line 206, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-HBMilks.json.html#212e0820-1122-439b-af40-9fb672fe69e4">CodeSystem-HBMilks.json.html#/html/body/div/div/div/p/a at Line 235, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-HBMilks.ttl.html#ac0045ac-87f0-4c54-940c-bacc35ffdbab">CodeSystem-HBMilks.ttl.html#/html/body/div/div/div/p/a at Line 248, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-HBMilks.xml.html#b7dfe644-aa67-41eb-9873-79f7ac13c5a1">CodeSystem-HBMilks.xml.html#/html/body/div/div/div/p/a at Line 233, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-HBSpice.change.history.html#e8f88aa3-24d7-475d-9b65-46c5791594e1">CodeSystem-HBSpice.change.history.html#/html/body/div/div/div/p/a at Line 197, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-HBSpice.html#f5886a62-4b25-426d-aa27-7683ce924f21">CodeSystem-HBSpice.html#/html/body/div/div/div/p/a at Line 206, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-HBSpice.json.html#c24576dd-66b7-49f4-a46f-649005f50b1e">CodeSystem-HBSpice.json.html#/html/body/div/div/div/p/a at Line 223, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-HBSpice.ttl.html#86381b06-633e-4d12-b12d-516921db81d7">CodeSystem-HBSpice.ttl.html#/html/body/div/div/div/p/a at Line 236, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-HBSpice.xml.html#654a753b-9253-4b95-95e5-6161280f7003">CodeSystem-HBSpice.xml.html#/html/body/div/div/div/p/a at Line 221, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-HBSweeteners.change.history.html#e5af3e20-e7fc-4c92-90f7-c526000e4110">CodeSystem-HBSweeteners.change.history.html#/html/body/div/div/div/p/a at Line 197, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-HBSweeteners.html#9182a8a3-4099-4416-9a67-d30b04376183">CodeSystem-HBSweeteners.html#/html/body/div/div/div/p/a at Line 206, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-HBSweeteners.json.html#480cffc3-5117-442a-8cec-ba9feda9d9c6">CodeSystem-HBSweeteners.json.html#/html/body/div/div/div/p/a at Line 231, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-HBSweeteners.ttl.html#538010cd-97a5-4e39-9e2f-fad319775b84">CodeSystem-HBSweeteners.ttl.html#/html/body/div/div/div/p/a at Line 244, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-HBSweeteners.xml.html#b528cef1-90ef-408b-8f92-121179876dc2">CodeSystem-HBSweeteners.xml.html#/html/body/div/div/div/p/a at Line 229, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-HBSyrups.change.history.html#dfc6d2ef-6d83-4314-85e3-281f5be37539">CodeSystem-HBSyrups.change.history.html#/html/body/div/div/div/p/a at Line 197, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-HBSyrups.html#b6573718-364e-43cb-b227-39546a036917">CodeSystem-HBSyrups.html#/html/body/div/div/div/p/a at Line 206, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-HBSyrups.json.html#5dd9c29f-25e5-47f8-b8af-d1a4989b81d5">CodeSystem-HBSyrups.json.html#/html/body/div/div/div/p/a at Line 235, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-HBSyrups.ttl.html#90ec98a7-c712-4e3e-aecc-129959ec6ea0">CodeSystem-HBSyrups.ttl.html#/html/body/div/div/div/p/a at Line 248, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-HBSyrups.xml.html#bb420431-0531-40c0-b04f-dd82aedf44e2">CodeSystem-HBSyrups.xml.html#/html/body/div/div/div/p/a at Line 233, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="Device-VertuoNext.change.history.html#9d8dda11-42d0-417b-98c2-3fd714d62b25">Device-VertuoNext.change.history.html#/html/body/div/div/div/p/a at Line 197, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="Device-VertuoNext.html#887e4ea7-abc7-44b2-958c-987de969e1bb">Device-VertuoNext.html#/html/body/div/div/div/p/a at Line 182, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="Device-VertuoNext.json.html#0059aa8f-90f7-4ead-9029-29b79ae1d4a9">Device-VertuoNext.json.html#/html/body/div/div/div/p/a at Line 205, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="Device-VertuoNext.ttl.html#da988ad2-0adb-4e3c-9ca3-6f570ee2b7a5">Device-VertuoNext.ttl.html#/html/body/div/div/div/p/a at Line 218, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="Device-VertuoNext.xml.html#5dc4d6c8-b26c-46a2-b2dc-b82b3fb4fe86">Device-VertuoNext.xml.html#/html/body/div/div/div/p/a at Line 203, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="OperationDefinition-BB-Stop.change.history.html#0725c966-2025-4e72-a53c-6e723d8ac0c5">OperationDefinition-BB-Stop.change.history.html#/html/body/div/div/div/p/a at Line 197, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="OperationDefinition-BB-Stop.html#df811643-fb5e-4dde-a861-08e856ec6c5a">OperationDefinition-BB-Stop.html#/html/body/div/div/div/p/a at Line 187, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="OperationDefinition-BB-Stop.json.html#81a15ac7-7a27-4452-adb1-81a0226bfacb">OperationDefinition-BB-Stop.json.html#/html/body/div/div/div/p/a at Line 229, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="OperationDefinition-BB-Stop.ttl.html#09fe1e2f-3d91-4ec6-9b08-1fc0f3028529">OperationDefinition-BB-Stop.ttl.html#/html/body/div/div/div/p/a at Line 238, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="OperationDefinition-BB-Stop.xml.html#15b557f1-f535-40be-af6d-8429e6617ff1">OperationDefinition-BB-Stop.xml.html#/html/body/div/div/div/p/a at Line 227, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="OperationDefinition-BB-When.change.history.html#5c05c470-4caf-4289-8f77-5d56ab3edaf0">OperationDefinition-BB-When.change.history.html#/html/body/div/div/div/p/a at Line 197, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="OperationDefinition-BB-When.html#e37738ae-290c-481f-9981-2f9622986a3e">OperationDefinition-BB-When.html#/html/body/div/div/div/p/a at Line 188, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="OperationDefinition-BB-When.json.html#f1a8dc67-c875-4a2d-b23d-957d6b6064d4">OperationDefinition-BB-When.json.html#/html/body/div/div/div/p/a at Line 229, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="OperationDefinition-BB-When.ttl.html#e4ec33a7-47d5-4133-b010-b1c8cb98d9fe">OperationDefinition-BB-When.ttl.html#/html/body/div/div/div/p/a at Line 238, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="OperationDefinition-BB-When.xml.html#bf9b7f29-72bc-4580-9421-46d270ce910c">OperationDefinition-BB-When.xml.html#/html/body/div/div/div/p/a at Line 230, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="OperationDefinition-Brew.change.history.html#760c8b83-5472-46f5-a195-dcd478deac76">OperationDefinition-Brew.change.history.html#/html/body/div/div/div/p/a at Line 197, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="OperationDefinition-Brew.html#00bbdb8b-f299-4c40-8306-c642dd136e47">OperationDefinition-Brew.html#/html/body/div/div/div/p/a at Line 188, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="OperationDefinition-Brew.json.html#bc13fd39-6e09-4766-b98c-c32a1e255618">OperationDefinition-Brew.json.html#/html/body/div/div/div/p/a at Line 232, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="OperationDefinition-Brew.ttl.html#bd7df57c-719f-4ec7-a427-8a6c8b7728c0">OperationDefinition-Brew.ttl.html#/html/body/div/div/div/p/a at Line 242, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="OperationDefinition-Brew.xml.html#49f7d95e-14e4-4e85-8681-4b9c6762499b">OperationDefinition-Brew.xml.html#/html/body/div/div/div/p/a at Line 232, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="Parameters-MakeCoffee.change.history.html#6c85daae-e084-489f-bd7e-8c12220464e1">Parameters-MakeCoffee.change.history.html#/html/body/div/div/div/p/a at Line 197, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="Parameters-MakeCoffee.html#c2e96ed3-4a47-4e2b-8dfd-0170c1ce2aef">Parameters-MakeCoffee.html#/html/body/div/div/div/p/a at Line 182, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="Parameters-MakeCoffee.json.html#9c072b98-88ec-424c-a6fb-c7731b6c586b">Parameters-MakeCoffee.json.html#/html/body/div/div/div/p/a at Line 215, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="Parameters-MakeCoffee.ttl.html#faccbadd-3da9-4c53-aa0e-35f665ba56d9">Parameters-MakeCoffee.ttl.html#/html/body/div/div/div/p/a at Line 225, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="Parameters-MakeCoffee.xml.html#1a1cffea-e2d3-4dc7-a69f-8cb16ded16c7">Parameters-MakeCoffee.xml.html#/html/body/div/div/div/p/a at Line 209, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-BrewedBeverage-definitions.html#9e48a68e-ae30-4403-9168-575f1f973600">StructureDefinition-BrewedBeverage-definitions.html#/html/body/div/div/div/p/a at Line 927, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-BrewedBeverage-examples.html#33044ece-7aa9-4822-91de-8f2ebc3a42a3">StructureDefinition-BrewedBeverage-examples.html#/html/body/div/div/div/p/a at Line 250, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-BrewedBeverage-mappings.html#1641d3e9-5591-4a94-82fa-7804cae845cc">StructureDefinition-BrewedBeverage-mappings.html#/html/body/div/div/div/p/a at Line 282, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-BrewedBeverage.html#324a93b3-d9b6-4f59-b3f8-f14be206134a">StructureDefinition-BrewedBeverage.html#/html/body/div/div/div/p/a at Line 1084, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-BrewedBeverage.profile.history.html#bdf2ff11-3d48-4f68-9ccf-078037fb4858">StructureDefinition-BrewedBeverage.profile.history.html#/html/body/div/div/div/p/a at Line 228, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-BrewedBeverage.profile.json.html#0eba09a6-9d77-4042-90cb-120ce1315bc1">StructureDefinition-BrewedBeverage.profile.json.html#/html/body/div/div/div/p/a at Line 3519, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-BrewedBeverage.profile.ttl.html#2240a5e6-80e4-4055-88ec-4374b25a7b38">StructureDefinition-BrewedBeverage.profile.ttl.html#/html/body/div/div/div/p/a at Line 3138, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-BrewedBeverage.profile.xml.html#74273210-3393-4782-b57b-e419b0607487">StructureDefinition-BrewedBeverage.profile.xml.html#/html/body/div/div/div/p/a at Line 3156, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-HotBeverage.Brewed-definitions.html#29ba5961-3b35-4c40-b1e3-6737eaf1dfdb">StructureDefinition-HotBeverage.Brewed-definitions.html#/html/body/div/div/div/p/a at Line 1716, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-HotBeverage.Brewed-examples.html#aa05f93c-203b-4b8f-a133-d8c612185dfe">StructureDefinition-HotBeverage.Brewed-examples.html#/html/body/div/div/div/p/a at Line 250, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-HotBeverage.Brewed-mappings.html#23e7a46a-c5c3-413b-a713-e6701510fcd9">StructureDefinition-HotBeverage.Brewed-mappings.html#/html/body/div/div/div/p/a at Line 586, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-HotBeverage.Brewed.html#c6787639-322a-4768-bfee-a86d3e0e4471">StructureDefinition-HotBeverage.Brewed.html#/html/body/div/div/div/p/a at Line 1371, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-HotBeverage.Brewed.profile.history.html#e4b6eef8-756c-4e12-a3aa-304219b8db3c">StructureDefinition-HotBeverage.Brewed.profile.history.html#/html/body/div/div/div/p/a at Line 228, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-HotBeverage.Brewed.profile.json.html#f719c7f6-382c-4298-b8a5-7547f36da2f1">StructureDefinition-HotBeverage.Brewed.profile.json.html#/html/body/div/div/div/p/a at Line 7917, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-HotBeverage.Brewed.profile.ttl.html#397f2f64-c90c-42de-9818-051334f86727">StructureDefinition-HotBeverage.Brewed.profile.ttl.html#/html/body/div/div/div/p/a at Line 6805, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-HotBeverage.Brewed.profile.xml.html#8dff9373-5186-40f9-ab27-c8e9fecf00e7">StructureDefinition-HotBeverage.Brewed.profile.xml.html#/html/body/div/div/div/p/a at Line 7179, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-HBAlcoholVS.change.history.html#1b4476cf-d360-4af1-8f22-68144abe5e87">ValueSet-HBAlcoholVS.change.history.html#/html/body/div/div/div/p/a at Line 197, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-HBAlcoholVS.html#5e7658fa-06e7-4b6f-a04e-5f42db2ef14c">ValueSet-HBAlcoholVS.html#/html/body/div/div/div/p/a at Line 244, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-HBAlcoholVS.json.html#3a10d925-6056-401f-884a-50000f1ce355">ValueSet-HBAlcoholVS.json.html#/html/body/div/div/div/p/a at Line 206, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-HBAlcoholVS.ttl.html#0be8a873-5cd2-48d3-a62b-3b3c08da7c0c">ValueSet-HBAlcoholVS.ttl.html#/html/body/div/div/div/p/a at Line 218, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-HBAlcoholVS.xml.html#162a168e-414c-466b-8bda-11549f13084e">ValueSet-HBAlcoholVS.xml.html#/html/body/div/div/div/p/a at Line 204, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-HBBeverageVS.change.history.html#5d694b69-8408-4800-8950-13580f329db2">ValueSet-HBBeverageVS.change.history.html#/html/body/div/div/div/p/a at Line 197, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-HBBeverageVS.html#03ef1561-f9ee-4e70-a347-ea7b78a175a5">ValueSet-HBBeverageVS.html#/html/body/div/div/div/p/a at Line 244, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-HBBeverageVS.json.html#dcf1670a-2414-4176-9585-923bf954dd02">ValueSet-HBBeverageVS.json.html#/html/body/div/div/div/p/a at Line 206, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-HBBeverageVS.ttl.html#fcad8ac1-9818-49a3-86ee-7577fe1e252b">ValueSet-HBBeverageVS.ttl.html#/html/body/div/div/div/p/a at Line 218, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-HBBeverageVS.xml.html#6c685b29-fd1e-4693-b8e8-659e0febe154">ValueSet-HBBeverageVS.xml.html#/html/body/div/div/div/p/a at Line 204, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-HBMilkVS.change.history.html#b569123d-52bf-4dca-a73e-13d33e7c2024">ValueSet-HBMilkVS.change.history.html#/html/body/div/div/div/p/a at Line 197, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-HBMilkVS.html#c074eb08-f774-48f3-9e51-6e34c0e15e7e">ValueSet-HBMilkVS.html#/html/body/div/div/div/p/a at Line 244, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-HBMilkVS.json.html#effeebcb-973a-465b-8bc7-b390cc94a634">ValueSet-HBMilkVS.json.html#/html/body/div/div/div/p/a at Line 206, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-HBMilkVS.ttl.html#6fcdca1a-3927-443d-ad84-1be60f51ec24">ValueSet-HBMilkVS.ttl.html#/html/body/div/div/div/p/a at Line 218, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-HBMilkVS.xml.html#c3792007-d235-4232-aadf-923643d4c932">ValueSet-HBMilkVS.xml.html#/html/body/div/div/div/p/a at Line 204, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-HBSpiceVS.change.history.html#337c61fb-e7d4-493d-9478-0ea7611f7682">ValueSet-HBSpiceVS.change.history.html#/html/body/div/div/div/p/a at Line 197, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-HBSpiceVS.html#1361cf8a-6529-4c69-831c-2b57e6c219be">ValueSet-HBSpiceVS.html#/html/body/div/div/div/p/a at Line 244, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-HBSpiceVS.json.html#d220cad1-de75-473a-afcd-8e80d6e16bae">ValueSet-HBSpiceVS.json.html#/html/body/div/div/div/p/a at Line 206, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-HBSpiceVS.ttl.html#5d29458a-c3c2-4004-a6b1-6f35c6ebd434">ValueSet-HBSpiceVS.ttl.html#/html/body/div/div/div/p/a at Line 218, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-HBSpiceVS.xml.html#c58ff537-1ae5-4983-89c6-5dece8bf199f">ValueSet-HBSpiceVS.xml.html#/html/body/div/div/div/p/a at Line 204, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-HBSweetenersVS.change.history.html#057ec251-877d-4fd0-8f45-702f8572b1a3">ValueSet-HBSweetenersVS.change.history.html#/html/body/div/div/div/p/a at Line 197, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-HBSweetenersVS.html#eb937a1e-e92a-4492-af42-8350fae42e8b">ValueSet-HBSweetenersVS.html#/html/body/div/div/div/p/a at Line 244, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-HBSweetenersVS.json.html#8b1485b0-5c3a-4b34-b70f-fed1bc7ebef5">ValueSet-HBSweetenersVS.json.html#/html/body/div/div/div/p/a at Line 206, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-HBSweetenersVS.ttl.html#e79cd9dc-3664-400b-8b0c-03ce72329cc9">ValueSet-HBSweetenersVS.ttl.html#/html/body/div/div/div/p/a at Line 218, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-HBSweetenersVS.xml.html#0f37a52e-25d0-4914-adea-5a516baf4428">ValueSet-HBSweetenersVS.xml.html#/html/body/div/div/div/p/a at Line 204, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-HBSyrupVS.change.history.html#49e08291-5b1c-4bd0-ba95-2cb4855d8725">ValueSet-HBSyrupVS.change.history.html#/html/body/div/div/div/p/a at Line 197, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-HBSyrupVS.html#eb55df96-179b-4e65-afff-49b33ecd37b2">ValueSet-HBSyrupVS.html#/html/body/div/div/div/p/a at Line 244, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-HBSyrupVS.json.html#02ec88a7-32ad-4ee5-abdc-29398722fde3">ValueSet-HBSyrupVS.json.html#/html/body/div/div/div/p/a at Line 206, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-HBSyrupVS.ttl.html#515aec5e-8baf-444c-a34a-ec2750b86f28">ValueSet-HBSyrupVS.ttl.html#/html/body/div/div/div/p/a at Line 218, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-HBSyrupVS.xml.html#bf68ed2e-d015-4fd8-8132-ceaccb3fa4f4">ValueSet-HBSyrupVS.xml.html#/html/body/div/div/div/p/a at Line 204, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-NoDecaf.change.history.html#d9d1733e-ae2a-4506-8f7f-89685a4f6f24">ValueSet-NoDecaf.change.history.html#/html/body/div/div/div/p/a at Line 197, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-NoDecaf.html#df40d229-40b7-4577-81f3-9a7eb615a74c">ValueSet-NoDecaf.html#/html/body/div/div/div/p/a at Line 244, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-NoDecaf.json.html#d241b29d-0fcf-4092-a316-a652c125e5ec">ValueSet-NoDecaf.json.html#/html/body/div/div/div/p/a at Line 212, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-NoDecaf.ttl.html#d634cd03-2490-4cda-9c43-1e446396f422">ValueSet-NoDecaf.ttl.html#/html/body/div/div/div/p/a at Line 222, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-NoDecaf.xml.html#37808e1b-843b-4ff9-a520-865ff6904315">ValueSet-NoDecaf.xml.html#/html/body/div/div/div/p/a at Line 208, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="artifacts.html#9f63f942-41a0-4fdd-a606-7fc3bb6be65a">artifacts.html#/html/body/div/div/div/p/a at Line 406, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="index.html#52b87359-b999-41a9-a768-d0e08bc694a2">index.html#/html/body/div/div/div/p/a at Line 218, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="toc.html#26a08dbc-96d4-44e5-affd-78c7ce3b87f1">toc.html#/html/body/div/div/div/p/a at Line 133, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_loftwyr_FHIR_HotBeverage_HotBeverage_fsh-generated_resources_AuditEvent-ex-auditBasicBrew"> </a>
+<h2><a href="AuditEvent-ex-auditBasicBrew.html">/home/loftwyr/FHIR/HotBeverage/HotBeverage/fsh-generated/resources/AuditEvent-ex-auditBasicBrew.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>AuditEvent/ex-auditBasicBrew: AuditEvent (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://example.org/StructureDefinition/HotBeverage.Brewed</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_loftwyr_FHIR_HotBeverage_HotBeverage_fsh-generated_resources_CodeSystem-HBAlcohol"> </a>
+<h2><a href="CodeSystem-HBAlcohol.html">/home/loftwyr/FHIR/HotBeverage/HotBeverage/fsh-generated/resources/CodeSystem-HBAlcohol.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>CodeSystem/HBAlcohol: CodeSystem</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_loftwyr_FHIR_HotBeverage_HotBeverage_fsh-generated_resources_CodeSystem-HBBeverages"> </a>
+<h2><a href="CodeSystem-HBBeverages.html">/home/loftwyr/FHIR/HotBeverage/HotBeverage/fsh-generated/resources/CodeSystem-HBBeverages.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>CodeSystem/HBBeverages: CodeSystem</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_loftwyr_FHIR_HotBeverage_HotBeverage_fsh-generated_resources_CodeSystem-HBMilks"> </a>
+<h2><a href="CodeSystem-HBMilks.html">/home/loftwyr/FHIR/HotBeverage/HotBeverage/fsh-generated/resources/CodeSystem-HBMilks.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>CodeSystem/HBMilks: CodeSystem</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_loftwyr_FHIR_HotBeverage_HotBeverage_fsh-generated_resources_CodeSystem-HBSpice"> </a>
+<h2><a href="CodeSystem-HBSpice.html">/home/loftwyr/FHIR/HotBeverage/HotBeverage/fsh-generated/resources/CodeSystem-HBSpice.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>CodeSystem/HBSpice: CodeSystem</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_loftwyr_FHIR_HotBeverage_HotBeverage_fsh-generated_resources_CodeSystem-HBSweeteners"> </a>
+<h2><a href="CodeSystem-HBSweeteners.html">/home/loftwyr/FHIR/HotBeverage/HotBeverage/fsh-generated/resources/CodeSystem-HBSweeteners.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>CodeSystem/HBSweeteners: CodeSystem</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_loftwyr_FHIR_HotBeverage_HotBeverage_fsh-generated_resources_CodeSystem-HBSyrups"> </a>
+<h2><a href="CodeSystem-HBSyrups.html">/home/loftwyr/FHIR/HotBeverage/HotBeverage/fsh-generated/resources/CodeSystem-HBSyrups.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>CodeSystem/HBSyrups: CodeSystem</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_loftwyr_FHIR_HotBeverage_HotBeverage_fsh-generated_resources_Device-VertuoNext"> </a>
+<h2><a href="Device-VertuoNext.html">/home/loftwyr/FHIR/HotBeverage/HotBeverage/fsh-generated/resources/Device-VertuoNext.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Device/VertuoNext: Device (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Device</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_loftwyr_FHIR_HotBeverage_HotBeverage_fsh-generated_resources_ImplementationGuide-fhir.uv.HotBeverage"> </a>
+<h2><a href="ImplementationGuide-fhir.uv.HotBeverage.html">/home/loftwyr/FHIR/HotBeverage/HotBeverage/fsh-generated/resources/ImplementationGuide-fhir.uv.HotBeverage.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>ImplementationGuide/fhir.uv.HotBeverage: ImplementationGuide</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ImplementationGuide/fhir.uv.HotBeverage: ImplementationGuide.definition.resource[1].description</b></td><td><b>warning</b></td><td title="Type_Specific_Checks_DT_String_WS"><b>value should not start or finish with whitespace</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ImplementationGuide/fhir.uv.HotBeverage: ImplementationGuide.definition.resource[18].description</b></td><td><b>warning</b></td><td title="Type_Specific_Checks_DT_String_WS"><b>value should not start or finish with whitespace</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ImplementationGuide/fhir.uv.HotBeverage: ImplementationGuide.definition.resource[20].description</b></td><td><b>warning</b></td><td title="Type_Specific_Checks_DT_String_WS"><b>value should not start or finish with whitespace</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_loftwyr_FHIR_HotBeverage_HotBeverage_fsh-generated_resources_OperationDefinition-BB-Stop"> </a>
+<h2><a href="OperationDefinition-BB-Stop.html">/home/loftwyr/FHIR/HotBeverage/HotBeverage/fsh-generated/resources/OperationDefinition-BB-Stop.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>OperationDefinition/BB-Stop: OperationDefinition</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/OperationDefinition</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>OperationDefinition/BB-Stop: OperationDefinition</b></td><td><b>warning</b></td><td title="opd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' failed"><b>opd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' failed</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_loftwyr_FHIR_HotBeverage_HotBeverage_fsh-generated_resources_OperationDefinition-BB-When"> </a>
+<h2><a href="OperationDefinition-BB-When.html">/home/loftwyr/FHIR/HotBeverage/HotBeverage/fsh-generated/resources/OperationDefinition-BB-When.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>OperationDefinition/BB-When: OperationDefinition</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/OperationDefinition</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>OperationDefinition/BB-When: OperationDefinition</b></td><td><b>warning</b></td><td title="opd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' failed"><b>opd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' failed</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_loftwyr_FHIR_HotBeverage_HotBeverage_fsh-generated_resources_OperationDefinition-Brew"> </a>
+<h2><a href="OperationDefinition-Brew.html">/home/loftwyr/FHIR/HotBeverage/HotBeverage/fsh-generated/resources/OperationDefinition-Brew.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>OperationDefinition/Brew: OperationDefinition</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/OperationDefinition</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>OperationDefinition/Brew: OperationDefinition</b></td><td><b>warning</b></td><td title="opd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' failed"><b>opd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' failed</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_loftwyr_FHIR_HotBeverage_HotBeverage_fsh-generated_resources_Parameters-MakeCoffee"> </a>
+<h2><a href="Parameters-MakeCoffee.html">/home/loftwyr/FHIR/HotBeverage/HotBeverage/fsh-generated/resources/Parameters-MakeCoffee.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Parameters/MakeCoffee: Parameters (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://example.org/StructureDefinition/BrewedBeverage</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_loftwyr_FHIR_HotBeverage_HotBeverage_fsh-generated_resources_StructureDefinition-BrewedBeverage"> </a>
+<h2><a href="StructureDefinition-BrewedBeverage.html">/home/loftwyr/FHIR/HotBeverage/HotBeverage/fsh-generated/resources/StructureDefinition-BrewedBeverage.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>StructureDefinition/BrewedBeverage: StructureDefinition</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_loftwyr_FHIR_HotBeverage_HotBeverage_fsh-generated_resources_StructureDefinition-HotBeverage.Brewed"> </a>
+<h2><a href="StructureDefinition-HotBeverage.Brewed.html">/home/loftwyr/FHIR/HotBeverage/HotBeverage/fsh-generated/resources/StructureDefinition-HotBeverage.Brewed.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>StructureDefinition/HotBeverage.Brewed: StructureDefinition</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_loftwyr_FHIR_HotBeverage_HotBeverage_fsh-generated_resources_ValueSet-HBAlcoholVS"> </a>
+<h2><a href="ValueSet-HBAlcoholVS.html">/home/loftwyr/FHIR/HotBeverage/HotBeverage/fsh-generated/resources/ValueSet-HBAlcoholVS.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>ValueSet/HBAlcoholVS: ValueSet</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_loftwyr_FHIR_HotBeverage_HotBeverage_fsh-generated_resources_ValueSet-HBBeverageVS"> </a>
+<h2><a href="ValueSet-HBBeverageVS.html">/home/loftwyr/FHIR/HotBeverage/HotBeverage/fsh-generated/resources/ValueSet-HBBeverageVS.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>ValueSet/HBBeverageVS: ValueSet</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_loftwyr_FHIR_HotBeverage_HotBeverage_fsh-generated_resources_ValueSet-HBMilkVS"> </a>
+<h2><a href="ValueSet-HBMilkVS.html">/home/loftwyr/FHIR/HotBeverage/HotBeverage/fsh-generated/resources/ValueSet-HBMilkVS.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>ValueSet/HBMilkVS: ValueSet</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_loftwyr_FHIR_HotBeverage_HotBeverage_fsh-generated_resources_ValueSet-HBSpiceVS"> </a>
+<h2><a href="ValueSet-HBSpiceVS.html">/home/loftwyr/FHIR/HotBeverage/HotBeverage/fsh-generated/resources/ValueSet-HBSpiceVS.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>ValueSet/HBSpiceVS: ValueSet</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_loftwyr_FHIR_HotBeverage_HotBeverage_fsh-generated_resources_ValueSet-HBSweetenersVS"> </a>
+<h2><a href="ValueSet-HBSweetenersVS.html">/home/loftwyr/FHIR/HotBeverage/HotBeverage/fsh-generated/resources/ValueSet-HBSweetenersVS.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>ValueSet/HBSweetenersVS: ValueSet</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_loftwyr_FHIR_HotBeverage_HotBeverage_fsh-generated_resources_ValueSet-HBSyrupVS"> </a>
+<h2><a href="ValueSet-HBSyrupVS.html">/home/loftwyr/FHIR/HotBeverage/HotBeverage/fsh-generated/resources/ValueSet-HBSyrupVS.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>ValueSet/HBSyrupVS: ValueSet</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_loftwyr_FHIR_HotBeverage_HotBeverage_fsh-generated_resources_ValueSet-NoDecaf"> </a>
+<h2><a href="ValueSet-NoDecaf.html">/home/loftwyr/FHIR/HotBeverage/HotBeverage/fsh-generated/resources/ValueSet-NoDecaf.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>ValueSet/NoDecaf: ValueSet</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet</b></td>
+   </tr>
+</table>
+<a name="suppressed"> </a>
+<p><b>Suppressed Messages (Warnings, hints, broken links)</b></p>
+<p>No suppressed messsages</p><a name="sorted"> </a>
+<p><b>Errors sorted by type</b></p>
+<hr/>
+<a name="Type_Specific_Checks_DT_String_WS"> </a>
+<h2>Type_Specific_Checks_DT_String_WS</h2>
+ <table class="grid">
+   <tr style="background-color: #fff4ee">
+     <td><a href="ImplementationGuide-fhir.uv.HotBeverage.html">/home/loftwyr/FHIR/HotBeverage/HotBeverage/fsh-generated/resources/ImplementationGuide-fhir.uv.HotBeverage.json</a></td><td><b>value should not start or finish with whitespace</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="ImplementationGuide-fhir.uv.HotBeverage.html">/home/loftwyr/FHIR/HotBeverage/HotBeverage/fsh-generated/resources/ImplementationGuide-fhir.uv.HotBeverage.json</a></td><td><b>value should not start or finish with whitespace</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="ImplementationGuide-fhir.uv.HotBeverage.html">/home/loftwyr/FHIR/HotBeverage/HotBeverage/fsh-generated/resources/ImplementationGuide-fhir.uv.HotBeverage.json</a></td><td><b>value should not start or finish with whitespace</b></td>
+   </tr>
+</table>
+</body>
+</html>

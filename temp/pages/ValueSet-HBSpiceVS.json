@@ -1,0 +1,22 @@
+{
+  "resourceType": "ValueSet",
+  "id": "HBSpiceVS",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-HBSpice.html\"><code>http://example.org/CodeSystem/HBSpice</code></a></li></ul></div>"
+  },
+  "url": "http://example.org/ValueSet/HBSpiceVS",
+  "version": "2021-April-1st",
+  "name": "HBSpiceVS",
+  "title": "Spice Additive Value Set",
+  "status": "active",
+  "date": "2021-04-01T07:58:10-04:00",
+  "description": "Spice liquids for use in coffee",
+  "compose": {
+    "include": [
+      {
+        "system": "http://example.org/CodeSystem/HBSpice"
+      }
+    ]
+  }
+}

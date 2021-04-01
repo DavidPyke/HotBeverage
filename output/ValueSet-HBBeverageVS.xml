@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="HBBeverageVS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-HBBeverages.html"><code>http://example.org/CodeSystem/HBBeverages</code></a></li></ul></div>
+  </text>
+  <url value="http://example.org/ValueSet/HBBeverageVS"/>
+  <version value="2021-April-1st"/>
+  <name value="HBBeverageVS"/>
+  <title value="Hot Beverages Value Set"/>
+  <status value="active"/>
+  <date value="2021-04-01T07:58:10-04:00"/>
+  <description value="All beverages allowed to be made via Hot Beverage"/>
+  <compose>
+    <include>
+      <system value="http://example.org/CodeSystem/HBBeverages"/>
+    </include>
+  </compose>
+</ValueSet>

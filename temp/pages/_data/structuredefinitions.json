@@ -1,0 +1,33 @@
+{
+  "BrewedBeverage": {
+    "index": 0,
+    "url": "http://example.org/StructureDefinition/BrewedBeverage",
+    "name": "BrewedBeverage",
+    "path": "StructureDefinition-BrewedBeverage.html",
+    "kind": "resource",
+    "type": "Parameters",
+    "base": "http://hl7.org/fhir/StructureDefinition/Parameters",
+    "basename": "Parameters",
+    "basepath": "http://hl7.org/fhir/R4/parameters.html",
+    "status": "active",
+    "date": "Thu Apr 01 07:58:10 EDT 2021",
+    "abstract": false,
+    "derivation": "constraint"
+  },
+  "HotBeverage.Brewed": {
+    "index": 1,
+    "url": "http://example.org/StructureDefinition/HotBeverage.Brewed",
+    "name": "BrewedLog",
+    "path": "StructureDefinition-HotBeverage.Brewed.html",
+    "kind": "resource",
+    "type": "AuditEvent",
+    "base": "http://hl7.org/fhir/StructureDefinition/AuditEvent",
+    "basename": "AuditEvent",
+    "basepath": "http://hl7.org/fhir/R4/auditevent.html",
+    "status": "active",
+    "date": "Thu Apr 01 07:58:10 EDT 2021",
+    "abstract": false,
+    "derivation": "constraint",
+    "description": "An AuditEvent profile for when request to brew a Hot Beverage action happens successfully.\n\n"
+  }
+}

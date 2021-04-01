@@ -1,0 +1,45 @@
+{
+  "resourceType": "OperationDefinition",
+  "id": "BB-Stop",
+  "text": {
+    "status": "extensions",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Data Requirements</h2><p>OPERATION: Data Requirements</p><p>The official URL for this operation definition is: </p><pre>http://hl7.org/fhir/OperationDefinition/BB-Stop</pre><div><p>The stop operation sends the Device a direction to stop the brew of the beverage (primarily tea) to check for doneness.  Used in combination with the Start operation to make the tea just right</p>\n</div><p>Parameters</p><table class=\"grid\"><tr><td><b>Use</b></td><td><b>Name</b></td><td><b>Cardinality</b></td><td><b>Type</b></td><td><b>Binding</b></td><td><b>Documentation</b></td></tr><tr><td>IN</td><td>BBIdent</td><td>1..1</td><td><a href=\"http://hl7.org/fhir/R4/references.html#Reference\">Reference</a></td><td/><td><div><p>The ID of the BrewedBeverage Resource</p>\n</div></td></tr></table><div><p>TBA--need text from RFC</p>\n</div></div>"
+  },
+  "url": "http://hl7.org/fhir/OperationDefinition/BB-Stop",
+  "version": "2021-April-1st",
+  "name": "Data Requirements",
+  "status": "draft",
+  "kind": "operation",
+  "date": "2020-04-01T09:29:23+11:00",
+  "publisher": "HL7 (FHIR Project)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://hl7.org/fhir"
+        },
+        {
+          "system": "email",
+          "value": "fhir@lists.hl7.org"
+        }
+      ]
+    }
+  ],
+  "description": "The stop operation sends the Device a direction to stop the brew of the beverage (primarily tea) to check for doneness.  Used in combination with the Start operation to make the tea just right",
+  "code": "data-requirements",
+  "comment": "TBA--need text from RFC",
+  "system": false,
+  "type": true,
+  "instance": true,
+  "parameter": [
+    {
+      "name": "BBIdent",
+      "use": "in",
+      "min": 1,
+      "max": "1",
+      "documentation": "The ID of the BrewedBeverage Resource",
+      "type": "Reference"
+    }
+  ]
+}

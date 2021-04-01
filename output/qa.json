@@ -1,0 +1,12 @@
+{
+  "url": "http://example.org/ImplementationGuide/fhir.uv.HotBeverage",
+  "name": "HotBeverage",
+  "package-id": "fhir.uv.HotBeverage",
+  "ig-ver": "2021-April-1st",
+  "date": "Thu, 01 Apr, 2021 07:58:10 -0400",
+  "errs": 0,
+  "warnings": 7,
+  "hints": 0,
+  "version": "4.0.1",
+  "tool": "4.5.0 (3)"
+}

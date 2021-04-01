@@ -1,0 +1,278 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "BrewedBeverage",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
+      "valueString": "Foundation.Other"
+    }
+  ],
+  "url": "http://example.org/StructureDefinition/BrewedBeverage",
+  "version": "2021-April-1st",
+  "name": "BrewedBeverage",
+  "status": "active",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "v2",
+      "uri": "http://hl7.org/v2",
+      "name": "HL7 v2 Mapping"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "Parameters",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Parameters",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Parameters.parameter",
+        "path": "Parameters.parameter",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "name"
+            }
+          ],
+          "rules": "open",
+          "ordered": false,
+          "description": "Slice on parameter name"
+        },
+        "min": 1
+      },
+      {
+        "id": "Parameters.parameter:device",
+        "path": "Parameters.parameter",
+        "sliceName": "device",
+        "min": 0,
+        "max": "1",
+        "mustSupport": true
+      },
+      {
+        "id": "Parameters.parameter:device.name",
+        "path": "Parameters.parameter.name",
+        "short": "Machine to make the beverage",
+        "comment": "can be blank if submitting direct to the brewing system",
+        "fixedString": "device"
+      },
+      {
+        "id": "Parameters.parameter:device.value[x]",
+        "path": "Parameters.parameter.value[x]",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/Device"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Parameters.parameter:beverageType",
+        "path": "Parameters.parameter",
+        "sliceName": "beverageType",
+        "min": 1,
+        "max": "1",
+        "mustSupport": true
+      },
+      {
+        "id": "Parameters.parameter:beverageType.name",
+        "path": "Parameters.parameter.name",
+        "short": "Beverage to be made",
+        "fixedString": "beverageType"
+      },
+      {
+        "id": "Parameters.parameter:beverageType.value[x]",
+        "path": "Parameters.parameter.value[x]",
+        "min": 1,
+        "type": [
+          {
+            "code": "code"
+          }
+        ],
+        "mustSupport": true,
+        "binding": {
+          "strength": "example",
+          "valueSet": "http://example.org/ValueSet/HBBeverageVS"
+        }
+      },
+      {
+        "id": "Parameters.parameter:milkType",
+        "path": "Parameters.parameter",
+        "sliceName": "milkType",
+        "min": 0,
+        "max": "1",
+        "mustSupport": true
+      },
+      {
+        "id": "Parameters.parameter:milkType.name",
+        "path": "Parameters.parameter.name",
+        "short": "Milk to be included",
+        "fixedString": "milkType"
+      },
+      {
+        "id": "Parameters.parameter:milkType.value[x]",
+        "path": "Parameters.parameter.value[x]",
+        "type": [
+          {
+            "code": "code"
+          }
+        ],
+        "mustSupport": true,
+        "binding": {
+          "strength": "example",
+          "valueSet": "http://example.org/ValueSet/HBMilkVS"
+        }
+      },
+      {
+        "id": "Parameters.parameter:syrupType",
+        "path": "Parameters.parameter",
+        "sliceName": "syrupType",
+        "min": 0,
+        "max": "*",
+        "mustSupport": true
+      },
+      {
+        "id": "Parameters.parameter:syrupType.name",
+        "path": "Parameters.parameter.name",
+        "short": "Syrup to be included",
+        "fixedString": "syrupType"
+      },
+      {
+        "id": "Parameters.parameter:syrupType.value[x]",
+        "path": "Parameters.parameter.value[x]",
+        "type": [
+          {
+            "code": "code"
+          }
+        ],
+        "mustSupport": true,
+        "binding": {
+          "strength": "example",
+          "valueSet": "http://example.org/ValueSet/HBSyrupVS"
+        }
+      },
+      {
+        "id": "Parameters.parameter:alcoholType",
+        "path": "Parameters.parameter",
+        "sliceName": "alcoholType",
+        "min": 0,
+        "max": "*",
+        "mustSupport": true
+      },
+      {
+        "id": "Parameters.parameter:alcoholType.name",
+        "path": "Parameters.parameter.name",
+        "short": "Alcohol to be included",
+        "fixedString": "alcoholType"
+      },
+      {
+        "id": "Parameters.parameter:alcoholType.value[x]",
+        "path": "Parameters.parameter.value[x]",
+        "type": [
+          {
+            "code": "code"
+          }
+        ],
+        "mustSupport": true,
+        "binding": {
+          "strength": "example",
+          "valueSet": "http://example.org/ValueSet/HBAlcoholVS"
+        }
+      },
+      {
+        "id": "Parameters.parameter:sweetenerType",
+        "path": "Parameters.parameter",
+        "sliceName": "sweetenerType",
+        "min": 0,
+        "max": "*",
+        "mustSupport": true
+      },
+      {
+        "id": "Parameters.parameter:sweetenerType.name",
+        "path": "Parameters.parameter.name",
+        "short": "Sweetener to be included",
+        "fixedString": "sweetenerType"
+      },
+      {
+        "id": "Parameters.parameter:sweetenerType.value[x]",
+        "path": "Parameters.parameter.value[x]",
+        "type": [
+          {
+            "code": "code"
+          }
+        ],
+        "mustSupport": true,
+        "binding": {
+          "strength": "example",
+          "valueSet": "http://example.org/ValueSet/HBSweetenersVS"
+        }
+      },
+      {
+        "id": "Parameters.parameter:spiceType",
+        "path": "Parameters.parameter",
+        "sliceName": "spiceType",
+        "min": 0,
+        "max": "*",
+        "mustSupport": true
+      },
+      {
+        "id": "Parameters.parameter:spiceType.name",
+        "path": "Parameters.parameter.name",
+        "short": "Spice to be included",
+        "fixedString": "spiceType"
+      },
+      {
+        "id": "Parameters.parameter:spiceType.value[x]",
+        "path": "Parameters.parameter.value[x]",
+        "type": [
+          {
+            "code": "code"
+          }
+        ],
+        "mustSupport": true,
+        "binding": {
+          "strength": "example",
+          "valueSet": "http://example.org/ValueSet/HBSpiceVS"
+        }
+      },
+      {
+        "id": "Parameters.parameter:decaffeinated",
+        "path": "Parameters.parameter",
+        "sliceName": "decaffeinated",
+        "min": 0,
+        "max": "1",
+        "mustSupport": true
+      },
+      {
+        "id": "Parameters.parameter:decaffeinated.name",
+        "path": "Parameters.parameter.name",
+        "short": "Is Coffee to be decaffeinated",
+        "fixedString": "decaffeinated"
+      },
+      {
+        "id": "Parameters.parameter:decaffeinated.value[x]",
+        "path": "Parameters.parameter.value[x]",
+        "min": 1,
+        "type": [
+          {
+            "code": "code"
+          }
+        ],
+        "mustSupport": true,
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://example.org/ValueSet/NoDecaf"
+        }
+      }
+    ]
+  }
+}

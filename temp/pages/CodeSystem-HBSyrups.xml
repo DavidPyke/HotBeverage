@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="HBSyrups"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://example.org/CodeSystem/HBSyrups defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">VANILLA<a name="HBSyrups-VANILLA"> </a></td><td>Vanilla</td></tr><tr><td style="white-space:nowrap">CARAMEL<a name="HBSyrups-CARAMEL"> </a></td><td>Caramel</td></tr><tr><td style="white-space:nowrap">HAZELNUT<a name="HBSyrups-HAZELNUT"> </a></td><td>Hazelnut</td></tr><tr><td style="white-space:nowrap">CHOCOLATE<a name="HBSyrups-CHOCOLATE"> </a></td><td>Chocolate</td></tr><tr><td style="white-space:nowrap">LAVENDER<a name="HBSyrups-LAVENDER"> </a></td><td>Lavender</td></tr><tr><td style="white-space:nowrap">BUTTERSCOTCH<a name="HBSyrups-BUTTERSCOTCH"> </a></td><td>Butterscotch</td></tr><tr><td style="white-space:nowrap">IRISH<a name="HBSyrups-IRISH"> </a></td><td>Irish Cream</td></tr><tr><td style="white-space:nowrap">ORANGE<a name="HBSyrups-ORANGE"> </a></td><td>Orange Blossom</td></tr></table></div>
+  </text>
+  <url value="http://example.org/CodeSystem/HBSyrups"/>
+  <version value="2021-April-1st"/>
+  <name value="HBSyrups"/>
+  <title value="Syrups List"/>
+  <status value="active"/>
+  <date value="2021-04-01T07:58:10-04:00"/>
+  <description value="Syrups to be added, if desired"/>
+  <content value="complete"/>
+  <count value="8"/>
+  <concept>
+    <code value="VANILLA"/>
+    <display value="Vanilla"/>
+  </concept>
+  <concept>
+    <code value="CARAMEL"/>
+    <display value="Caramel"/>
+  </concept>
+  <concept>
+    <code value="HAZELNUT"/>
+    <display value="Hazelnut"/>
+  </concept>
+  <concept>
+    <code value="CHOCOLATE"/>
+    <display value="Chocolate"/>
+  </concept>
+  <concept>
+    <code value="LAVENDER"/>
+    <display value="Lavender"/>
+  </concept>
+  <concept>
+    <code value="BUTTERSCOTCH"/>
+    <display value="Butterscotch"/>
+  </concept>
+  <concept>
+    <code value="IRISH"/>
+    <display value="Irish Cream"/>
+  </concept>
+  <concept>
+    <code value="ORANGE"/>
+    <display value="Orange Blossom"/>
+  </concept>
+</CodeSystem>
