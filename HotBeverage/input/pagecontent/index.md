@@ -1,6 +1,6 @@
 ### Scope and Usage
 
-Based on IETF [RFC 2324](https://tools.ietf.org/html/rfc2324) and its update, [RFC 7168](https://tools.ietf.org/html/rfc7168), this resource allows for the fulfillment of a device request for an artfully brewed caffeinated beverage, but coffee shares this quality with many other varied preparations based on the filtration of plant material.  Foremost, among these are the category of brews
+Based on IETF [RFC 2324 - Hyper Text Coffee Pot Control Protocol (HTCPCP/1.0)](https://tools.ietf.org/html/rfc2324) and its update, [RFC 7168 - The Hyper Text Coffee Pot Control Protocol for Tea Efflux Appliances (HTCPCP-TEA)](https://tools.ietf.org/html/rfc7168), this resource allows for the fulfillment of a device request for an artfully brewed caffeinated beverage, but coffee shares this quality with many other varied preparations based on the filtration of plant material.  Foremost, among these are the category of brews
 based on the straining of water through prepared leaves from a tea tree.
 
 

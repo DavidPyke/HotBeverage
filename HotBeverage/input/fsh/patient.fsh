@@ -65,17 +65,24 @@ Parent: Parameters
 
 Instance: VertuoNext
 InstanceOf: Device
+Title: "Vertuo Next"
+Description: "Nespresso introduces the VERTUO NEXT CLASSIC, the latest VERTUO Nespresso coffee maker with an all-new design and colors for the ultimate brewing experience. In addition to its original espressos, NESPRESSO VERTUO NEXT produces an extraordinary cup of coffee with a smooth layer of crema, the signature of a truly great cup of coffee. The VERTUO coffee and espresso coffee machine conveniently makes 5, 8, 14, 18 oz Coffee and single and double Espresso. Nespresso brings together the know-how of all its coffee experts, who have carefully chosen the origin and roasting of each coffee blend and created a brewing system using Centrifusion technology, a patented extraction technology developed by Nespresso. Just insert a Vertuo capsule and close the lever — when activated, the capsule spins, blending ground coffee with water and extracting every drop of flavor. Its precision brewing system recognizes each capsule and automatically adjusts its brewing parameters to consistently deliver the best in cup result. Bundled with Nespresso's Aeroccino3, provides smooth hot or cold milk froth for your coffee recipes with one touch. It froths all types of milk in a few seconds, without noise or vibration. Each machine includes a complimentary welcome set with a range of Nespresso Vertuo capsules with unique aroma profiles. Order your Nespresso capsules, receive personalized advice, and obtain technical support or repair for your machine through the Nespresso Club via mobile app, by telephone or in one of our Boutiques. This coffee machine is compatible exclusively with Nespresso Vertuo Line pods. Input power (W): 1260. Intelligent extraction system recognizes each coffee blend."
 * status = #active
 * manufacturer = "nespresso"
 * deviceName.name = "Vertuo Next"
 * deviceName.type = #manufacturer-name
 * modelNumber = "B084GYKJ58"
 * location.display = "coffee room"
+* url = "http://server.example.com/fhir/coffee"
 
 Instance: MakeCoffee
 InstanceOf: BrewedBeverage
 Title: "Make me Espresso"
-Description: "Request to make Espresso."
+Description: "Request to make Espresso.
+
+* Using the Nespresso VertuoNext device
+* Requesting Espresso
+"
 * meta.security = http://terminology.hl7.org/CodeSystem/v3-ActReason#HTEST
 * meta.security[+] = http://terminology.hl7.org/CodeSystem/v3-Confidentiality#L
 * parameter[device].name = "device"
