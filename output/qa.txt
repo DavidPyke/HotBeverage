@@ -1,12 +1,12 @@
 ﻿HotBeverage : Validation Results
 =========================================
 
-err = 0, warn = 7, info = 0
-IG Publisher Version: 1.1.65
-Generated Thu Apr 01 16:13:42 EDT 2021. FHIR version 4.0.1 for fhir.uv.HotBeverage#2021-April-1st (canonical = http://example.org)
+err = 0, warn = 3, info = 0
+IG Publisher Version: 1.1.66
+Generated Wed Apr 21 11:23:11 EDT 2021. FHIR version 4.0.1 for fhir.uv.HotBeverage#2021-April-1st (canonical = http://example.org)
 
- Build Errors : 125 / 0 / 0
- C:\FHIR\HotBeverage\fsh-generated\resources\ImplementationGuide-fhir.uv.HotBeverage : 0 / 4 / 1
+ Build Errors : 124 / 0 / 0
+ C:\FHIR\HotBeverage\fsh-generated\resources\ImplementationGuide-fhir.uv.HotBeverage : 0 / 0 / 1
  C:\FHIR\HotBeverage\fsh-generated\resources\auditevent-ex-auditBasicBrew : 0 / 0 / 1
  C:\FHIR\HotBeverage\fsh-generated\resources\codesystem-HBAlcohol : 0 / 0 / 1
  C:\FHIR\HotBeverage\fsh-generated\resources\codesystem-HBBeverages : 0 / 0 / 1
@@ -104,7 +104,7 @@ ERROR: C:\FHIR\HotBeverage\output\StructureDefinition-BrewedBeverage.html#/html/
 ERROR: C:\FHIR\HotBeverage\output\StructureDefinition-BrewedBeverage.profile.history.html#/html/body/div/div/div/p/a at Line 228, column 28: The link '' for "" cannot be resolved
 ERROR: C:\FHIR\HotBeverage\output\StructureDefinition-BrewedBeverage.profile.json.html#/html/body/div/div/div/p/a at Line 3846, column 28: The link '' for "" cannot be resolved
 ERROR: C:\FHIR\HotBeverage\output\StructureDefinition-BrewedBeverage.profile.ttl.html#/html/body/div/div/div/p/a at Line 3430, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\StructureDefinition-BrewedBeverage.profile.xml.html#/html/body/div/div/div/p/a at Line 3457, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\StructureDefinition-BrewedBeverage.profile.xml.html#/html/body/div/div/div/p/a at Line 3456, column 28: The link '' for "" cannot be resolved
 ERROR: C:\FHIR\HotBeverage\output\StructureDefinition-HotBeverage.Brewed-definitions.html#/html/body/div/div/div/p/a at Line 1716, column 28: The link '' for "" cannot be resolved
 ERROR: C:\FHIR\HotBeverage\output\StructureDefinition-HotBeverage.Brewed-examples.html#/html/body/div/div/div/p/a at Line 250, column 28: The link '' for "" cannot be resolved
 ERROR: C:\FHIR\HotBeverage\output\StructureDefinition-HotBeverage.Brewed-mappings.html#/html/body/div/div/div/p/a at Line 586, column 28: The link '' for "" cannot be resolved
@@ -112,7 +112,7 @@ ERROR: C:\FHIR\HotBeverage\output\StructureDefinition-HotBeverage.Brewed.html#/h
 ERROR: C:\FHIR\HotBeverage\output\StructureDefinition-HotBeverage.Brewed.profile.history.html#/html/body/div/div/div/p/a at Line 228, column 28: The link '' for "" cannot be resolved
 ERROR: C:\FHIR\HotBeverage\output\StructureDefinition-HotBeverage.Brewed.profile.json.html#/html/body/div/div/div/p/a at Line 7917, column 28: The link '' for "" cannot be resolved
 ERROR: C:\FHIR\HotBeverage\output\StructureDefinition-HotBeverage.Brewed.profile.ttl.html#/html/body/div/div/div/p/a at Line 6805, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\StructureDefinition-HotBeverage.Brewed.profile.xml.html#/html/body/div/div/div/p/a at Line 7179, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\StructureDefinition-HotBeverage.Brewed.profile.xml.html#/html/body/div/div/div/p/a at Line 7177, column 28: The link '' for "" cannot be resolved
 ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBAlcoholVS.change.history.html#/html/body/div/div/div/p/a at Line 197, column 28: The link '' for "" cannot be resolved
 ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBAlcoholVS.html#/html/body/div/div/div/p/a at Line 244, column 28: The link '' for "" cannot be resolved
 ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBAlcoholVS.json.html#/html/body/div/div/div/p/a at Line 206, column 28: The link '' for "" cannot be resolved
@@ -153,16 +153,11 @@ ERROR: C:\FHIR\HotBeverage\output\ValueSet-NoDecaf.html#/html/body/div/div/div/p
 ERROR: C:\FHIR\HotBeverage\output\ValueSet-NoDecaf.json.html#/html/body/div/div/div/p/a at Line 212, column 28: The link '' for "" cannot be resolved
 ERROR: C:\FHIR\HotBeverage\output\ValueSet-NoDecaf.ttl.html#/html/body/div/div/div/p/a at Line 222, column 28: The link '' for "" cannot be resolved
 ERROR: C:\FHIR\HotBeverage\output\ValueSet-NoDecaf.xml.html#/html/body/div/div/div/p/a at Line 208, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\artifacts.html#/html/body/div/div/div/p/a at Line 433, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\index.html#/html/body/div/div/div/div/div/p/a at Line 153, column 149: The link '[BrewedBevarage Profile](StructureDefinition-BrewedBeverage.html)' for "FHIR appropriate request to a Device" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\artifacts.html#/html/body/div/div/div/p/a at Line 432, column 28: The link '' for "" cannot be resolved
 ERROR: C:\FHIR\HotBeverage\output\index.html#/html/body/div/div/div/p/a at Line 219, column 28: The link '' for "" cannot be resolved
 ERROR: C:\FHIR\HotBeverage\output\toc.html#/html/body/div/div/div/p/a at Line 133, column 28: The link '' for "" cannot be resolved
 == C:\FHIR\HotBeverage\fsh-generated\resources\ImplementationGuide-fhir.uv.HotBeverage.json ==
 INFORMATION: ImplementationGuide/fhir.uv.HotBeverage: ImplementationGuide: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide
-WARNING: ImplementationGuide/fhir.uv.HotBeverage: ImplementationGuide.definition.resource[0].description: value should not start or finish with whitespace
-WARNING: ImplementationGuide/fhir.uv.HotBeverage: ImplementationGuide.definition.resource[1].description: value should not start or finish with whitespace
-WARNING: ImplementationGuide/fhir.uv.HotBeverage: ImplementationGuide.definition.resource[20].description: value should not start or finish with whitespace
-WARNING: ImplementationGuide/fhir.uv.HotBeverage: ImplementationGuide.definition.resource[22].description: value should not start or finish with whitespace
 == C:\FHIR\HotBeverage\fsh-generated\resources\AuditEvent-ex-auditBasicBrew.json ==
 INFORMATION: AuditEvent/ex-auditBasicBrew: AuditEvent: Validate resource against profile http://example.org/StructureDefinition/HotBeverage.Brewed
 == C:\FHIR\HotBeverage\fsh-generated\resources\CodeSystem-HBAlcohol.json ==

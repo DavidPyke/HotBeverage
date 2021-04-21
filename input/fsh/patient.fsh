@@ -1,7 +1,7 @@
 Profile: BrewedBeverage
 Parent: Parameters
 Title:          "The Hot Beverage to Brew"
-Description:    "The parameters to be given to the device to make the requested Hot Beverage.
+Description:    """The parameters to be given to the device to make the requested Hot Beverage.
 
 * The Machine to make the beverage (optional)
 * The Beverage to be made (required)
@@ -10,8 +10,8 @@ Description:    "The parameters to be given to the device to make the requested 
 * The type of Alcohol to be included (optional)
 * The type of Sweetener to be included (optional)
 * The type of Spice to be included (optional)
-* Is Coffee to be decaffeinated (shall be NoDecaf)
-"
+* Is Coffee to be decaffeinated (shall be NoDecaf)"""
+
 * parameter  ^slicing.discriminator.type = #value
 * parameter  ^slicing.discriminator.path = "name"
 * parameter  ^slicing.rules = #open
@@ -97,11 +97,10 @@ Description: "Nespresso introduces the VERTUO NEXT CLASSIC, the latest VERTUO Ne
 Instance: MakeCoffee
 InstanceOf: BrewedBeverage
 Title: "Make me Espresso"
-Description: "Request to make Espresso.
+Description: """Request to make Espresso.
 
 * Using the Nespresso VertuoNext device
-* Requesting Espresso
-"
+* Requesting Espresso"""
 * meta.security = http://terminology.hl7.org/CodeSystem/v3-ActReason#HTEST
 * meta.security[+] = http://terminology.hl7.org/CodeSystem/v3-Confidentiality#L
 * parameter[device].name = "device"

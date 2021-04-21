@@ -10,7 +10,7 @@
   fhir:Resource.id [ fhir:value "Brew"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Data Requirements</h2><p>OPERATION: Data Requirements</p><p>The official URL for this operation definition is: </p><pre>http://hl7.org/fhir/OperationDefinition/Brew</pre><div><p>The brew operation sends the BrewedBeverage resource to the Coffee/Tea brewing Device</p>\n</div><p>Parameters</p><table class=\"grid\"><tr><td><b>Use</b></td><td><b>Name</b></td><td><b>Cardinality</b></td><td><b>Type</b></td><td><b>Binding</b></td><td><b>Documentation</b></td></tr><tr><td>IN</td><td>BevBrew</td><td>1..1</td><td><a href=\"http://hl7.org/fhir/R4/references.html#Reference\">Reference</a></td><td/><td><div><p>The BrewedBeverage Resource that dictates the beverage to be brewed and the requested additions (if any)</p>\n</div></td></tr></table><div><p>The effect of invoking this operation is to initiate the Brew operation on the appropriate device with the inclusion of the\nrequested additions</p>\n</div></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Data Requirements</h2><p>OPERATION: Data Requirements</p><p>The official URL for this operation definition is: </p><pre>http://hl7.org/fhir/OperationDefinition/Brew</pre><div><p>The brew operation sends the BrewedBeverage resource to the Coffee/Tea brewing Device</p>\n</div><p>Parameters</p><table class=\"grid\"><tr><td><b>Use</b></td><td><b>Name</b></td><td><b>Cardinality</b></td><td><b>Type</b></td><td><b>Binding</b></td><td><b>Documentation</b></td></tr><tr><td>IN</td><td>BevBrew</td><td>1..1</td><td><a href=\"http://hl7.org/fhir/R4/datatypes.html#canonical\">canonical</a></td><td/><td><div><p>The BrewedBeverage Resource that dictates the beverage to be brewed and the requested additions (if any)</p>\n</div></td></tr></table><div><p>The effect of invoking this operation is to initiate the Brew operation on the appropriate device with the inclusion of the\nrequested additions</p>\n</div></div>"
   ];
   fhir:OperationDefinition.url [ fhir:value "http://hl7.org/fhir/OperationDefinition/Brew"];
   fhir:OperationDefinition.version [ fhir:value "2021-April-1st"];
@@ -44,7 +44,7 @@
      fhir:OperationDefinition.parameter.min [ fhir:value "1"^^xsd:integer ];
      fhir:OperationDefinition.parameter.max [ fhir:value "1" ];
      fhir:OperationDefinition.parameter.documentation [ fhir:value "The BrewedBeverage Resource that dictates the beverage to be brewed and the requested additions (if any)" ];
-     fhir:OperationDefinition.parameter.type [ fhir:value "Reference" ];
+     fhir:OperationDefinition.parameter.type [ fhir:value "canonical" ];
      fhir:OperationDefinition.parameter.targetProfile [
        fhir:value "http://example.org/StructureDefinition/BrewedBeverage";
        fhir:index 0;

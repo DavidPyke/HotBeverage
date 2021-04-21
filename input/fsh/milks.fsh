@@ -13,6 +13,6 @@ Description: "Milks to be added, if desired"
 
 ValueSet: HBMilkVS
 Title: "Milk Additive Value Set"
-Description: "Milk and milklike liquids for use in coffee"
+Description: "Milk and milk-like liquids for use in coffee"
 
 * include codes from system HBMilks
