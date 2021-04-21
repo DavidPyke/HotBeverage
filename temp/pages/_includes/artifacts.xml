@@ -73,17 +73,16 @@
                   <a href="StructureDefinition-BrewedBeverage.html"
                      title="StructureDefinition/BrewedBeverage">The Hot Beverage to Brew</a>
                </td>
-               <td>{% capture desc %}The parameters to be given to the device to make the requested Hot Beverage.&#xD;
-&#xD;
-* The Machine to make the beverage (optional)&#xD;
-* The Beverage to be made (required)&#xD;
-* The type of Milk to be included (optional)&#xD;
-* The type of Syrup to be included (optional)&#xD;
-* The type of Alcohol to be included (optional)&#xD;
-* The type of Sweetener to be included (optional)&#xD;
-* The type of Spice to be included (optional)&#xD;
-* Is Coffee to be decaffeinated (shall be NoDecaf)&#xD;
-{% endcapture %}
+               <td>{% capture desc %}The parameters to be given to the device to make the requested Hot Beverage.
+
+* The Machine to make the beverage (optional)
+* The Beverage to be made (required)
+* The type of Milk to be included (optional)
+* The type of Syrup to be included (optional)
+* The type of Alcohol to be included (optional)
+* The type of Sweetener to be included (optional)
+* The type of Spice to be included (optional)
+* Is Coffee to be decaffeinated (shall be NoDecaf){% endcapture %}
 {{ desc | markdownify}}</td>
             </tr>
             <tr>
@@ -91,9 +90,7 @@
                   <a href="StructureDefinition-HotBeverage.Brewed.html"
                      title="StructureDefinition/HotBeverage.Brewed">The AuditEvent for a successful Brewed Hot Beverage</a>
                </td>
-               <td>{% capture desc %}An AuditEvent profile for when request to brew a Hot Beverage action happens successfully.&#xD;
-&#xD;
-{% endcapture %}
+               <td>{% capture desc %}An AuditEvent profile for when request to brew a Hot Beverage action happens successfully.{% endcapture %}
 {{ desc | markdownify}}</td>
             </tr>
          </tbody>
@@ -132,7 +129,7 @@
                <td style="column-width:30%">
                   <a href="ValueSet-HBMilkVS.html" title="ValueSet/HBMilkVS">Milk Additive Value Set</a>
                </td>
-               <td>{% capture desc %}Milk and milklike liquids for use in coffee{% endcapture %}
+               <td>{% capture desc %}Milk and milk-like liquids for use in coffee{% endcapture %}
 {{ desc | markdownify}}</td>
             </tr>
             <tr>
@@ -238,11 +235,10 @@
                <td style="column-width:30%">
                   <a href="Parameters-MakeCoffee.html" title="Parameters/MakeCoffee">Make me Espresso</a>
                </td>
-               <td>{% capture desc %}Request to make Espresso.&#xD;
-&#xD;
-* Using the Nespresso VertuoNext device&#xD;
-* Requesting Espresso&#xD;
-{% endcapture %}
+               <td>{% capture desc %}Request to make Espresso.
+
+* Using the Nespresso VertuoNext device
+* Requesting Espresso{% endcapture %}
 {{ desc | markdownify}}</td>
             </tr>
             <tr>
@@ -257,11 +253,10 @@
                   <a href="AuditEvent-ex-auditBasicBrew.html"
                      title="AuditEvent/ex-auditBasicBrew">Audit Example of a basic brew</a>
                </td>
-               <td>{% capture desc %}Audit Example for a brewed coffee&#xD;
-&#xD;
-* Using the Nespresso VertuoNext device&#xD;
-* Requesting Espresso&#xD;
-{% endcapture %}
+               <td>{% capture desc %}Audit Example for a brewed coffee
+
+* Using the Nespresso VertuoNext device
+* Requesting Espresso{% endcapture %}
 {{ desc | markdownify}}</td>
             </tr>
          </tbody>

@@ -20,7 +20,7 @@ This also has a need for a sub-class of Device to allow for coffeepot, teapot an
 IETF RFC 2324 and 7168 outline the creation of the HTCPCP which uses a modified header for the BREW/POST and message/[coffee/tea]pot mimetypes.
 
 FHIR uses only the standard http protocols which will limit the ability for appropriate caffeination of Person(s) as needed.  As such, it was felt that taking these Pre-FHIR RFCs and
-create [an operation](OperationDefinition-Brew.html) that can take the header information from a HTCPCP request and transform it into a [FHIR appropriate request to a Device]([BrewedBevarage Profile](StructureDefinition-BrewedBeverage.html)) with full use of the http status codes needed for processing.
+create [an operation](OperationDefinition-Brew.html) that can take the header information from a HTCPCP request and transform it into a [FHIR appropriate request to a Device](StructureDefinition-BrewedBeverage.html) with full use of the http status codes needed for processing.
 
 ### Deviations from IETF RFC 2324 and RFC 7168
 IETF RFC 7168 adds the addition-type of "sugar-type" without a significant differentiation from the RFC 2324 addition-type of sweetener-type with the note:

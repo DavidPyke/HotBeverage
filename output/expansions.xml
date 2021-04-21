@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="c3377bbe-bcae-42dc-97a0-feba60d414be"/>
+  <id value="df384b4c-b1a4-406b-8bf0-51583b18ed05"/>
   <meta>
-    <lastUpdated value="2021-04-01T16:12:56.601-04:00"/>
+    <lastUpdated value="2021-04-21T11:22:23.894-04:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -115,11 +115,11 @@
         <name value="HBAlcoholVS"/>
         <title value="Alcohol Additive Value Set"/>
         <status value="active"/>
-        <date value="2021-04-01T16:12:56-04:00"/>
+        <date value="2021-04-21T11:22:23-04:00"/>
         <description value="Alcohol liquids for use in coffee"/>
         <expansion>
-          <identifier value="urn:uuid:11ac7e4f-d59f-4dec-b5a0-4d1a31a1e05a"/>
-          <timestamp value="2021-04-01T16:13:11-04:00"/>
+          <identifier value="urn:uuid:2090c52a-da0e-4ea5-a9b8-55fd82fe76ce"/>
+          <timestamp value="2021-04-21T11:22:39-04:00"/>
           <total value="9"/>
           <parameter>
             <name value="excludeNested"/>
@@ -399,11 +399,11 @@
         <name value="HBBeverageVS"/>
         <title value="Hot Beverages Value Set"/>
         <status value="active"/>
-        <date value="2021-04-01T16:12:56-04:00"/>
+        <date value="2021-04-21T11:22:23-04:00"/>
         <description value="All beverages allowed to be made via Hot Beverage"/>
         <expansion>
-          <identifier value="urn:uuid:ff931eb2-1a74-4d20-9e7f-9fed464faf6b"/>
-          <timestamp value="2021-04-01T16:13:11-04:00"/>
+          <identifier value="urn:uuid:4225a8a9-658e-4619-a930-0c16d5d4f8f4"/>
+          <timestamp value="2021-04-21T11:22:39-04:00"/>
           <total value="23"/>
           <parameter>
             <name value="excludeNested"/>
@@ -609,11 +609,11 @@
         <name value="HBDrinkSizeVS"/>
         <title value="Size of Beverage to be Consumed"/>
         <status value="active"/>
-        <date value="2021-04-01T16:12:56-04:00"/>
+        <date value="2021-04-21T11:22:23-04:00"/>
         <description value="You want how much?"/>
         <expansion>
-          <identifier value="urn:uuid:71ab75f7-67c6-43f7-a930-b22a24680df8"/>
-          <timestamp value="2021-04-01T16:13:11-04:00"/>
+          <identifier value="urn:uuid:b77b8874-abb6-435d-b940-c606ae5a8059"/>
+          <timestamp value="2021-04-21T11:22:39-04:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -753,11 +753,11 @@
         <name value="HBMilkVS"/>
         <title value="Milk Additive Value Set"/>
         <status value="active"/>
-        <date value="2021-04-01T16:12:56-04:00"/>
-        <description value="Milk and milklike liquids for use in coffee"/>
+        <date value="2021-04-21T11:22:23-04:00"/>
+        <description value="Milk and milk-like liquids for use in coffee"/>
         <expansion>
-          <identifier value="urn:uuid:a5665577-382e-4292-ae3f-0930e03ac452"/>
-          <timestamp value="2021-04-01T16:13:11-04:00"/>
+          <identifier value="urn:uuid:5886ea9a-73b8-4d85-a823-7498e7fb5c4e"/>
+          <timestamp value="2021-04-21T11:22:39-04:00"/>
           <total value="8"/>
           <parameter>
             <name value="excludeNested"/>
@@ -888,11 +888,11 @@
         <name value="HBSpiceVS"/>
         <title value="Spice Additive Value Set"/>
         <status value="active"/>
-        <date value="2021-04-01T16:12:56-04:00"/>
+        <date value="2021-04-21T11:22:23-04:00"/>
         <description value="Spice liquids for use in coffee"/>
         <expansion>
-          <identifier value="urn:uuid:f8f5b730-72a0-48a9-94e7-3b28040ffc94"/>
-          <timestamp value="2021-04-01T16:13:11-04:00"/>
+          <identifier value="urn:uuid:3d661093-e906-4687-961d-9d04117e8a8f"/>
+          <timestamp value="2021-04-21T11:22:39-04:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1024,11 +1024,11 @@
         <name value="HBSweetenersVS"/>
         <title value="Sweeteners Additive Value Set"/>
         <status value="active"/>
-        <date value="2021-04-01T16:12:56-04:00"/>
+        <date value="2021-04-21T11:22:23-04:00"/>
         <description value="Sweeteners liquids for use in coffee"/>
         <expansion>
-          <identifier value="urn:uuid:7f1450a5-72f2-4b61-ac03-cb0985aba391"/>
-          <timestamp value="2021-04-01T16:13:11-04:00"/>
+          <identifier value="urn:uuid:033619bf-9419-49ef-993e-2b5911a8bedd"/>
+          <timestamp value="2021-04-21T11:22:39-04:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1194,11 +1194,11 @@
         <name value="HBSyrupVS"/>
         <title value="Syrup Additive Value Set"/>
         <status value="active"/>
-        <date value="2021-04-01T16:12:56-04:00"/>
+        <date value="2021-04-21T11:22:23-04:00"/>
         <description value="Syrups for use in coffee"/>
         <expansion>
-          <identifier value="urn:uuid:26fe2916-65a8-4e6c-bfcd-d8c12090510d"/>
-          <timestamp value="2021-04-01T16:13:11-04:00"/>
+          <identifier value="urn:uuid:80e045cc-1b9d-4559-969a-45c906be1954"/>
+          <timestamp value="2021-04-21T11:22:39-04:00"/>
           <total value="10"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1300,8 +1300,8 @@
         </text>
         <status value="active"/>
         <expansion>
-          <identifier value="urn:uuid:5c802d4e-86ea-4978-b934-3533e8f1ef9b"/>
-          <timestamp value="2021-03-31T18:12:24.108Z"/>
+          <identifier value="urn:uuid:b7203ff5-068d-48e9-b34c-648e45d6e5b6"/>
+          <timestamp value="2021-04-21T15:10:57.810Z"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueBoolean value="true"/>

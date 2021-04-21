@@ -3,9 +3,9 @@
   "name": "HotBeverage",
   "package-id": "fhir.uv.HotBeverage",
   "ig-ver": "2021-April-1st",
-  "date": "Thu, 01 Apr, 2021 16:12:56 -0400",
+  "date": "Wed, 21 Apr, 2021 11:22:23 -0400",
   "errs": 0,
-  "warnings": 7,
+  "warnings": 3,
   "hints": 0,
   "version": "4.0.1",
   "tool": "4.5.0 (3)"

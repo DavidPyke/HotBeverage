@@ -3,9 +3,7 @@ Profile:        BrewedLog
 Parent:         AuditEvent
 Id:             HotBeverage.Brewed
 Title:          "The AuditEvent for a successful Brewed Hot Beverage"
-Description:    "An AuditEvent profile for when request to brew a Hot Beverage action happens successfully.
-
-"
+Description:    "An AuditEvent profile for when request to brew a Hot Beverage action happens successfully."
 * type = http://terminology.hl7.org/CodeSystem/audit-event-type#rest "Restful Operation"
 * subtype 1..1
 * subtype = http://hl7.org/fhir/restful-interaction#operation "operation"
@@ -73,11 +71,10 @@ Description:    "An AuditEvent profile for when request to brew a Hot Beverage a
 Instance: ex-auditBasicBrew
 InstanceOf: BrewedLog
 Title: "Audit Example of a basic brew"
-Description: "Audit Example for a brewed coffee
+Description: """Audit Example for a brewed coffee
 
 * Using the Nespresso VertuoNext device
-* Requesting Espresso
-"
+* Requesting Espresso"""
 * type = http://terminology.hl7.org/CodeSystem/audit-event-type#rest "Restful Operation"
 * action = #E
 * subtype = http://hl7.org/fhir/restful-interaction#operation "operation"

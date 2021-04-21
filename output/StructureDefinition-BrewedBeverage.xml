@@ -42,8 +42,8 @@
   <name value="BrewedBeverage"/>
   <title value="The Hot Beverage to Brew"/>
   <status value="active"/>
-  <date value="2021-04-01T16:12:56-04:00"/>
-  <description value="The parameters to be given to the device to make the requested Hot Beverage.&#xD;&#xA;&#xD;&#xA;* The Machine to make the beverage (optional)&#xD;&#xA;* The Beverage to be made (required)&#xD;&#xA;* The type of Milk to be included (optional)&#xD;&#xA;* The type of Syrup to be included (optional)&#xD;&#xA;* The type of Alcohol to be included (optional)&#xD;&#xA;* The type of Sweetener to be included (optional)&#xD;&#xA;* The type of Spice to be included (optional)&#xD;&#xA;* Is Coffee to be decaffeinated (shall be NoDecaf)&#xD;&#xA;"/>
+  <date value="2021-04-21T11:22:23-04:00"/>
+  <description value="The parameters to be given to the device to make the requested Hot Beverage.&#xA;&#xA;* The Machine to make the beverage (optional)&#xA;* The Beverage to be made (required)&#xA;* The type of Milk to be included (optional)&#xA;* The type of Syrup to be included (optional)&#xA;* The type of Alcohol to be included (optional)&#xA;* The type of Sweetener to be included (optional)&#xA;* The type of Spice to be included (optional)&#xA;* Is Coffee to be decaffeinated (shall be NoDecaf)"/>
   <fhirVersion value="4.0.1"/>
   <mapping>
     <identity value="v2"/>

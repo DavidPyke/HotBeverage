@@ -23,7 +23,7 @@ Usage: #definition
 * parameter[0].min = 1
 * parameter[0].max = "1"
 * parameter[0].documentation = "The BrewedBeverage Resource that dictates the beverage to be brewed and the requested additions (if any)"
-* parameter[0].type = #Reference
+* parameter[0].type = #canonical
 * parameter[0].targetProfile = Canonical(BrewedBeverage)
 
 Instance: BB-Stop

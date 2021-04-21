@@ -10,7 +10,7 @@
   <name value="HotBeverage"/>
   <title value="HotBeverage FHIR Implementation Guide"/>
   <status value="draft"/>
-  <date value="2021-04-01T16:12:56-04:00"/>
+  <date value="2021-04-21T11:22:23-04:00"/>
   <packageId value="fhir.uv.HotBeverage"/>
   <license value="CC0-1.0"/>
   <fhirVersion value="4.0.1"/>
@@ -175,7 +175,7 @@
         <reference value="StructureDefinition/BrewedBeverage"/>
       </reference>
       <name value="The Hot Beverage to Brew"/>
-      <description value="The parameters to be given to the device to make the requested Hot Beverage.&#xD;&#xA;&#xD;&#xA;* The Machine to make the beverage (optional)&#xD;&#xA;* The Beverage to be made (required)&#xD;&#xA;* The type of Milk to be included (optional)&#xD;&#xA;* The type of Syrup to be included (optional)&#xD;&#xA;* The type of Alcohol to be included (optional)&#xD;&#xA;* The type of Sweetener to be included (optional)&#xD;&#xA;* The type of Spice to be included (optional)&#xD;&#xA;* Is Coffee to be decaffeinated (shall be NoDecaf)&#xD;&#xA;"/>
+      <description value="The parameters to be given to the device to make the requested Hot Beverage.&#xA;&#xA;* The Machine to make the beverage (optional)&#xA;* The Beverage to be made (required)&#xA;* The type of Milk to be included (optional)&#xA;* The type of Syrup to be included (optional)&#xA;* The type of Alcohol to be included (optional)&#xA;* The type of Sweetener to be included (optional)&#xA;* The type of Spice to be included (optional)&#xA;* Is Coffee to be decaffeinated (shall be NoDecaf)"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -186,7 +186,7 @@
         <reference value="StructureDefinition/HotBeverage.Brewed"/>
       </reference>
       <name value="The AuditEvent for a successful Brewed Hot Beverage"/>
-      <description value="An AuditEvent profile for when request to brew a Hot Beverage action happens successfully.&#xD;&#xA;&#xD;&#xA;"/>
+      <description value="An AuditEvent profile for when request to brew a Hot Beverage action happens successfully."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -230,7 +230,7 @@
         <reference value="ValueSet/HBMilkVS"/>
       </reference>
       <name value="Milk Additive Value Set"/>
-      <description value="Milk and milklike liquids for use in coffee"/>
+      <description value="Milk and milk-like liquids for use in coffee"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -395,7 +395,7 @@
         <reference value="Parameters/MakeCoffee"/>
       </reference>
       <name value="Make me Espresso"/>
-      <description value="Request to make Espresso.&#xD;&#xA;&#xD;&#xA;* Using the Nespresso VertuoNext device&#xD;&#xA;* Requesting Espresso&#xD;&#xA;"/>
+      <description value="Request to make Espresso.&#xA;&#xA;* Using the Nespresso VertuoNext device&#xA;* Requesting Espresso"/>
       <exampleCanonical value="http://example.org/StructureDefinition/BrewedBeverage"/>
     </resource>
     <resource>
@@ -417,7 +417,7 @@
         <reference value="AuditEvent/ex-auditBasicBrew"/>
       </reference>
       <name value="Audit Example of a basic brew"/>
-      <description value="Audit Example for a brewed coffee&#xD;&#xA;&#xD;&#xA;* Using the Nespresso VertuoNext device&#xD;&#xA;* Requesting Espresso&#xD;&#xA;"/>
+      <description value="Audit Example for a brewed coffee&#xA;&#xA;* Using the Nespresso VertuoNext device&#xA;* Requesting Espresso"/>
       <exampleCanonical value="http://example.org/StructureDefinition/HotBeverage.Brewed"/>
     </resource>
     <page>
