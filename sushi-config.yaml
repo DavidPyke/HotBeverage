@@ -7,12 +7,16 @@ canonical: http://example.org
 name: HotBeverage
 title: "HotBeverage FHIR Implementation Guide"
 status: draft
-publisher: Nobody in Particular
+publisher: 
+  name: Dave Pyke & John Moehrke
+  url: https://www.pyke.ca
+  email: david@pyke.ca
 contact:
   - name: David Pyke
     telecom:
       - system: email
         value: david@pyke.ca
+        use: work
 version: 2021-April-1st
 license: CC0-1.0
 fhirVersion: 4.0.1
