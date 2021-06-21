@@ -1,9 +1,30 @@
 @startuml
+hide footbox
+skinparam maxMessageSize 90
+skinparam sequence {
+backgroundColor DeepSkyBlue
+BorderColor DarkSlateGray
+ArrowColor Blue
+}
+
+skinparam Note {
+BackgroundColor LightBlue
+BorderColor Blue
+}
+
+skinparam participant {
+FontName Arial
+Style awesome
+BorderColor DeepSkyBlue
+BackgroundColor LightBlue
+}
+
+== Normative Flow ==
 Alice -> CoffeePot: Make me Espresso
-CoffeePot -> CoffeePot: making the Espresso
+CoffeePot -> CoffeePot: Making the Espresso
 CoffeePot -> AuditRepository: Record successful Espresso brew audit log entry
 CoffeePot --> Alice: Success - Espresso is made
-
+== 418 Message Flow ==
 Alice -> TeaKettle: Make me Coffee
 Alice <-- TeaKettle: Failure - "418 I'm a teapot"
 @enduml
