@@ -6,13 +6,28 @@
   "name": "HotBeverage",
   "title": "HotBeverage FHIR Implementation Guide",
   "status": "draft",
+  "publisher": "Dave Pyke &amp; John Moehrke",
   "contact": [
+    {
+      "name": "Dave Pyke &amp; John Moehrke",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "www.pyke.ca"
+        },
+        {
+          "system": "email",
+          "value": "david@pyke.ca"
+        }
+      ]
+    },
     {
       "name": "David Pyke",
       "telecom": [
         {
           "system": "email",
-          "value": "david@pyke.ca"
+          "value": "david@pyke.ca",
+          "use": "work"
         }
       ]
     }

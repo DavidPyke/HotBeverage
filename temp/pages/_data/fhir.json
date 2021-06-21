@@ -14,7 +14,7 @@
   "toolingVersionFull": "4.6.0 (3)",
   "totalFiles": 24,
   "processedFiles": 31,
-  "genDate": "Mon, Jun 21, 2021 09:17-0400",
+  "genDate": "Mon, Jun 21, 2021 09:29-0400",
   "genDay": "21/06/2021",
   "ig": {
     "id": "fhir.uv.HotBeverage",
@@ -24,8 +24,16 @@
     "version": "2021-April-1st",
     "status": "draft",
     "experimental": false,
+    "publisher": "Dave Pyke \u0026amp; John Moehrke",
     "gitstatus": "master",
     "contact": [
+      {
+        "name": "Dave Pyke \u0026amp; John Moehrke",
+        "telecom": [
+          "www.pyke.ca",
+          "david@pyke.ca"
+        ]
+      },
       {
         "name": "David Pyke",
         "telecom": [
@@ -33,7 +41,7 @@
         ]
       }
     ],
-    "date": "2021-06-21T09:17:19-04:00",
+    "date": "2021-06-21T09:29:16-04:00",
     "fhirVersion": "4.0.1"
   }
 }

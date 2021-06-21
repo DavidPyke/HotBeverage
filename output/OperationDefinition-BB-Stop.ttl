@@ -18,14 +18,27 @@
   fhir:OperationDefinition.status [ fhir:value "draft"];
   fhir:OperationDefinition.kind [ fhir:value "operation"];
   fhir:OperationDefinition.date [ fhir:value "2020-04-01T09:29:23+11:00"^^xsd:dateTime];
-  fhir:OperationDefinition.publisher [ fhir:value "HL7 (FHIR Project)"];
+  fhir:OperationDefinition.publisher [ fhir:value "Dave Pyke &amp; John Moehrke"];
   fhir:OperationDefinition.contact [
      fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "Dave Pyke &amp; John Moehrke" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "www.pyke.ca" ]
+     ], [
+       fhir:index 1;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "david@pyke.ca" ]
+     ]
+  ], [
+     fhir:index 1;
      fhir:ContactDetail.name [ fhir:value "David Pyke" ];
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "email" ];
-       fhir:ContactPoint.value [ fhir:value "david@pyke.ca" ]
+       fhir:ContactPoint.value [ fhir:value "david@pyke.ca" ];
+       fhir:ContactPoint.use [ fhir:value "work" ]
      ]
   ];
   fhir:OperationDefinition.description [ fhir:value "The stop operation sends the Device a direction to stop the brew of the beverage (primarily tea) to check for doneness.  Used in combination with the Start operation to make the tea just right"];

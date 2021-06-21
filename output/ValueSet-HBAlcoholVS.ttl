@@ -17,14 +17,28 @@
   fhir:ValueSet.name [ fhir:value "HBAlcoholVS"];
   fhir:ValueSet.title [ fhir:value "Alcohol Additive Value Set"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2021-06-21T09:17:19-04:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2021-06-21T09:29:16-04:00"^^xsd:dateTime];
+  fhir:ValueSet.publisher [ fhir:value "Dave Pyke &amp; John Moehrke"];
   fhir:ValueSet.contact [
      fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "Dave Pyke &amp; John Moehrke" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "www.pyke.ca" ]
+     ], [
+       fhir:index 1;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "david@pyke.ca" ]
+     ]
+  ], [
+     fhir:index 1;
      fhir:ContactDetail.name [ fhir:value "David Pyke" ];
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "email" ];
-       fhir:ContactPoint.value [ fhir:value "david@pyke.ca" ]
+       fhir:ContactPoint.value [ fhir:value "david@pyke.ca" ];
+       fhir:ContactPoint.use [ fhir:value "work" ]
      ]
   ];
   fhir:ValueSet.description [ fhir:value "Alcohol liquids for use in coffee"];

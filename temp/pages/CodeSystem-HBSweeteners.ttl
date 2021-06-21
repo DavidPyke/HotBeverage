@@ -17,14 +17,28 @@
   fhir:CodeSystem.name [ fhir:value "HBSweeteners"];
   fhir:CodeSystem.title [ fhir:value "Sweeteners List"];
   fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2021-06-21T09:17:19-04:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2021-06-21T09:29:16-04:00"^^xsd:dateTime];
+  fhir:CodeSystem.publisher [ fhir:value "Dave Pyke &amp; John Moehrke"];
   fhir:CodeSystem.contact [
      fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "Dave Pyke &amp; John Moehrke" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "www.pyke.ca" ]
+     ], [
+       fhir:index 1;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "david@pyke.ca" ]
+     ]
+  ], [
+     fhir:index 1;
      fhir:ContactDetail.name [ fhir:value "David Pyke" ];
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "email" ];
-       fhir:ContactPoint.value [ fhir:value "david@pyke.ca" ]
+       fhir:ContactPoint.value [ fhir:value "david@pyke.ca" ];
+       fhir:ContactPoint.use [ fhir:value "work" ]
      ]
   ];
   fhir:CodeSystem.description [ fhir:value "Sweeteners to be added, if desired"];

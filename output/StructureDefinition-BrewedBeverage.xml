@@ -42,12 +42,25 @@
   <name value="BrewedBeverage"/>
   <title value="The Hot Beverage to Brew"/>
   <status value="active"/>
-  <date value="2021-06-21T09:17:19-04:00"/>
+  <date value="2021-06-21T09:29:16-04:00"/>
+  <publisher value="Dave Pyke &amp;amp; John Moehrke"/>
+  <contact>
+    <name value="Dave Pyke &amp;amp; John Moehrke"/>
+    <telecom>
+      <system value="url"/>
+      <value value="www.pyke.ca"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="david@pyke.ca"/>
+    </telecom>
+  </contact>
   <contact>
     <name value="David Pyke"/>
     <telecom>
       <system value="email"/>
       <value value="david@pyke.ca"/>
+      <use value="work"/>
     </telecom>
   </contact>
   <description value="The parameters to be given to the device to make the requested Hot Beverage.&#xA;&#xA;* The Machine to make the beverage (optional)&#xA;* The Beverage to be made (required)&#xA;* The type of Milk to be included (optional)&#xA;* The type of Syrup to be included (optional)&#xA;* The type of Alcohol to be included (optional)&#xA;* The type of Sweetener to be included (optional)&#xA;* The type of Spice to be included (optional)&#xA;* Is Coffee to be decaffeinated (shall be NoDecaf)"/>

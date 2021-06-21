@@ -26,14 +26,28 @@
   fhir:StructureDefinition.name [ fhir:value "BrewedLog"];
   fhir:StructureDefinition.title [ fhir:value "The AuditEvent for a successful Brewed Hot Beverage"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2021-06-21T09:17:19-04:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-06-21T09:29:16-04:00"^^xsd:dateTime];
+  fhir:StructureDefinition.publisher [ fhir:value "Dave Pyke &amp; John Moehrke"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "Dave Pyke &amp; John Moehrke" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "www.pyke.ca" ]
+     ], [
+       fhir:index 1;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "david@pyke.ca" ]
+     ]
+  ], [
+     fhir:index 1;
      fhir:ContactDetail.name [ fhir:value "David Pyke" ];
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "email" ];
-       fhir:ContactPoint.value [ fhir:value "david@pyke.ca" ]
+       fhir:ContactPoint.value [ fhir:value "david@pyke.ca" ];
+       fhir:ContactPoint.use [ fhir:value "work" ]
      ]
   ];
   fhir:StructureDefinition.description [ fhir:value "An AuditEvent profile for when request to brew a Hot Beverage action happens successfully."];

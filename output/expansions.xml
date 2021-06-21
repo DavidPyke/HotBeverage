@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="ad50e232-6c0d-4952-b7f9-7903ba8712ef"/>
+  <id value="5af39cba-3d53-41bf-babb-8f529ad99e67"/>
   <meta>
-    <lastUpdated value="2021-06-21T09:17:19.228-04:00"/>
+    <lastUpdated value="2021-06-21T09:29:16.474-04:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -115,18 +115,31 @@
         <name value="HBAlcoholVS"/>
         <title value="Alcohol Additive Value Set"/>
         <status value="active"/>
-        <date value="2021-06-21T09:17:19-04:00"/>
+        <date value="2021-06-21T09:29:16-04:00"/>
+        <publisher value="Dave Pyke &amp;amp; John Moehrke"/>
         <contact>
-          <name value="David Pyke"/>
+          <name value="Dave Pyke &amp;amp; John Moehrke"/>
+          <telecom>
+            <system value="url"/>
+            <value value="www.pyke.ca"/>
+          </telecom>
           <telecom>
             <system value="email"/>
             <value value="david@pyke.ca"/>
           </telecom>
         </contact>
+        <contact>
+          <name value="David Pyke"/>
+          <telecom>
+            <system value="email"/>
+            <value value="david@pyke.ca"/>
+            <use value="work"/>
+          </telecom>
+        </contact>
         <description value="Alcohol liquids for use in coffee"/>
         <expansion>
-          <identifier value="urn:uuid:c5485804-5485-4efb-aca6-f29a6cd29394"/>
-          <timestamp value="2021-06-21T09:17:46-04:00"/>
+          <identifier value="urn:uuid:5ee96db3-6ce4-4295-b843-bc1cab4e1b76"/>
+          <timestamp value="2021-06-21T09:29:38-04:00"/>
           <total value="9"/>
           <parameter>
             <name value="excludeNested"/>
@@ -406,18 +419,31 @@
         <name value="HBBeverageVS"/>
         <title value="Hot Beverages Value Set"/>
         <status value="active"/>
-        <date value="2021-06-21T09:17:19-04:00"/>
+        <date value="2021-06-21T09:29:16-04:00"/>
+        <publisher value="Dave Pyke &amp;amp; John Moehrke"/>
         <contact>
-          <name value="David Pyke"/>
+          <name value="Dave Pyke &amp;amp; John Moehrke"/>
+          <telecom>
+            <system value="url"/>
+            <value value="www.pyke.ca"/>
+          </telecom>
           <telecom>
             <system value="email"/>
             <value value="david@pyke.ca"/>
           </telecom>
         </contact>
+        <contact>
+          <name value="David Pyke"/>
+          <telecom>
+            <system value="email"/>
+            <value value="david@pyke.ca"/>
+            <use value="work"/>
+          </telecom>
+        </contact>
         <description value="All beverages allowed to be made via Hot Beverage"/>
         <expansion>
-          <identifier value="urn:uuid:c1c66b9a-6f86-4a5b-af5d-c1197e360825"/>
-          <timestamp value="2021-06-21T09:17:46-04:00"/>
+          <identifier value="urn:uuid:21a4d494-1a36-4111-98b0-1cdb8f30fa05"/>
+          <timestamp value="2021-06-21T09:29:38-04:00"/>
           <total value="23"/>
           <parameter>
             <name value="excludeNested"/>
@@ -623,18 +649,31 @@
         <name value="HBDrinkSizeVS"/>
         <title value="Size of Beverage to be Consumed"/>
         <status value="active"/>
-        <date value="2021-06-21T09:17:19-04:00"/>
+        <date value="2021-06-21T09:29:16-04:00"/>
+        <publisher value="Dave Pyke &amp;amp; John Moehrke"/>
         <contact>
-          <name value="David Pyke"/>
+          <name value="Dave Pyke &amp;amp; John Moehrke"/>
+          <telecom>
+            <system value="url"/>
+            <value value="www.pyke.ca"/>
+          </telecom>
           <telecom>
             <system value="email"/>
             <value value="david@pyke.ca"/>
           </telecom>
         </contact>
+        <contact>
+          <name value="David Pyke"/>
+          <telecom>
+            <system value="email"/>
+            <value value="david@pyke.ca"/>
+            <use value="work"/>
+          </telecom>
+        </contact>
         <description value="You want how much?"/>
         <expansion>
-          <identifier value="urn:uuid:5eb88593-3291-43bf-862c-188821870426"/>
-          <timestamp value="2021-06-21T09:17:46-04:00"/>
+          <identifier value="urn:uuid:58ab929b-c8db-4b08-889a-b4997a572613"/>
+          <timestamp value="2021-06-21T09:29:38-04:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -774,18 +813,31 @@
         <name value="HBMilkVS"/>
         <title value="Milk Additive Value Set"/>
         <status value="active"/>
-        <date value="2021-06-21T09:17:19-04:00"/>
+        <date value="2021-06-21T09:29:16-04:00"/>
+        <publisher value="Dave Pyke &amp;amp; John Moehrke"/>
         <contact>
-          <name value="David Pyke"/>
+          <name value="Dave Pyke &amp;amp; John Moehrke"/>
+          <telecom>
+            <system value="url"/>
+            <value value="www.pyke.ca"/>
+          </telecom>
           <telecom>
             <system value="email"/>
             <value value="david@pyke.ca"/>
           </telecom>
         </contact>
+        <contact>
+          <name value="David Pyke"/>
+          <telecom>
+            <system value="email"/>
+            <value value="david@pyke.ca"/>
+            <use value="work"/>
+          </telecom>
+        </contact>
         <description value="Milk and milk-like liquids for use in coffee"/>
         <expansion>
-          <identifier value="urn:uuid:7a33420d-e844-44a3-95b0-9a40a8d3aee7"/>
-          <timestamp value="2021-06-21T09:17:46-04:00"/>
+          <identifier value="urn:uuid:662041d7-6904-4ceb-8afe-eb8d7e048813"/>
+          <timestamp value="2021-06-21T09:29:38-04:00"/>
           <total value="8"/>
           <parameter>
             <name value="excludeNested"/>
@@ -916,18 +968,31 @@
         <name value="HBSpiceVS"/>
         <title value="Spice Additive Value Set"/>
         <status value="active"/>
-        <date value="2021-06-21T09:17:19-04:00"/>
+        <date value="2021-06-21T09:29:16-04:00"/>
+        <publisher value="Dave Pyke &amp;amp; John Moehrke"/>
         <contact>
-          <name value="David Pyke"/>
+          <name value="Dave Pyke &amp;amp; John Moehrke"/>
+          <telecom>
+            <system value="url"/>
+            <value value="www.pyke.ca"/>
+          </telecom>
           <telecom>
             <system value="email"/>
             <value value="david@pyke.ca"/>
           </telecom>
         </contact>
+        <contact>
+          <name value="David Pyke"/>
+          <telecom>
+            <system value="email"/>
+            <value value="david@pyke.ca"/>
+            <use value="work"/>
+          </telecom>
+        </contact>
         <description value="Spice liquids for use in coffee"/>
         <expansion>
-          <identifier value="urn:uuid:9c26c0f8-a43a-4a88-9f3b-d5291c94df7a"/>
-          <timestamp value="2021-06-21T09:17:46-04:00"/>
+          <identifier value="urn:uuid:4b8a6646-9d20-4388-b007-29aba13cb72f"/>
+          <timestamp value="2021-06-21T09:29:38-04:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1059,18 +1124,31 @@
         <name value="HBSweetenersVS"/>
         <title value="Sweeteners Additive Value Set"/>
         <status value="active"/>
-        <date value="2021-06-21T09:17:19-04:00"/>
+        <date value="2021-06-21T09:29:16-04:00"/>
+        <publisher value="Dave Pyke &amp;amp; John Moehrke"/>
         <contact>
-          <name value="David Pyke"/>
+          <name value="Dave Pyke &amp;amp; John Moehrke"/>
+          <telecom>
+            <system value="url"/>
+            <value value="www.pyke.ca"/>
+          </telecom>
           <telecom>
             <system value="email"/>
             <value value="david@pyke.ca"/>
           </telecom>
         </contact>
+        <contact>
+          <name value="David Pyke"/>
+          <telecom>
+            <system value="email"/>
+            <value value="david@pyke.ca"/>
+            <use value="work"/>
+          </telecom>
+        </contact>
         <description value="Sweeteners liquids for use in coffee"/>
         <expansion>
-          <identifier value="urn:uuid:ed5c4122-0461-422c-a958-542b4e40882e"/>
-          <timestamp value="2021-06-21T09:17:47-04:00"/>
+          <identifier value="urn:uuid:62f77a4a-9d25-46a5-ab15-1d2a42e503e9"/>
+          <timestamp value="2021-06-21T09:29:38-04:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1236,18 +1314,31 @@
         <name value="HBSyrupVS"/>
         <title value="Syrup Additive Value Set"/>
         <status value="active"/>
-        <date value="2021-06-21T09:17:19-04:00"/>
+        <date value="2021-06-21T09:29:16-04:00"/>
+        <publisher value="Dave Pyke &amp;amp; John Moehrke"/>
         <contact>
-          <name value="David Pyke"/>
+          <name value="Dave Pyke &amp;amp; John Moehrke"/>
+          <telecom>
+            <system value="url"/>
+            <value value="www.pyke.ca"/>
+          </telecom>
           <telecom>
             <system value="email"/>
             <value value="david@pyke.ca"/>
           </telecom>
         </contact>
+        <contact>
+          <name value="David Pyke"/>
+          <telecom>
+            <system value="email"/>
+            <value value="david@pyke.ca"/>
+            <use value="work"/>
+          </telecom>
+        </contact>
         <description value="Syrups for use in coffee"/>
         <expansion>
-          <identifier value="urn:uuid:242d547c-7d41-44c9-9378-73e2391d8b31"/>
-          <timestamp value="2021-06-21T09:17:47-04:00"/>
+          <identifier value="urn:uuid:c4e9c031-e192-432d-b2fe-dd07c59f2487"/>
+          <timestamp value="2021-06-21T09:29:38-04:00"/>
           <total value="10"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1312,13 +1403,12 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://example.org/ValueSet/NoDecaf"/>
     <resource>
       <ValueSet>
-        <id value="NoDecaf"/>
+        <language value="en"/>
         <text>
           <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
+          <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
             <p>This value set contains 1 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Jan 2021</p>
             <p>All codes from system 
@@ -1349,28 +1439,10 @@
             </table>
           </div>
         </text>
-        <url value="http://example.org/ValueSet/NoDecaf"/>
-        <version value="2021-April-1st"/>
-        <name value="NoDecaf"/>
-        <title value="Decaf is for the weak"/>
         <status value="active"/>
-        <date value="2021-06-21T09:17:19-04:00"/>
-        <contact>
-          <name value="David Pyke"/>
-          <telecom>
-            <system value="email"/>
-            <value value="david@pyke.ca"/>
-          </telecom>
-        </contact>
-        <description value="No, Just No"/>
         <expansion>
-          <identifier value="urn:uuid:a80589cf-aba2-4a78-9e10-3b37d7de5736"/>
-          <timestamp value="2021-06-21T09:17:47-04:00"/>
-          <total value="1"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
+          <identifier value="urn:uuid:41f10392-33f9-4fbc-a7ea-23c3526f8881"/>
+          <timestamp value="2021-06-21T13:17:44.965Z"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueBoolean value="true"/>
