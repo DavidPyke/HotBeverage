@@ -2,8 +2,8 @@
 =========================================
 
 err = 0, warn = 3, info = 0
-IG Publisher Version: 1.1.66
-Generated Wed Apr 21 11:23:11 EDT 2021. FHIR version 4.0.1 for fhir.uv.HotBeverage#2021-April-1st (canonical = http://example.org)
+IG Publisher Version: 1.1.75
+Generated Mon Jun 21 09:05:16 EDT 2021. FHIR version 4.0.1 for fhir.uv.HotBeverage#2021-April-1st (canonical = http://example.org)
 
  Build Errors : 124 / 0 / 0
  C:\FHIR\HotBeverage\fsh-generated\resources\ImplementationGuide-fhir.uv.HotBeverage : 0 / 0 / 1
@@ -32,130 +32,130 @@ Generated Wed Apr 21 11:23:11 EDT 2021. FHIR version 4.0.1 for fhir.uv.HotBevera
  C:\FHIR\HotBeverage\fsh-generated\resources\valueset-NoDecaf : 0 / 0 / 1
 </table>
 == n/a ==
-ERROR: C:\FHIR\HotBeverage\output\AuditEvent-ex-auditBasicBrew.change.history.html#/html/body/div/div/div/p/a at Line 197, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\AuditEvent-ex-auditBasicBrew.html#/html/body/div/div/div/p/a at Line 182, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\AuditEvent-ex-auditBasicBrew.json.html#/html/body/div/div/div/p/a at Line 304, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\AuditEvent-ex-auditBasicBrew.ttl.html#/html/body/div/div/div/p/a at Line 294, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\AuditEvent-ex-auditBasicBrew.xml.html#/html/body/div/div/div/p/a at Line 287, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBAlcohol.change.history.html#/html/body/div/div/div/p/a at Line 197, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBAlcohol.html#/html/body/div/div/div/p/a at Line 206, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBAlcohol.json.html#/html/body/div/div/div/p/a at Line 239, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBAlcohol.ttl.html#/html/body/div/div/div/p/a at Line 252, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBAlcohol.xml.html#/html/body/div/div/div/p/a at Line 237, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBBeverages.change.history.html#/html/body/div/div/div/p/a at Line 197, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBBeverages.html#/html/body/div/div/div/p/a at Line 206, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBBeverages.json.html#/html/body/div/div/div/p/a at Line 295, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBBeverages.ttl.html#/html/body/div/div/div/p/a at Line 308, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBBeverages.xml.html#/html/body/div/div/div/p/a at Line 293, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBDrinkSize.change.history.html#/html/body/div/div/div/p/a at Line 197, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBDrinkSize.html#/html/body/div/div/div/p/a at Line 206, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBDrinkSize.json.html#/html/body/div/div/div/p/a at Line 228, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBDrinkSize.ttl.html#/html/body/div/div/div/p/a at Line 241, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBDrinkSize.xml.html#/html/body/div/div/div/p/a at Line 226, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBMilks.change.history.html#/html/body/div/div/div/p/a at Line 197, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBMilks.html#/html/body/div/div/div/p/a at Line 206, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBMilks.json.html#/html/body/div/div/div/p/a at Line 235, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBMilks.ttl.html#/html/body/div/div/div/p/a at Line 248, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBMilks.xml.html#/html/body/div/div/div/p/a at Line 233, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBSpice.change.history.html#/html/body/div/div/div/p/a at Line 197, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBSpice.html#/html/body/div/div/div/p/a at Line 206, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBSpice.json.html#/html/body/div/div/div/p/a at Line 223, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBSpice.ttl.html#/html/body/div/div/div/p/a at Line 236, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBSpice.xml.html#/html/body/div/div/div/p/a at Line 221, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBSweeteners.change.history.html#/html/body/div/div/div/p/a at Line 197, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBSweeteners.html#/html/body/div/div/div/p/a at Line 206, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBSweeteners.json.html#/html/body/div/div/div/p/a at Line 231, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBSweeteners.ttl.html#/html/body/div/div/div/p/a at Line 244, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBSweeteners.xml.html#/html/body/div/div/div/p/a at Line 229, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBSyrups.change.history.html#/html/body/div/div/div/p/a at Line 197, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBSyrups.html#/html/body/div/div/div/p/a at Line 206, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBSyrups.json.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBSyrups.ttl.html#/html/body/div/div/div/p/a at Line 256, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBSyrups.xml.html#/html/body/div/div/div/p/a at Line 241, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\Device-VertuoNext.change.history.html#/html/body/div/div/div/p/a at Line 197, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\Device-VertuoNext.html#/html/body/div/div/div/p/a at Line 182, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\Device-VertuoNext.json.html#/html/body/div/div/div/p/a at Line 205, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\Device-VertuoNext.ttl.html#/html/body/div/div/div/p/a at Line 218, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\Device-VertuoNext.xml.html#/html/body/div/div/div/p/a at Line 203, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\OperationDefinition-BB-Stop.change.history.html#/html/body/div/div/div/p/a at Line 197, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\OperationDefinition-BB-Stop.html#/html/body/div/div/div/p/a at Line 187, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\OperationDefinition-BB-Stop.json.html#/html/body/div/div/div/p/a at Line 229, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\OperationDefinition-BB-Stop.ttl.html#/html/body/div/div/div/p/a at Line 238, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\OperationDefinition-BB-Stop.xml.html#/html/body/div/div/div/p/a at Line 227, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\OperationDefinition-BB-When.change.history.html#/html/body/div/div/div/p/a at Line 197, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\OperationDefinition-BB-When.html#/html/body/div/div/div/p/a at Line 188, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\OperationDefinition-BB-When.json.html#/html/body/div/div/div/p/a at Line 229, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\OperationDefinition-BB-When.ttl.html#/html/body/div/div/div/p/a at Line 238, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\OperationDefinition-BB-When.xml.html#/html/body/div/div/div/p/a at Line 230, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\OperationDefinition-Brew.change.history.html#/html/body/div/div/div/p/a at Line 197, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\OperationDefinition-Brew.html#/html/body/div/div/div/p/a at Line 188, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\OperationDefinition-Brew.json.html#/html/body/div/div/div/p/a at Line 232, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\OperationDefinition-Brew.ttl.html#/html/body/div/div/div/p/a at Line 242, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\OperationDefinition-Brew.xml.html#/html/body/div/div/div/p/a at Line 232, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\Parameters-MakeCoffee.change.history.html#/html/body/div/div/div/p/a at Line 197, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\Parameters-MakeCoffee.html#/html/body/div/div/div/p/a at Line 182, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\Parameters-MakeCoffee.json.html#/html/body/div/div/div/p/a at Line 219, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\Parameters-MakeCoffee.ttl.html#/html/body/div/div/div/p/a at Line 229, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\Parameters-MakeCoffee.xml.html#/html/body/div/div/div/p/a at Line 213, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\StructureDefinition-BrewedBeverage-definitions.html#/html/body/div/div/div/p/a at Line 999, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\StructureDefinition-BrewedBeverage-examples.html#/html/body/div/div/div/p/a at Line 250, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\StructureDefinition-BrewedBeverage-mappings.html#/html/body/div/div/div/p/a at Line 286, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\StructureDefinition-BrewedBeverage.html#/html/body/div/div/div/p/a at Line 1153, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\StructureDefinition-BrewedBeverage.profile.history.html#/html/body/div/div/div/p/a at Line 228, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\StructureDefinition-BrewedBeverage.profile.json.html#/html/body/div/div/div/p/a at Line 3846, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\StructureDefinition-BrewedBeverage.profile.ttl.html#/html/body/div/div/div/p/a at Line 3430, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\StructureDefinition-BrewedBeverage.profile.xml.html#/html/body/div/div/div/p/a at Line 3456, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\StructureDefinition-HotBeverage.Brewed-definitions.html#/html/body/div/div/div/p/a at Line 1716, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\StructureDefinition-HotBeverage.Brewed-examples.html#/html/body/div/div/div/p/a at Line 250, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\StructureDefinition-HotBeverage.Brewed-mappings.html#/html/body/div/div/div/p/a at Line 586, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\StructureDefinition-HotBeverage.Brewed.html#/html/body/div/div/div/p/a at Line 1371, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\StructureDefinition-HotBeverage.Brewed.profile.history.html#/html/body/div/div/div/p/a at Line 228, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\StructureDefinition-HotBeverage.Brewed.profile.json.html#/html/body/div/div/div/p/a at Line 7917, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\StructureDefinition-HotBeverage.Brewed.profile.ttl.html#/html/body/div/div/div/p/a at Line 6805, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\StructureDefinition-HotBeverage.Brewed.profile.xml.html#/html/body/div/div/div/p/a at Line 7177, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBAlcoholVS.change.history.html#/html/body/div/div/div/p/a at Line 197, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBAlcoholVS.html#/html/body/div/div/div/p/a at Line 244, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBAlcoholVS.json.html#/html/body/div/div/div/p/a at Line 206, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBAlcoholVS.ttl.html#/html/body/div/div/div/p/a at Line 218, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBAlcoholVS.xml.html#/html/body/div/div/div/p/a at Line 204, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBBeverageVS.change.history.html#/html/body/div/div/div/p/a at Line 197, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBBeverageVS.html#/html/body/div/div/div/p/a at Line 244, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBBeverageVS.json.html#/html/body/div/div/div/p/a at Line 206, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBBeverageVS.ttl.html#/html/body/div/div/div/p/a at Line 218, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBBeverageVS.xml.html#/html/body/div/div/div/p/a at Line 204, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBDrinkSizeVS.change.history.html#/html/body/div/div/div/p/a at Line 197, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBDrinkSizeVS.html#/html/body/div/div/div/p/a at Line 244, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBDrinkSizeVS.json.html#/html/body/div/div/div/p/a at Line 206, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBDrinkSizeVS.ttl.html#/html/body/div/div/div/p/a at Line 218, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBDrinkSizeVS.xml.html#/html/body/div/div/div/p/a at Line 204, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBMilkVS.change.history.html#/html/body/div/div/div/p/a at Line 197, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBMilkVS.html#/html/body/div/div/div/p/a at Line 244, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBMilkVS.json.html#/html/body/div/div/div/p/a at Line 206, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBMilkVS.ttl.html#/html/body/div/div/div/p/a at Line 218, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBMilkVS.xml.html#/html/body/div/div/div/p/a at Line 204, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBSpiceVS.change.history.html#/html/body/div/div/div/p/a at Line 197, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBSpiceVS.html#/html/body/div/div/div/p/a at Line 244, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBSpiceVS.json.html#/html/body/div/div/div/p/a at Line 206, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBSpiceVS.ttl.html#/html/body/div/div/div/p/a at Line 218, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBSpiceVS.xml.html#/html/body/div/div/div/p/a at Line 204, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBSweetenersVS.change.history.html#/html/body/div/div/div/p/a at Line 197, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBSweetenersVS.html#/html/body/div/div/div/p/a at Line 244, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBSweetenersVS.json.html#/html/body/div/div/div/p/a at Line 206, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBSweetenersVS.ttl.html#/html/body/div/div/div/p/a at Line 218, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBSweetenersVS.xml.html#/html/body/div/div/div/p/a at Line 204, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBSyrupVS.change.history.html#/html/body/div/div/div/p/a at Line 197, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBSyrupVS.html#/html/body/div/div/div/p/a at Line 244, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBSyrupVS.json.html#/html/body/div/div/div/p/a at Line 206, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBSyrupVS.ttl.html#/html/body/div/div/div/p/a at Line 218, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBSyrupVS.xml.html#/html/body/div/div/div/p/a at Line 204, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\ValueSet-NoDecaf.change.history.html#/html/body/div/div/div/p/a at Line 197, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\ValueSet-NoDecaf.html#/html/body/div/div/div/p/a at Line 244, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\ValueSet-NoDecaf.json.html#/html/body/div/div/div/p/a at Line 212, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\ValueSet-NoDecaf.ttl.html#/html/body/div/div/div/p/a at Line 222, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\ValueSet-NoDecaf.xml.html#/html/body/div/div/div/p/a at Line 208, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\artifacts.html#/html/body/div/div/div/p/a at Line 432, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\index.html#/html/body/div/div/div/p/a at Line 219, column 28: The link '' for "" cannot be resolved
-ERROR: C:\FHIR\HotBeverage\output\toc.html#/html/body/div/div/div/p/a at Line 133, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\AuditEvent-ex-auditBasicBrew.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\AuditEvent-ex-auditBasicBrew.html#/html/body/div/div/div/p/a at Line 186, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\AuditEvent-ex-auditBasicBrew.json.html#/html/body/div/div/div/p/a at Line 308, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\AuditEvent-ex-auditBasicBrew.ttl.html#/html/body/div/div/div/p/a at Line 298, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\AuditEvent-ex-auditBasicBrew.xml.html#/html/body/div/div/div/p/a at Line 291, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBAlcohol.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBAlcohol.html#/html/body/div/div/div/p/a at Line 210, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBAlcohol.json.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBAlcohol.ttl.html#/html/body/div/div/div/p/a at Line 256, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBAlcohol.xml.html#/html/body/div/div/div/p/a at Line 241, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBBeverages.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBBeverages.html#/html/body/div/div/div/p/a at Line 210, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBBeverages.json.html#/html/body/div/div/div/p/a at Line 299, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBBeverages.ttl.html#/html/body/div/div/div/p/a at Line 312, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBBeverages.xml.html#/html/body/div/div/div/p/a at Line 297, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBDrinkSize.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBDrinkSize.html#/html/body/div/div/div/p/a at Line 210, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBDrinkSize.json.html#/html/body/div/div/div/p/a at Line 232, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBDrinkSize.ttl.html#/html/body/div/div/div/p/a at Line 245, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBDrinkSize.xml.html#/html/body/div/div/div/p/a at Line 230, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBMilks.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBMilks.html#/html/body/div/div/div/p/a at Line 210, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBMilks.json.html#/html/body/div/div/div/p/a at Line 239, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBMilks.ttl.html#/html/body/div/div/div/p/a at Line 252, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBMilks.xml.html#/html/body/div/div/div/p/a at Line 237, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBSpice.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBSpice.html#/html/body/div/div/div/p/a at Line 210, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBSpice.json.html#/html/body/div/div/div/p/a at Line 227, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBSpice.ttl.html#/html/body/div/div/div/p/a at Line 240, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBSpice.xml.html#/html/body/div/div/div/p/a at Line 225, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBSweeteners.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBSweeteners.html#/html/body/div/div/div/p/a at Line 210, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBSweeteners.json.html#/html/body/div/div/div/p/a at Line 235, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBSweeteners.ttl.html#/html/body/div/div/div/p/a at Line 248, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBSweeteners.xml.html#/html/body/div/div/div/p/a at Line 233, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBSyrups.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBSyrups.html#/html/body/div/div/div/p/a at Line 210, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBSyrups.json.html#/html/body/div/div/div/p/a at Line 247, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBSyrups.ttl.html#/html/body/div/div/div/p/a at Line 260, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\CodeSystem-HBSyrups.xml.html#/html/body/div/div/div/p/a at Line 245, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\Device-VertuoNext.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\Device-VertuoNext.html#/html/body/div/div/div/p/a at Line 186, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\Device-VertuoNext.json.html#/html/body/div/div/div/p/a at Line 209, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\Device-VertuoNext.ttl.html#/html/body/div/div/div/p/a at Line 222, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\Device-VertuoNext.xml.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\OperationDefinition-BB-Stop.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\OperationDefinition-BB-Stop.html#/html/body/div/div/div/p/a at Line 191, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\OperationDefinition-BB-Stop.json.html#/html/body/div/div/div/p/a at Line 233, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\OperationDefinition-BB-Stop.ttl.html#/html/body/div/div/div/p/a at Line 242, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\OperationDefinition-BB-Stop.xml.html#/html/body/div/div/div/p/a at Line 231, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\OperationDefinition-BB-When.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\OperationDefinition-BB-When.html#/html/body/div/div/div/p/a at Line 192, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\OperationDefinition-BB-When.json.html#/html/body/div/div/div/p/a at Line 233, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\OperationDefinition-BB-When.ttl.html#/html/body/div/div/div/p/a at Line 242, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\OperationDefinition-BB-When.xml.html#/html/body/div/div/div/p/a at Line 234, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\OperationDefinition-Brew.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\OperationDefinition-Brew.html#/html/body/div/div/div/p/a at Line 192, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\OperationDefinition-Brew.json.html#/html/body/div/div/div/p/a at Line 236, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\OperationDefinition-Brew.ttl.html#/html/body/div/div/div/p/a at Line 246, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\OperationDefinition-Brew.xml.html#/html/body/div/div/div/p/a at Line 236, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\Parameters-MakeCoffee.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\Parameters-MakeCoffee.html#/html/body/div/div/div/p/a at Line 186, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\Parameters-MakeCoffee.json.html#/html/body/div/div/div/p/a at Line 223, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\Parameters-MakeCoffee.ttl.html#/html/body/div/div/div/p/a at Line 233, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\Parameters-MakeCoffee.xml.html#/html/body/div/div/div/p/a at Line 217, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\StructureDefinition-BrewedBeverage-definitions.html#/html/body/div/div/div/p/a at Line 1003, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\StructureDefinition-BrewedBeverage-examples.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\StructureDefinition-BrewedBeverage-mappings.html#/html/body/div/div/div/p/a at Line 290, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\StructureDefinition-BrewedBeverage.html#/html/body/div/div/div/p/a at Line 1156, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\StructureDefinition-BrewedBeverage.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\StructureDefinition-BrewedBeverage.profile.json.html#/html/body/div/div/div/p/a at Line 3850, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\StructureDefinition-BrewedBeverage.profile.ttl.html#/html/body/div/div/div/p/a at Line 3434, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\StructureDefinition-BrewedBeverage.profile.xml.html#/html/body/div/div/div/p/a at Line 3460, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\StructureDefinition-HotBeverage.Brewed-definitions.html#/html/body/div/div/div/p/a at Line 1720, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\StructureDefinition-HotBeverage.Brewed-examples.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\StructureDefinition-HotBeverage.Brewed-mappings.html#/html/body/div/div/div/p/a at Line 590, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\StructureDefinition-HotBeverage.Brewed.html#/html/body/div/div/div/p/a at Line 1374, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\StructureDefinition-HotBeverage.Brewed.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\StructureDefinition-HotBeverage.Brewed.profile.json.html#/html/body/div/div/div/p/a at Line 7921, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\StructureDefinition-HotBeverage.Brewed.profile.ttl.html#/html/body/div/div/div/p/a at Line 6809, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\StructureDefinition-HotBeverage.Brewed.profile.xml.html#/html/body/div/div/div/p/a at Line 7181, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBAlcoholVS.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBAlcoholVS.html#/html/body/div/div/div/p/a at Line 248, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBAlcoholVS.json.html#/html/body/div/div/div/p/a at Line 210, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBAlcoholVS.ttl.html#/html/body/div/div/div/p/a at Line 222, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBAlcoholVS.xml.html#/html/body/div/div/div/p/a at Line 208, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBBeverageVS.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBBeverageVS.html#/html/body/div/div/div/p/a at Line 248, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBBeverageVS.json.html#/html/body/div/div/div/p/a at Line 210, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBBeverageVS.ttl.html#/html/body/div/div/div/p/a at Line 222, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBBeverageVS.xml.html#/html/body/div/div/div/p/a at Line 208, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBDrinkSizeVS.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBDrinkSizeVS.html#/html/body/div/div/div/p/a at Line 248, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBDrinkSizeVS.json.html#/html/body/div/div/div/p/a at Line 210, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBDrinkSizeVS.ttl.html#/html/body/div/div/div/p/a at Line 222, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBDrinkSizeVS.xml.html#/html/body/div/div/div/p/a at Line 208, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBMilkVS.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBMilkVS.html#/html/body/div/div/div/p/a at Line 248, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBMilkVS.json.html#/html/body/div/div/div/p/a at Line 210, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBMilkVS.ttl.html#/html/body/div/div/div/p/a at Line 222, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBMilkVS.xml.html#/html/body/div/div/div/p/a at Line 208, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBSpiceVS.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBSpiceVS.html#/html/body/div/div/div/p/a at Line 248, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBSpiceVS.json.html#/html/body/div/div/div/p/a at Line 210, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBSpiceVS.ttl.html#/html/body/div/div/div/p/a at Line 222, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBSpiceVS.xml.html#/html/body/div/div/div/p/a at Line 208, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBSweetenersVS.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBSweetenersVS.html#/html/body/div/div/div/p/a at Line 248, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBSweetenersVS.json.html#/html/body/div/div/div/p/a at Line 210, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBSweetenersVS.ttl.html#/html/body/div/div/div/p/a at Line 222, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBSweetenersVS.xml.html#/html/body/div/div/div/p/a at Line 208, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBSyrupVS.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBSyrupVS.html#/html/body/div/div/div/p/a at Line 248, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBSyrupVS.json.html#/html/body/div/div/div/p/a at Line 210, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBSyrupVS.ttl.html#/html/body/div/div/div/p/a at Line 222, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\ValueSet-HBSyrupVS.xml.html#/html/body/div/div/div/p/a at Line 208, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\ValueSet-NoDecaf.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\ValueSet-NoDecaf.html#/html/body/div/div/div/p/a at Line 248, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\ValueSet-NoDecaf.json.html#/html/body/div/div/div/p/a at Line 216, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\ValueSet-NoDecaf.ttl.html#/html/body/div/div/div/p/a at Line 226, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\ValueSet-NoDecaf.xml.html#/html/body/div/div/div/p/a at Line 212, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\artifacts.html#/html/body/div/div/div/p/a at Line 436, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\index.html#/html/body/div/div/div/p/a at Line 223, column 28: The link '' for "" cannot be resolved
+ERROR: C:\FHIR\HotBeverage\output\toc.html#/html/body/div/div/div/p/a at Line 137, column 28: The link '' for "" cannot be resolved
 == C:\FHIR\HotBeverage\fsh-generated\resources\ImplementationGuide-fhir.uv.HotBeverage.json ==
 INFORMATION: ImplementationGuide/fhir.uv.HotBeverage: ImplementationGuide: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide
 == C:\FHIR\HotBeverage\fsh-generated\resources\AuditEvent-ex-auditBasicBrew.json ==
@@ -178,13 +178,13 @@ INFORMATION: CodeSystem/HBSyrups: CodeSystem: Validate resource against profile 
 INFORMATION: Device/VertuoNext: Device: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Device
 == C:\FHIR\HotBeverage\fsh-generated\resources\OperationDefinition-BB-Stop.json ==
 INFORMATION: OperationDefinition/BB-Stop: OperationDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/OperationDefinition
-WARNING: OperationDefinition/BB-Stop: OperationDefinition: opd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' failed
+WARNING: OperationDefinition/BB-Stop: OperationDefinition: opd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == C:\FHIR\HotBeverage\fsh-generated\resources\OperationDefinition-BB-When.json ==
 INFORMATION: OperationDefinition/BB-When: OperationDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/OperationDefinition
-WARNING: OperationDefinition/BB-When: OperationDefinition: opd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' failed
+WARNING: OperationDefinition/BB-When: OperationDefinition: opd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == C:\FHIR\HotBeverage\fsh-generated\resources\OperationDefinition-Brew.json ==
 INFORMATION: OperationDefinition/Brew: OperationDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/OperationDefinition
-WARNING: OperationDefinition/Brew: OperationDefinition: opd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' failed
+WARNING: OperationDefinition/Brew: OperationDefinition: opd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == C:\FHIR\HotBeverage\fsh-generated\resources\Parameters-MakeCoffee.json ==
 INFORMATION: Parameters/MakeCoffee: Parameters: Validate resource against profile http://example.org/StructureDefinition/BrewedBeverage
 == C:\FHIR\HotBeverage\fsh-generated\resources\StructureDefinition-BrewedBeverage.json ==

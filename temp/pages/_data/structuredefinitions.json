@@ -10,7 +10,7 @@
     "basename": "Parameters",
     "basepath": "http://hl7.org/fhir/R4/parameters.html",
     "status": "active",
-    "date": "Wed Apr 21 11:22:23 EDT 2021",
+    "date": "Mon Jun 21 09:04:15 EDT 2021",
     "abstract": false,
     "derivation": "constraint",
     "description": "The parameters to be given to the device to make the requested Hot Beverage.\n\n* The Machine to make the beverage (optional)\n* The Beverage to be made (required)\n* The type of Milk to be included (optional)\n* The type of Syrup to be included (optional)\n* The type of Alcohol to be included (optional)\n* The type of Sweetener to be included (optional)\n* The type of Spice to be included (optional)\n* Is Coffee to be decaffeinated (shall be NoDecaf)"
@@ -26,7 +26,7 @@
     "basename": "AuditEvent",
     "basepath": "http://hl7.org/fhir/R4/auditevent.html",
     "status": "active",
-    "date": "Wed Apr 21 11:22:23 EDT 2021",
+    "date": "Mon Jun 21 09:04:15 EDT 2021",
     "abstract": false,
     "derivation": "constraint",
     "description": "An AuditEvent profile for when request to brew a Hot Beverage action happens successfully."

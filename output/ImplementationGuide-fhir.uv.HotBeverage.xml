@@ -10,7 +10,7 @@
   <name value="HotBeverage"/>
   <title value="HotBeverage FHIR Implementation Guide"/>
   <status value="draft"/>
-  <date value="2021-04-21T11:22:23-04:00"/>
+  <date value="2021-06-21T09:04:15-04:00"/>
   <packageId value="fhir.uv.HotBeverage"/>
   <license value="CC0-1.0"/>
   <fhirVersion value="4.0.1"/>

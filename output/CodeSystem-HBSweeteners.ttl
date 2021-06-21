@@ -17,7 +17,7 @@
   fhir:CodeSystem.name [ fhir:value "HBSweeteners"];
   fhir:CodeSystem.title [ fhir:value "Sweeteners List"];
   fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2021-04-21T11:22:23-04:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2021-06-21T09:04:15-04:00"^^xsd:dateTime];
   fhir:CodeSystem.description [ fhir:value "Sweeteners to be added, if desired"];
   fhir:CodeSystem.content [ fhir:value "complete"];
   fhir:CodeSystem.count [ fhir:value "7"^^xsd:nonNegativeInteger];

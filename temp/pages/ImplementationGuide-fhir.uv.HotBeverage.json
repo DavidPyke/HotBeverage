@@ -10,7 +10,7 @@
   "name": "HotBeverage",
   "title": "HotBeverage FHIR Implementation Guide",
   "status": "draft",
-  "date": "2021-04-21T11:22:23-04:00",
+  "date": "2021-06-21T09:04:15-04:00",
   "packageId": "fhir.uv.HotBeverage",
   "license": "CC0-1.0",
   "fhirVersion": [

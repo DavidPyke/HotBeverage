@@ -14,12 +14,12 @@
    <name value="HotBeverage"/>
    <title value="HotBeverage FHIR Implementation Guide"/>
    <status value="draft"/>
-   <date value="2021-04-21T11:22:23-04:00"/>
+   <date value="2021-06-21T09:04:15-04:00"/>
    <packageId value="fhir.uv.HotBeverage"/>
    <license value="CC0-1.0"/>
    <fhirVersion value="4.0.1"/>
    <definition>
-      <grouping id="_dyn_operationdefinition">
+      <grouping id="-dyn-operationdefinition">
          <name value="Behavior: Operation Definitions"/>
          <description value="These are custom operations that can be supported by and/or invoked by systems conforming to this implementation guide"/>
       </grouping>
@@ -29,17 +29,17 @@
 
 
 
-      <grouping id="_str_profile">
+      <grouping id="-str-profile">
          <name value="Structures: Resource Profiles"/>
          <description value="These define constraints on FHIR resources for systems conforming to this implementation guide"/>
       </grouping>
 
 
-      <grouping id="_term_valueset">
+      <grouping id="-term-valueset">
          <name value="Terminology: Value Sets"/>
          <description value="These define sets of codes used by systems conforming to this implementation guide"/>
       </grouping>
-      <grouping id="_term_codesystem">
+      <grouping id="-term-codesystem">
          <name value="Terminology: Code Systems"/>
          <description value="These define new code systems used by systems conforming to this implementation guide"/>
       </grouping>
@@ -51,7 +51,7 @@
 
 
 
-      <grouping id="_ex_example">
+      <grouping id="-ex-example">
          <name value="Example: Example Instances"/>
          <description value="These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like"/>
       </grouping>
@@ -69,7 +69,7 @@
          <name value="The Hot Beverage to Brew"/>
          <description value="The parameters to be given to the device to make the requested Hot Beverage.&#xA;&#xA;* The Machine to make the beverage (optional)&#xA;* The Beverage to be made (required)&#xA;* The type of Milk to be included (optional)&#xA;* The type of Syrup to be included (optional)&#xA;* The type of Alcohol to be included (optional)&#xA;* The type of Sweetener to be included (optional)&#xA;* The type of Spice to be included (optional)&#xA;* Is Coffee to be decaffeinated (shall be NoDecaf)"/>
          <exampleBoolean value="false"/>
-         <groupingId value="_str_profile"/>
+         <groupingId value="-str-profile"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -84,7 +84,7 @@
          <name value="The AuditEvent for a successful Brewed Hot Beverage"/>
          <description value="An AuditEvent profile for when request to brew a Hot Beverage action happens successfully."/>
          <exampleBoolean value="false"/>
-         <groupingId value="_str_profile"/>
+         <groupingId value="-str-profile"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -99,7 +99,7 @@
          <name value="Alcohol Additive Value Set"/>
          <description value="Alcohol liquids for use in coffee"/>
          <exampleBoolean value="false"/>
-         <groupingId value="_term_valueset"/>
+         <groupingId value="-term-valueset"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -114,7 +114,7 @@
          <name value="Hot Beverages Value Set"/>
          <description value="All beverages allowed to be made via Hot Beverage"/>
          <exampleBoolean value="false"/>
-         <groupingId value="_term_valueset"/>
+         <groupingId value="-term-valueset"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -129,7 +129,7 @@
          <name value="Size of Beverage to be Consumed"/>
          <description value="You want how much?"/>
          <exampleBoolean value="false"/>
-         <groupingId value="_term_valueset"/>
+         <groupingId value="-term-valueset"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -144,7 +144,7 @@
          <name value="Milk Additive Value Set"/>
          <description value="Milk and milk-like liquids for use in coffee"/>
          <exampleBoolean value="false"/>
-         <groupingId value="_term_valueset"/>
+         <groupingId value="-term-valueset"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -159,7 +159,7 @@
          <name value="Spice Additive Value Set"/>
          <description value="Spice liquids for use in coffee"/>
          <exampleBoolean value="false"/>
-         <groupingId value="_term_valueset"/>
+         <groupingId value="-term-valueset"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -174,7 +174,7 @@
          <name value="Sweeteners Additive Value Set"/>
          <description value="Sweeteners liquids for use in coffee"/>
          <exampleBoolean value="false"/>
-         <groupingId value="_term_valueset"/>
+         <groupingId value="-term-valueset"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -189,7 +189,7 @@
          <name value="Syrup Additive Value Set"/>
          <description value="Syrups for use in coffee"/>
          <exampleBoolean value="false"/>
-         <groupingId value="_term_valueset"/>
+         <groupingId value="-term-valueset"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -204,7 +204,7 @@
          <name value="Decaf is for the weak"/>
          <description value="No, Just No"/>
          <exampleBoolean value="false"/>
-         <groupingId value="_term_valueset"/>
+         <groupingId value="-term-valueset"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -219,7 +219,7 @@
          <name value="Alcohol List"/>
          <description value="Alcohols to be added, if desired"/>
          <exampleBoolean value="false"/>
-         <groupingId value="_term_codesystem"/>
+         <groupingId value="-term-codesystem"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -234,7 +234,7 @@
          <name value="Hot Beverage List"/>
          <description value="Legal Beverages to be made in coffee pot"/>
          <exampleBoolean value="false"/>
-         <groupingId value="_term_codesystem"/>
+         <groupingId value="-term-codesystem"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -249,7 +249,7 @@
          <name value="Drink Size"/>
          <description value="How much did you want?"/>
          <exampleBoolean value="false"/>
-         <groupingId value="_term_codesystem"/>
+         <groupingId value="-term-codesystem"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -264,7 +264,7 @@
          <name value="Milks List"/>
          <description value="Milks to be added, if desired"/>
          <exampleBoolean value="false"/>
-         <groupingId value="_term_codesystem"/>
+         <groupingId value="-term-codesystem"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -279,7 +279,7 @@
          <name value="Spice List"/>
          <description value="Spice to be added, if desired"/>
          <exampleBoolean value="false"/>
-         <groupingId value="_term_codesystem"/>
+         <groupingId value="-term-codesystem"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -294,7 +294,7 @@
          <name value="Sweeteners List"/>
          <description value="Sweeteners to be added, if desired"/>
          <exampleBoolean value="false"/>
-         <groupingId value="_term_codesystem"/>
+         <groupingId value="-term-codesystem"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -309,7 +309,7 @@
          <name value="Syrups List"/>
          <description value="Syrups to be added, if desired"/>
          <exampleBoolean value="false"/>
-         <groupingId value="_term_codesystem"/>
+         <groupingId value="-term-codesystem"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -324,7 +324,7 @@
          <name value="BB-Stop"/>
          <description value="The stop operation sends the Device a direction to stop the brew of the beverage (primarily tea) to check for doneness.  Used in combination with the Start operation to make the tea just right"/>
          <exampleBoolean value="false"/>
-         <groupingId value="_dyn_operationdefinition"/>
+         <groupingId value="-dyn-operationdefinition"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -339,7 +339,7 @@
          <name value="BB-When"/>
          <description value="When coffee is poured, and milk is offered, it is necessary for the holder of the recipient of milk to say &#34;when&#34; at the time when&#xD;&#xA;   sufficient milk has been introduced into the coffee. For this purpose, the &#34;WHEN&#34; operation has been added to FHIR."/>
          <exampleBoolean value="false"/>
-         <groupingId value="_dyn_operationdefinition"/>
+         <groupingId value="-dyn-operationdefinition"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -354,7 +354,7 @@
          <name value="Brew"/>
          <description value="The brew operation sends the BrewedBeverage resource to the Coffee/Tea brewing Device"/>
          <exampleBoolean value="false"/>
-         <groupingId value="_dyn_operationdefinition"/>
+         <groupingId value="-dyn-operationdefinition"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -369,7 +369,7 @@
          <name value="Make me Espresso"/>
          <description value="Request to make Espresso.&#xA;&#xA;* Using the Nespresso VertuoNext device&#xA;* Requesting Espresso"/>
          <exampleCanonical value="http://example.org/StructureDefinition/BrewedBeverage"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -384,7 +384,7 @@
          <name value="Vertuo Next"/>
          <description value="Nespresso introduces the VERTUO NEXT CLASSIC, the latest VERTUO Nespresso coffee maker with an all-new design and colors for the ultimate brewing experience. In addition to its original espressos, NESPRESSO VERTUO NEXT produces an extraordinary cup of coffee with a smooth layer of crema, the signature of a truly great cup of coffee. The VERTUO coffee and espresso coffee machine conveniently makes 5, 8, 14, 18 oz Coffee and single and double Espresso. Nespresso brings together the know-how of all its coffee experts, who have carefully chosen the origin and roasting of each coffee blend and created a brewing system using Centrifusion technology, a patented extraction technology developed by Nespresso. Just insert a Vertuo capsule and close the lever — when activated, the capsule spins, blending ground coffee with water and extracting every drop of flavor. Its precision brewing system recognizes each capsule and automatically adjusts its brewing parameters to consistently deliver the best in cup result. Bundled with Nespresso's Aeroccino3, provides smooth hot or cold milk froth for your coffee recipes with one touch. It froths all types of milk in a few seconds, without noise or vibration. Each machine includes a complimentary welcome set with a range of Nespresso Vertuo capsules with unique aroma profiles. Order your Nespresso capsules, receive personalized advice, and obtain technical support or repair for your machine through the Nespresso Club via mobile app, by telephone or in one of our Boutiques. This coffee machine is compatible exclusively with Nespresso Vertuo Line pods. Input power (W): 1260. Intelligent extraction system recognizes each coffee blend."/>
          <exampleBoolean value="true"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -399,7 +399,7 @@
          <name value="Audit Example of a basic brew"/>
          <description value="Audit Example for a brewed coffee&#xA;&#xA;* Using the Nespresso VertuoNext device&#xA;* Requesting Espresso"/>
          <exampleCanonical value="http://example.org/StructureDefinition/HotBeverage.Brewed"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <page>
          <nameUrl value="toc.html"/>

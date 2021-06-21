@@ -187,10 +187,9 @@
     </div>
   </div>
   <p>&#160;</p>
-  {% unless modelType == 'Logical Model' %}
-    <p>Other representations of profile: <a href="StructureDefinition-BrewedBeverage.sch">Schematron</a>
-    </p>
-  {% endunless %} 
+  <p>Other representations of profile: <a href="StructureDefinition-BrewedBeverage.csv">CSV</a>, <a href="StructureDefinition-BrewedBeverage.xlsx">Excel</a>{% unless modelType == 'Logical Model' %}, <a href="StructureDefinition-BrewedBeverage.sch">Schematron</a>
+{% endunless %} 
+  </p>
   <a name="tx"> </a>
   <!--Terminology Bindings heading in the fragment -->
   {%include StructureDefinition-BrewedBeverage-tx.xhtml%}
