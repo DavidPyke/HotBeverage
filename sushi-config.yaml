@@ -17,11 +17,11 @@ contact:
       - system: email
         value: david@pyke.ca
         use: work
-version: 2021-April-1st
+version: 1.4.2021
 license: CC0-1.0
 fhirVersion: 4.0.1
 copyrightYear: 2021+
-releaseLabel: Joke
+releaseLabel: Informational
 
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
 # │  To use a provided input/includes/menu.xml file, delete the "menu" property below.             │
