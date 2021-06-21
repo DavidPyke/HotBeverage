@@ -14,14 +14,11 @@
   "publisher": "HL7 (FHIR Project)",
   "contact": [
     {
+      "name": "David Pyke",
       "telecom": [
         {
-          "system": "url",
-          "value": "http://hl7.org/fhir"
-        },
-        {
           "system": "email",
-          "value": "fhir@lists.hl7.org"
+          "value": "david@pyke.ca"
         }
       ]
     }

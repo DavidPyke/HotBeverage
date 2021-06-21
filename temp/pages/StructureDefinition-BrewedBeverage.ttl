@@ -22,7 +22,16 @@
   fhir:StructureDefinition.name [ fhir:value "BrewedBeverage"];
   fhir:StructureDefinition.title [ fhir:value "The Hot Beverage to Brew"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2021-06-21T09:04:15-04:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-06-21T09:17:19-04:00"^^xsd:dateTime];
+  fhir:StructureDefinition.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "David Pyke" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "david@pyke.ca" ]
+     ]
+  ];
   fhir:StructureDefinition.description [ fhir:value "The parameters to be given to the device to make the requested Hot Beverage.\n\n* The Machine to make the beverage (optional)\n* The Beverage to be made (required)\n* The type of Milk to be included (optional)\n* The type of Syrup to be included (optional)\n* The type of Alcohol to be included (optional)\n* The type of Sweetener to be included (optional)\n* The type of Spice to be included (optional)\n* Is Coffee to be decaffeinated (shall be NoDecaf)"];
   fhir:StructureDefinition.fhirVersion [ fhir:value "4.0.1"];
   fhir:StructureDefinition.mapping [

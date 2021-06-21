@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "69f4d56a-2732-4671-93af-117c07a632b9",
+  "id" : "ad50e232-6c0d-4952-b7f9-7903ba8712ef",
   "meta" : {
-    "lastUpdated" : "2021-06-21T09:04:15.132-04:00"
+    "lastUpdated" : "2021-06-21T09:17:19.228-04:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -19,11 +19,18 @@
       "name" : "HBAlcoholVS",
       "title" : "Alcohol Additive Value Set",
       "status" : "active",
-      "date" : "2021-06-21T09:04:15-04:00",
+      "date" : "2021-06-21T09:17:19-04:00",
+      "contact" : [{
+        "name" : "David Pyke",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "david@pyke.ca"
+        }]
+      }],
       "description" : "Alcohol liquids for use in coffee",
       "expansion" : {
-        "identifier" : "urn:uuid:2e7b3483-2707-4e76-801b-4b84612dd7ce",
-        "timestamp" : "2021-06-21T09:04:36-04:00",
+        "identifier" : "urn:uuid:c5485804-5485-4efb-aca6-f29a6cd29394",
+        "timestamp" : "2021-06-21T09:17:46-04:00",
         "total" : 9,
         "parameter" : [{
           "name" : "excludeNested",
@@ -95,11 +102,18 @@
       "name" : "HBBeverageVS",
       "title" : "Hot Beverages Value Set",
       "status" : "active",
-      "date" : "2021-06-21T09:04:15-04:00",
+      "date" : "2021-06-21T09:17:19-04:00",
+      "contact" : [{
+        "name" : "David Pyke",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "david@pyke.ca"
+        }]
+      }],
       "description" : "All beverages allowed to be made via Hot Beverage",
       "expansion" : {
-        "identifier" : "urn:uuid:b83e8173-b6f0-4fcb-82e2-843e279692e1",
-        "timestamp" : "2021-06-21T09:04:36-04:00",
+        "identifier" : "urn:uuid:c1c66b9a-6f86-4a5b-af5d-c1197e360825",
+        "timestamp" : "2021-06-21T09:17:46-04:00",
         "total" : 23,
         "parameter" : [{
           "name" : "excludeNested",
@@ -241,11 +255,18 @@
       "name" : "HBDrinkSizeVS",
       "title" : "Size of Beverage to be Consumed",
       "status" : "active",
-      "date" : "2021-06-21T09:04:15-04:00",
+      "date" : "2021-06-21T09:17:19-04:00",
+      "contact" : [{
+        "name" : "David Pyke",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "david@pyke.ca"
+        }]
+      }],
       "description" : "You want how much?",
       "expansion" : {
-        "identifier" : "urn:uuid:f8bdb44f-c419-478e-94e8-042ba8b14ac8",
-        "timestamp" : "2021-06-21T09:04:36-04:00",
+        "identifier" : "urn:uuid:5eb88593-3291-43bf-862c-188821870426",
+        "timestamp" : "2021-06-21T09:17:46-04:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",
@@ -297,11 +318,18 @@
       "name" : "HBMilkVS",
       "title" : "Milk Additive Value Set",
       "status" : "active",
-      "date" : "2021-06-21T09:04:15-04:00",
+      "date" : "2021-06-21T09:17:19-04:00",
+      "contact" : [{
+        "name" : "David Pyke",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "david@pyke.ca"
+        }]
+      }],
       "description" : "Milk and milk-like liquids for use in coffee",
       "expansion" : {
-        "identifier" : "urn:uuid:239371cf-eaf6-47e7-99a1-663a18534988",
-        "timestamp" : "2021-06-21T09:04:37-04:00",
+        "identifier" : "urn:uuid:7a33420d-e844-44a3-95b0-9a40a8d3aee7",
+        "timestamp" : "2021-06-21T09:17:46-04:00",
         "total" : 8,
         "parameter" : [{
           "name" : "excludeNested",
@@ -368,11 +396,18 @@
       "name" : "HBSpiceVS",
       "title" : "Spice Additive Value Set",
       "status" : "active",
-      "date" : "2021-06-21T09:04:15-04:00",
+      "date" : "2021-06-21T09:17:19-04:00",
+      "contact" : [{
+        "name" : "David Pyke",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "david@pyke.ca"
+        }]
+      }],
       "description" : "Spice liquids for use in coffee",
       "expansion" : {
-        "identifier" : "urn:uuid:4c72ccf2-1495-47b8-b43d-30515cd57b7d",
-        "timestamp" : "2021-06-21T09:04:37-04:00",
+        "identifier" : "urn:uuid:9c26c0f8-a43a-4a88-9f3b-d5291c94df7a",
+        "timestamp" : "2021-06-21T09:17:46-04:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",
@@ -424,11 +459,18 @@
       "name" : "HBSweetenersVS",
       "title" : "Sweeteners Additive Value Set",
       "status" : "active",
-      "date" : "2021-06-21T09:04:15-04:00",
+      "date" : "2021-06-21T09:17:19-04:00",
+      "contact" : [{
+        "name" : "David Pyke",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "david@pyke.ca"
+        }]
+      }],
       "description" : "Sweeteners liquids for use in coffee",
       "expansion" : {
-        "identifier" : "urn:uuid:b36f9c88-fe41-43ec-9bd7-0d0ffd7302c4",
-        "timestamp" : "2021-06-21T09:04:37-04:00",
+        "identifier" : "urn:uuid:ed5c4122-0461-422c-a958-542b4e40882e",
+        "timestamp" : "2021-06-21T09:17:47-04:00",
         "total" : 7,
         "parameter" : [{
           "name" : "excludeNested",
@@ -490,11 +532,18 @@
       "name" : "HBSyrupVS",
       "title" : "Syrup Additive Value Set",
       "status" : "active",
-      "date" : "2021-06-21T09:04:15-04:00",
+      "date" : "2021-06-21T09:17:19-04:00",
+      "contact" : [{
+        "name" : "David Pyke",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "david@pyke.ca"
+        }]
+      }],
       "description" : "Syrups for use in coffee",
       "expansion" : {
-        "identifier" : "urn:uuid:9901846f-17d5-4bb4-a426-1c9075e92835",
-        "timestamp" : "2021-06-21T09:04:37-04:00",
+        "identifier" : "urn:uuid:242d547c-7d41-44c9-9378-73e2391d8b31",
+        "timestamp" : "2021-06-21T09:17:47-04:00",
         "total" : 10,
         "parameter" : [{
           "name" : "excludeNested",
@@ -558,17 +607,37 @@
     }
   },
   {
+    "fullUrl" : "http://example.org/ValueSet/NoDecaf",
     "resource" : {
       "resourceType" : "ValueSet",
+      "id" : "NoDecaf",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jan 2021</p><p>All codes from system <a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-v3-snomed-CT.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-64100000\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=64100000\">64100000</a></td><td>No</td><td/></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jan 2021</p><p>All codes from system <a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-v3-snomed-CT.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-64100000\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=64100000\">64100000</a></td><td>False</td><td/></tr></table></div>"
       },
+      "url" : "http://example.org/ValueSet/NoDecaf",
+      "version" : "2021-April-1st",
+      "name" : "NoDecaf",
+      "title" : "Decaf is for the weak",
       "status" : "active",
+      "date" : "2021-06-21T09:17:19-04:00",
+      "contact" : [{
+        "name" : "David Pyke",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "david@pyke.ca"
+        }]
+      }],
+      "description" : "No, Just No",
       "expansion" : {
-        "identifier" : "urn:uuid:b7203ff5-068d-48e9-b34c-648e45d6e5b6",
-        "timestamp" : "2021-04-21T15:10:57.810Z",
+        "identifier" : "urn:uuid:a80589cf-aba2-4a78-9e10-3b37d7de5736",
+        "timestamp" : "2021-06-21T09:17:47-04:00",
+        "total" : 1,
         "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
           "name" : "limitedExpansion",
           "valueBoolean" : true
         },
@@ -579,7 +648,7 @@
         "contains" : [{
           "system" : "http://snomed.info/sct",
           "code" : "64100000",
-          "display" : "No"
+          "display" : "False"
         }]
       }
     }

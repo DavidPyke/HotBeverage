@@ -17,7 +17,16 @@
   fhir:ImplementationGuide.name [ fhir:value "HotBeverage"];
   fhir:ImplementationGuide.title [ fhir:value "HotBeverage FHIR Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-06-21T09:04:15-04:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-06-21T09:17:19-04:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "David Pyke" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "david@pyke.ca" ]
+     ]
+  ];
   fhir:ImplementationGuide.packageId [ fhir:value "fhir.uv.HotBeverage"];
   fhir:ImplementationGuide.license [ fhir:value "CC0-1.0"];
   fhir:ImplementationGuide.fhirVersion [

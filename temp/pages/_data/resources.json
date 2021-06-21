@@ -7,7 +7,7 @@
     "name": "HotBeverage",
     "title": "HotBeverage FHIR Implementation Guide",
     "version": "2021-April-1st",
-    "date": "2021-06-21T09:04:15-04:00",
+    "date": "2021-06-21T09:17:19-04:00",
     "status": {
       "class": "colsd",
       "status": "Draft"
@@ -21,7 +21,7 @@
     "name": "BrewedBeverage",
     "title": "The Hot Beverage to Brew",
     "version": "2021-April-1st",
-    "date": "2021-06-21T09:04:15-04:00",
+    "date": "2021-06-21T09:17:19-04:00",
     "status": {
       "class": "colstu",
       "status": "Active"
@@ -35,7 +35,7 @@
     "name": "BrewedLog",
     "title": "The AuditEvent for a successful Brewed Hot Beverage",
     "version": "2021-April-1st",
-    "date": "2021-06-21T09:04:15-04:00",
+    "date": "2021-06-21T09:17:19-04:00",
     "status": {
       "class": "colstu",
       "status": "Active"
@@ -49,7 +49,7 @@
     "name": "HBAlcoholVS",
     "title": "Alcohol Additive Value Set",
     "version": "2021-April-1st",
-    "date": "2021-06-21T09:04:15-04:00",
+    "date": "2021-06-21T09:17:19-04:00",
     "status": {
       "class": "colstu",
       "status": "Active"
@@ -63,7 +63,7 @@
     "name": "HBBeverageVS",
     "title": "Hot Beverages Value Set",
     "version": "2021-April-1st",
-    "date": "2021-06-21T09:04:15-04:00",
+    "date": "2021-06-21T09:17:19-04:00",
     "status": {
       "class": "colstu",
       "status": "Active"
@@ -77,7 +77,7 @@
     "name": "HBDrinkSizeVS",
     "title": "Size of Beverage to be Consumed",
     "version": "2021-April-1st",
-    "date": "2021-06-21T09:04:15-04:00",
+    "date": "2021-06-21T09:17:19-04:00",
     "status": {
       "class": "colstu",
       "status": "Active"
@@ -91,7 +91,7 @@
     "name": "HBMilkVS",
     "title": "Milk Additive Value Set",
     "version": "2021-April-1st",
-    "date": "2021-06-21T09:04:15-04:00",
+    "date": "2021-06-21T09:17:19-04:00",
     "status": {
       "class": "colstu",
       "status": "Active"
@@ -105,7 +105,7 @@
     "name": "HBSpiceVS",
     "title": "Spice Additive Value Set",
     "version": "2021-April-1st",
-    "date": "2021-06-21T09:04:15-04:00",
+    "date": "2021-06-21T09:17:19-04:00",
     "status": {
       "class": "colstu",
       "status": "Active"
@@ -119,7 +119,7 @@
     "name": "HBSweetenersVS",
     "title": "Sweeteners Additive Value Set",
     "version": "2021-April-1st",
-    "date": "2021-06-21T09:04:15-04:00",
+    "date": "2021-06-21T09:17:19-04:00",
     "status": {
       "class": "colstu",
       "status": "Active"
@@ -133,7 +133,7 @@
     "name": "HBSyrupVS",
     "title": "Syrup Additive Value Set",
     "version": "2021-April-1st",
-    "date": "2021-06-21T09:04:15-04:00",
+    "date": "2021-06-21T09:17:19-04:00",
     "status": {
       "class": "colstu",
       "status": "Active"
@@ -147,7 +147,7 @@
     "name": "NoDecaf",
     "title": "Decaf is for the weak",
     "version": "2021-April-1st",
-    "date": "2021-06-21T09:04:15-04:00",
+    "date": "2021-06-21T09:17:19-04:00",
     "status": {
       "class": "colstu",
       "status": "Active"
@@ -161,7 +161,7 @@
     "name": "HBAlcohol",
     "title": "Alcohol List",
     "version": "2021-April-1st",
-    "date": "2021-06-21T09:04:15-04:00",
+    "date": "2021-06-21T09:17:19-04:00",
     "status": {
       "class": "colstu",
       "status": "Active"
@@ -175,7 +175,7 @@
     "name": "HBBeverages",
     "title": "Hot Beverage List",
     "version": "2021-April-1st",
-    "date": "2021-06-21T09:04:15-04:00",
+    "date": "2021-06-21T09:17:19-04:00",
     "status": {
       "class": "colstu",
       "status": "Active"
@@ -189,7 +189,7 @@
     "name": "HBDrinkSize",
     "title": "Drink Size",
     "version": "2021-April-1st",
-    "date": "2021-06-21T09:04:15-04:00",
+    "date": "2021-06-21T09:17:19-04:00",
     "status": {
       "class": "colstu",
       "status": "Active"
@@ -203,7 +203,7 @@
     "name": "HBMilks",
     "title": "Milks List",
     "version": "2021-April-1st",
-    "date": "2021-06-21T09:04:15-04:00",
+    "date": "2021-06-21T09:17:19-04:00",
     "status": {
       "class": "colstu",
       "status": "Active"
@@ -217,7 +217,7 @@
     "name": "HBSpice",
     "title": "Spice List",
     "version": "2021-April-1st",
-    "date": "2021-06-21T09:04:15-04:00",
+    "date": "2021-06-21T09:17:19-04:00",
     "status": {
       "class": "colstu",
       "status": "Active"
@@ -231,7 +231,7 @@
     "name": "HBSweeteners",
     "title": "Sweeteners List",
     "version": "2021-April-1st",
-    "date": "2021-06-21T09:04:15-04:00",
+    "date": "2021-06-21T09:17:19-04:00",
     "status": {
       "class": "colstu",
       "status": "Active"
@@ -245,7 +245,7 @@
     "name": "HBSyrups",
     "title": "Syrups List",
     "version": "2021-April-1st",
-    "date": "2021-06-21T09:04:15-04:00",
+    "date": "2021-06-21T09:17:19-04:00",
     "status": {
       "class": "colstu",
       "status": "Active"
@@ -262,7 +262,6 @@
     "status": {
       "class": "colsd",
       "owner": "HL7 (FHIR Project)",
-      "link": "http://hl7.org/fhir",
       "status": "Draft"
     }
   },
@@ -277,7 +276,6 @@
     "status": {
       "class": "colsd",
       "owner": "HL7 (FHIR Project)",
-      "link": "http://hl7.org/fhir",
       "status": "Draft"
     }
   },
@@ -292,7 +290,6 @@
     "status": {
       "class": "colsd",
       "owner": "HL7 (FHIR Project)",
-      "link": "http://hl7.org/fhir",
       "status": "Draft"
     }
   },

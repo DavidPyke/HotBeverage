@@ -6,7 +6,19 @@
   "name": "HotBeverage",
   "title": "HotBeverage FHIR Implementation Guide",
   "status": "draft",
+  "contact": [
+    {
+      "name": "David Pyke",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "david@pyke.ca"
+        }
+      ]
+    }
+  ],
   "packageId": "fhir.uv.HotBeverage",
+  "license": "CC0-1.0",
   "fhirVersion": [
     "4.0.1"
   ],

@@ -10,7 +10,14 @@
   <name value="HBBeverages"/>
   <title value="Hot Beverage List"/>
   <status value="active"/>
-  <date value="2021-06-21T09:04:15-04:00"/>
+  <date value="2021-06-21T09:17:19-04:00"/>
+  <contact>
+    <name value="David Pyke"/>
+    <telecom>
+      <system value="email"/>
+      <value value="david@pyke.ca"/>
+    </telecom>
+  </contact>
   <description value="Legal Beverages to be made in coffee pot"/>
   <content value="complete"/>
   <count value="23"/>

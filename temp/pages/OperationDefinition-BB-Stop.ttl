@@ -21,14 +21,11 @@
   fhir:OperationDefinition.publisher [ fhir:value "HL7 (FHIR Project)"];
   fhir:OperationDefinition.contact [
      fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "David Pyke" ];
      fhir:ContactDetail.telecom [
        fhir:index 0;
-       fhir:ContactPoint.system [ fhir:value "url" ];
-       fhir:ContactPoint.value [ fhir:value "http://hl7.org/fhir" ]
-     ], [
-       fhir:index 1;
        fhir:ContactPoint.system [ fhir:value "email" ];
-       fhir:ContactPoint.value [ fhir:value "fhir@lists.hl7.org" ]
+       fhir:ContactPoint.value [ fhir:value "david@pyke.ca" ]
      ]
   ];
   fhir:OperationDefinition.description [ fhir:value "The stop operation sends the Device a direction to stop the brew of the beverage (primarily tea) to check for doneness.  Used in combination with the Start operation to make the tea just right"];

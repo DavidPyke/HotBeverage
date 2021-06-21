@@ -16,7 +16,18 @@
   "name": "BrewedBeverage",
   "title": "The Hot Beverage to Brew",
   "status": "active",
-  "date": "2021-06-21T09:04:15-04:00",
+  "date": "2021-06-21T09:17:19-04:00",
+  "contact": [
+    {
+      "name": "David Pyke",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "david@pyke.ca"
+        }
+      ]
+    }
+  ],
   "description": "The parameters to be given to the device to make the requested Hot Beverage.\n\n* The Machine to make the beverage (optional)\n* The Beverage to be made (required)\n* The type of Milk to be included (optional)\n* The type of Syrup to be included (optional)\n* The type of Alcohol to be included (optional)\n* The type of Sweetener to be included (optional)\n* The type of Spice to be included (optional)\n* Is Coffee to be decaffeinated (shall be NoDecaf)",
   "fhirVersion": "4.0.1",
   "mapping": [

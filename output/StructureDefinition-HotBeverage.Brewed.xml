@@ -90,7 +90,14 @@
   <name value="BrewedLog"/>
   <title value="The AuditEvent for a successful Brewed Hot Beverage"/>
   <status value="active"/>
-  <date value="2021-06-21T09:04:15-04:00"/>
+  <date value="2021-06-21T09:17:19-04:00"/>
+  <contact>
+    <name value="David Pyke"/>
+    <telecom>
+      <system value="email"/>
+      <value value="david@pyke.ca"/>
+    </telecom>
+  </contact>
   <description value="An AuditEvent profile for when request to brew a Hot Beverage action happens successfully."/>
   <fhirVersion value="4.0.1"/>
   <mapping>

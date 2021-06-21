@@ -20,7 +20,18 @@
   "name": "BrewedLog",
   "title": "The AuditEvent for a successful Brewed Hot Beverage",
   "status": "active",
-  "date": "2021-06-21T09:04:15-04:00",
+  "date": "2021-06-21T09:17:19-04:00",
+  "contact": [
+    {
+      "name": "David Pyke",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "david@pyke.ca"
+        }
+      ]
+    }
+  ],
   "description": "An AuditEvent profile for when request to brew a Hot Beverage action happens successfully.",
   "fhirVersion": "4.0.1",
   "mapping": [

@@ -10,7 +10,18 @@
   "name": "HBBeverages",
   "title": "Hot Beverage List",
   "status": "active",
-  "date": "2021-06-21T09:04:15-04:00",
+  "date": "2021-06-21T09:17:19-04:00",
+  "contact": [
+    {
+      "name": "David Pyke",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "david@pyke.ca"
+        }
+      ]
+    }
+  ],
   "description": "Legal Beverages to be made in coffee pot",
   "content": "complete",
   "count": 23,
