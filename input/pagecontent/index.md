@@ -8,7 +8,6 @@ based on the straining of water through prepared leaves from a tea tree.
 {%include brewRequest.svg%}
 </div>
 
-
 ### Boundaries and Relationships
 
 This resource may relate to NutritionOrder with the variance that the subject may be Patient, Practitioner or, possibly, RelatedPerson if that individual is not responding to conventional awakening therapy.
