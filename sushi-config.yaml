@@ -9,6 +9,7 @@ title: "HotBeverage FHIR Implementation Guide"
 status: active
 publisher: 
   name: Dave Pyke & John Moehrke
+  url: https://github.com/DavidPyke/HotBeverage
   email: david@pyke.ca
 contact:
   - name: David Pyke
