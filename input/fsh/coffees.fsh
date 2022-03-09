@@ -1,6 +1,7 @@
 CodeSystem: HBBeverages
 Title: "Hot Beverage List"
 Description: "Legal Beverages to be made in coffee pot"
+* ^caseSensitive = false
 * #DRIP "Drip or filtered"
 * #FRENCHPRESS "French press or cafetière"
 * #COLDBREW "Cold brew"
