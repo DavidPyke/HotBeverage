@@ -6,7 +6,7 @@ id: fhir.uv.hotbeverage
 canonical: http://www.fhir.org/guides/hotbeverage
 name: HotBeverage
 title: "HotBeverage FHIR Implementation Guide"
-status: draft
+status: active
 publisher: 
   name: Dave Pyke & John Moehrke
   email: david@pyke.ca
@@ -25,7 +25,8 @@ version: 1.4.2021
 license: CC0-1.0
 fhirVersion: 4.0.1
 copyrightYear: 2021+
-releaseLabel: Informational
+releaseLabel: release 
+date: 2022-04-01
 
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
 # │  To use a provided input/includes/menu.xml file, delete the "menu" property below.             │
