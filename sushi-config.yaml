@@ -2,8 +2,8 @@
 # │  The properties below are used to create the ImplementationGuide resource. For a list of       │
 # │  supported properties, see: https://fshschool.org/docs/sushi/configuration/                    │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: fhir.uv.HotBeverage
-canonical: http://example.org
+id: fhir.uv.hotbeverage
+canonical: http://www.fhir.org/guides/hotbeverage
 name: HotBeverage
 title: "HotBeverage FHIR Implementation Guide"
 status: draft
@@ -16,6 +16,11 @@ contact:
     telecom:
       - system: email
         value: david@pyke.ca
+        use: work
+  - name: John Moehrke
+    telecom:
+      - system: email
+        value: JohnMoehrke@gmail.com
         use: work
 version: 1.4.2021
 license: CC0-1.0

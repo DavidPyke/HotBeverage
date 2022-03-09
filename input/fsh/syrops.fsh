@@ -1,6 +1,7 @@
 CodeSystem: HBSyrups
 Title: "Syrups List"
 Description: "Syrups to be added, if desired"
+* ^caseSensitive = false
 * #VANILLA "Vanilla"
 * #CARAMEL "Caramel"
 * #HAZELNUT "Hazelnut"

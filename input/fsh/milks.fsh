@@ -1,6 +1,7 @@
 CodeSystem: HBMilks
 Title: "Milks List"
 Description: "Milks to be added, if desired"
+* ^caseSensitive = false
 * #RICEMILK "Rice Milk"
 * #ALMOND "Almond Milk"
 * #SKIM "Skim Milk"

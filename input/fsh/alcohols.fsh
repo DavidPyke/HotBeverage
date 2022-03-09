@@ -1,6 +1,7 @@
 CodeSystem: HBAlcohol
 Title: "Alcohol List"
 Description: "Alcohols to be added, if desired"
+* ^caseSensitive = false
 * #BOURBON "bourbon"
 * #RUM "rum"
 * #BAILEYS "Baileys"

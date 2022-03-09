@@ -1,6 +1,7 @@
 CodeSystem: HBSweeteners
 Title: "Sweeteners List"
 Description: "Sweeteners to be added, if desired"
+* ^caseSensitive = false
 * #STEVIA "Stevia"
 * #HONEY "Honey"
 * #WSUGAR "White Sugar"
