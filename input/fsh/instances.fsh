@@ -1,9 +1,9 @@
-Instance: Brew
+Instance: hbbrew
 InstanceOf: OperationDefinition
 Usage: #definition
 * url = "http://hl7.org/fhir/OperationDefinition/Brew"
 * version = "4.0.1"
-* name = "Data Requirements"
+* name = "HBbrew"
 * status = #draft
 * kind = #operation
 * date = "2020-04-01T09:29:23+11:00"
@@ -26,12 +26,12 @@ Usage: #definition
 * parameter[0].type = #canonical
 * parameter[0].targetProfile = Canonical(BrewedBeverage)
 
-Instance: BB-Stop
+Instance: hbstop
 InstanceOf: OperationDefinition
 Usage: #definition
 * url = "http://hl7.org/fhir/OperationDefinition/BB-Stop"
 * version = "4.0.1"
-* name = "Data Requirements"
+* name = "HBstop"
 * status = #draft
 * kind = #operation
 * date = "2020-04-01T09:29:23+11:00"
@@ -53,12 +53,12 @@ Usage: #definition
 * parameter[0].documentation = "The ID of the BrewedBeverage Resource"
 * parameter[0].type = #Reference
 
-Instance: BB-When
+Instance: hbwhen
 InstanceOf: OperationDefinition
 Usage: #definition
 * url = "http://hl7.org/fhir/OperationDefinition/BB-When"
 * version = "4.0.1"
-* name = "Data Requirements"
+* name = "HBwhen"
 * status = #draft
 * kind = #operation
 * date = "2020-04-01T09:29:23+11:00"
