@@ -19,14 +19,12 @@ InstanceOf: ConceptMap
 Title:      "$tarBucks sizes vs HB Drink Sizes"
 Description: "map between commonly understood drink sizes and the formal drink size codes."
 Usage: #definition
-//* url = "https://profiles.ihe.net/ITI/MHD/ConceptMap/AssociationTypeVsRelatesTo"
 * name =  "StarSizeVsDrinkSize"
 * status = #active
 * date = 2022-03-09
-//* publisher = "IHE"
-//* purpose = "show the mapping between Association Types and relatesTo code"
-* sourceUri = "https://customerservice.starbucks.com/app/answers/detail/a_id/3113"
 * targetCanonical = "http://www.fhir.org/guides/hotbeverage/ValueSet/HBDrinkSizeVS"
+* group.source = "https://customerservice.starbucks.com/app/answers/detail/a_id/3113"
+* group.target = "http://www.fhir.org/guides/hotbeverage/ValueSet/HBDrinkSize"
 * group.element[+].code = #Small
 * group.element[=].target.equivalence = #equal
 * group.element[=].target.code = #SMALL
