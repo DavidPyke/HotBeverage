@@ -1,0 +1,13 @@
+﻿{
+	"name": "fhir.hotbeverage.template",
+	"type": "fhir.template",
+	"license": "CC0-1.0",
+	"description": "HotBeverage IG Template",
+	"author": "http://example.org/",
+	"canonical": "https://github.com/DavidPyke/ig-template-carequality",
+	"version": "current",
+	"base": "fhir.base.template",
+	"dependencies": {
+		"fhir.base.template": "0.2.2"
+	}
+}

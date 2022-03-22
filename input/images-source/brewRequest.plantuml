@@ -2,21 +2,21 @@
 hide footbox
 skinparam maxMessageSize 90
 skinparam sequence {
-backgroundColor DeepSkyBlue
-BorderColor DarkSlateGray
-ArrowColor Blue
+backgroundColor #3e1404
+BorderColor #bb6b24
+ArrowColor #964315
 }
 
 skinparam Note {
-BackgroundColor LightBlue
-BorderColor Blue
+BackgroundColor #bb6b24
+BorderColor #6a2b05
 }
 
 skinparam participant {
 FontName Arial
 Style awesome
-BorderColor DeepSkyBlue
-BackgroundColor LightBlue
+BorderColor 964315
+BackgroundColor bb6b24
 }
 
 == Normative Flow ==
