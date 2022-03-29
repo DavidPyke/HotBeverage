@@ -15,7 +15,7 @@
   "version" : "1.0.0",  
   "date" : "2022-04-01", 
   "desc" : "Normative release for April 1st",   
-  "path" : "http://www.fhir.org/guides/hotbeverage/1.0.0",   
+  "path" : "http://fhir.org/guides/acme/hotbeverage/1.0.0",   
   "status" : "release",
   "fhirversion" : "4.0.1",
   "sequence" : "Normative",
