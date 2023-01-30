@@ -12,9 +12,6 @@ Description: "Alcohols to be added, if desired"
 * #HAZELNUT "hazelnut  liqueur"
 * #CHOCOLATE "chocolate Liqueur"
 
-
-
-
 ValueSet: HBAlcoholVS
 Title: "Alcohol Additive Value Set"
 Description: "Alcohol liquids for use in coffee"
