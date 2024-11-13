@@ -2,6 +2,7 @@ CodeSystem: HBSyrups
 Title: "Syrups List"
 Description: "Syrups to be added, if desired"
 * ^caseSensitive = false
+* ^experimental = false
 * #VANILLA "Vanilla"
 * #CARAMEL "Caramel"
 * #HAZELNUT "Hazelnut"
@@ -18,5 +19,5 @@ Description: "Syrups to be added, if desired"
 ValueSet: HBSyrupVS
 Title: "Syrup Additive Value Set"
 Description: "Syrups for use in coffee"
-
+* ^experimental = false
 * include codes from system HBSyrups

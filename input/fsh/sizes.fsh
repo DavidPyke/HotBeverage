@@ -1,6 +1,7 @@
 CodeSystem: HBDrinkSize
 Title: "Drink Size"
 Description: "How much did you want?"
+* ^experimental = false
 * ^caseSensitive = false
 * #SMALL "Small" "You call that a coffee?"
 * #MED "Medium" "Not enough"
@@ -11,7 +12,7 @@ Description: "How much did you want?"
 ValueSet: HBDrinkSizeVS
 Title: "Size of Beverage to be Consumed"
 Description: "You want how much?"
-
+* ^experimental = false
 * include codes from system HBDrinkSize
 
 Instance:   StarSizeVsDrinkSize
@@ -21,6 +22,7 @@ Description: "map between commonly understood drink sizes and the formal drink s
 Usage: #definition
 * name =  "StarSizeVsDrinkSize"
 * status = #active
+* experimental = false
 * date = 2022-03-09
 * targetCanonical = "http://www.fhir.org/guides/hotbeverage/ValueSet/HBDrinkSizeVS"
 * group.source = "https://customerservice.starbucks.com/app/answers/detail/a_id/3113"

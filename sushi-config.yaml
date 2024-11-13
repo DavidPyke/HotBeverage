@@ -19,12 +19,12 @@ contact:
       - system: email
         value: JohnMoehrke@gmail.com
         use: work
-version: 1.4.2022
+version: 1.4.2024
 license: CC0-1.0
 fhirVersion: 4.0.1
 copyrightYear: 2021+
 releaseLabel: release 
-date: 2022-04-01
+#date: 2022-04-01
 jurisdiction: 'http://unstats.un.org/unsd/methods/m49/m49.htm#001'
 
 parameters:  # see https://confluence.hl7.org/display/FHIR/Implementation+Guide+Parameters
@@ -45,3 +45,4 @@ parameters:  # see https://confluence.hl7.org/display/FHIR/Implementation+Guide+
 menu:
   Home: index.html
   Artifacts: artifacts.html
+  Download: download.html

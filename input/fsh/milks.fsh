@@ -2,6 +2,7 @@ CodeSystem: HBMilks
 Title: "Milks List"
 Description: "Milks to be added, if desired"
 * ^caseSensitive = false
+* ^experimental = false
 * #RICEMILK "Rice Milk"
 * #ALMOND "Almond Milk"
 * #SKIM "Skim Milk"
@@ -15,5 +16,5 @@ Description: "Milks to be added, if desired"
 ValueSet: HBMilkVS
 Title: "Milk Additive Value Set"
 Description: "Milk and milk-like liquids for use in coffee"
-
+* ^experimental = false
 * include codes from system HBMilks
