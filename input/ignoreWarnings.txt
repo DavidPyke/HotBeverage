@@ -3,3 +3,6 @@
 # Add warning and/or information messages here after you've confirmed that they aren't really a problem
 # (And include comments like this justifying why)
 # See https://github.com/FHIR/sample-ig/blob/master/input/ignoreWarnings.txt for examples
+
+# Yes we know that the codeSystem can't be obtained by the validator 
+WARNING: ConceptMap/StarSizeVsDrinkSize: ConceptMap.group[0].source: The Source Code System https://customerservice.starbucks.com/app/answers/detail/a_id/3113 is not fully defined and populated, and no sourceScope is specified, so the source code checking will not be performed

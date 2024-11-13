@@ -2,6 +2,7 @@ CodeSystem: HBAlcohol
 Title: "Alcohol List"
 Description: "Alcohols to be added, if desired"
 * ^caseSensitive = false
+* ^experimental = false
 * #BOURBON "bourbon"
 * #RUM "rum"
 * #BAILEYS "Baileys"
@@ -16,4 +17,5 @@ ValueSet: HBAlcoholVS
 Title: "Alcohol Additive Value Set"
 Description: "Alcohol liquids for use in coffee"
 
+* ^experimental = false
 * include codes from system HBAlcohol

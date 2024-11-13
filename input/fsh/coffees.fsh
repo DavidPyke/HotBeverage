@@ -2,6 +2,7 @@ CodeSystem: HBBeverages
 Title: "Hot Beverage List"
 Description: "Legal Beverages to be made in coffee pot"
 * ^caseSensitive = false
+* ^experimental = false
 * #DRIP "Drip or filtered"
 * #FRENCHPRESS "French press or cafetière"
 * #COLDBREW "Cold brew"
@@ -30,5 +31,5 @@ Description: "Legal Beverages to be made in coffee pot"
 ValueSet: HBBeverageVS
 Title: "Hot Beverages Value Set"
 Description: "All beverages allowed to be made via Hot Beverage"
-
+* ^experimental = false
 * include codes from system HBBeverages

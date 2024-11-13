@@ -1,17 +1,17 @@
 Instance: hbbrew
 InstanceOf: OperationDefinition
 Usage: #definition
-* url = "http://hl7.org/fhir/OperationDefinition/Brew"
-* version = "4.0.1"
+* url = "http://fhir.org/guides/acme/HotBeverage/OperationDefinition/hbbrew"
+* version = "1.4.2024"
 * name = "HBbrew"
 * status = #draft
 * kind = #operation
-* date = "2020-04-01T09:29:23+11:00"
-* publisher = "Acme (FHIR Project)"
+* date = "2024-11-13T09:29:23+11:00"
+* publisher = "Dave Pyke & John Moehrke"
 * contact[0].telecom[0].system = #url
-* contact[0].telecom[0].value = "http://hl7.org/fhir/acme"
+* contact[0].telecom[0].value = "https://github.com/DavidPyke/HotBeverage"
 * contact[0].telecom[1].system = #email
-* contact[0].telecom[1].value = "fhir@lists.hl7.org"
+* contact[0].telecom[1].value = "david@pyke.ca"
 * description = "The brew operation sends the BrewedBeverage resource to the Coffee/Tea brewing Device"
 * code = #data-requirements
 * comment = "The effect of invoking this operation is to initiate the Brew operation on the appropriate device with the inclusion of the \r\n  requested additions"
@@ -29,17 +29,17 @@ Usage: #definition
 Instance: hbstop
 InstanceOf: OperationDefinition
 Usage: #definition
-* url = "http://hl7.org/fhir/OperationDefinition/BB-Stop"
-* version = "4.0.1"
+* url = "http://fhir.org/guides/acme/HotBeverage/OperationDefinition/hbstop"
+* version = "1.4.2024"
 * name = "HBstop"
 * status = #draft
 * kind = #operation
-* date = "2020-04-01T09:29:23+11:00"
-* publisher = "Acme (FHIR Project)"
+* date = "2024-11-13T09:29:23+11:00"
+* publisher = "Dave Pyke & John Moehrke"
 * contact[0].telecom[0].system = #url
-* contact[0].telecom[0].value = "http://hl7.org/fhir/acme"
+* contact[0].telecom[0].value = "https://github.com/DavidPyke/HotBeverage"
 * contact[0].telecom[1].system = #email
-* contact[0].telecom[1].value = "fhir@lists.hl7.org"
+* contact[0].telecom[1].value = "david@pyke.ca"
 * description = "The stop operation sends the Device a direction to stop the brew of the beverage (primarily tea) to check for doneness.  Used in combination with the Start operation to make the tea just right"
 * code = #data-requirements
 //* comment = "TBA--need text from RFC"
@@ -56,18 +56,18 @@ Usage: #definition
 Instance: hbwhen
 InstanceOf: OperationDefinition
 Usage: #definition
-* url = "http://hl7.org/fhir/OperationDefinition/BB-When"
-* version = "4.0.1"
+* url = "http://fhir.org/guides/acme/HotBeverage/OperationDefinition/hbwhen"
+* version = "1.4.2024"
 * name = "HBwhen"
 * status = #draft
 * kind = #operation
-* date = "2020-04-01T09:29:23+11:00"
-* publisher = "HL7 (FHIR Project)"
+* date = "2024-11-13T09:29:23+11:00"
+* publisher = "Dave Pyke & John Moehrke"
 * contact[0].telecom[0].system = #url
-* contact[0].telecom[0].value = "http://hl7.org/fhir"
+* contact[0].telecom[0].value = "https://github.com/DavidPyke/HotBeverage"
 * contact[0].telecom[1].system = #email
-* contact[0].telecom[1].value = "fhir@lists.hl7.org"
-* description = " When coffee is poured, and milk is offered, it is necessary for the holder of the recipient of milk to say \"when\" at the time when\r\n   sufficient milk has been introduced into the coffee. For this purpose, the \"WHEN\" operation has been added to FHIR. "
+* contact[0].telecom[1].value = "david@pyke.ca"
+* description = "When coffee is poured, and milk is offered, it is necessary for the holder of the recipient of milk to say \"when\" at the time when\r\n   sufficient milk has been introduced into the coffee. For this purpose, the \"WHEN\" operation has been added to FHIR. "
 * code = #data-requirements
 * comment = "Enough? Say WHEN."
 * system = false
